@@ -1,0 +1,270 @@
+a:8:{s:6:"config";a:5:{s:10:"phpVersion";s:15:"5.4.34-0+deb7u1";s:10:"yiiVersion";s:5:"2.0.0";s:11:"application";a:4:{s:3:"yii";s:5:"2.0.0";s:4:"name";s:14:"My Application";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:15:"5.4.34-0+deb7u1";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;}s:10:"extensions";a:6:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.0.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:45:"/var/www/xd42/vendor/yiisoft/yii2-swiftmailer";}}s:24:"yiisoft/yii2-codeception";a:3:{s:4:"name";s:24:"yiisoft/yii2-codeception";s:7:"version";s:7:"2.0.0.0";s:5:"alias";a:1:{s:16:"@yii/codeception";s:45:"/var/www/xd42/vendor/yiisoft/yii2-codeception";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.0.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:43:"/var/www/xd42/vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.0.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:39:"/var/www/xd42/vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.0.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:37:"/var/www/xd42/vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.0.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:39:"/var/www/xd42/vendor/yiisoft/yii2-faker";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:13:{s:4:"host";s:19:"xd42xml.code2you.ru";s:10:"connection";s:10:"keep-alive";s:14:"content-length";s:5:"21468";s:6:"accept";s:3:"*/*";s:6:"origin";s:26:"http://xd42xml.code2you.ru";s:12:"x-csrf-token";s:56:"LVNyLklucjB.YSF7ZBsUXFUaIUQGHwAJcjAYWX0nNURUfhAXcDYFfQ==";s:16:"x-requested-with";s:14:"XMLHttpRequest";s:10:"user-agent";s:108:"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36";s:12:"content-type";s:48:"application/x-www-form-urlencoded; charset=UTF-8";s:7:"referer";s:27:"http://xd42xml.code2you.ru/";s:15:"accept-encoding";s:13:"gzip, deflate";s:15:"accept-language";s:35:"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4";s:6:"cookie";s:158:"_csrf=556fba63806bdf0baded8b60142a6e8c8950b4b5f20c0abd05cdc7293c060a02s%3A32%3A%22S2SU-uflxISjOqr9_cjw4IGty-b99XwM%22%3B; PHPSESSID=rekdjramehanpgs6f8csg6bko6";}s:15:"responseHeaders";a:2:{s:12:"X-Powered-By";s:19:"PHP/5.4.34-0+deb7u1";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";}s:5:"route";s:18:"ajax/parseposition";s:6:"action";s:53:"app\controllers\AjaxController::actionParseposition()";s:12:"actionParams";a:0:{}s:11:"requestBody";a:3:{s:12:"Content Type";s:48:"application/x-www-form-urlencoded; charset=UTF-8";s:3:"Raw";s:21468:"Xml%5BsiteUrl%5D=buff-mobile.ru&Xml%5Bregion%5D=225&Xml%5Bqueries%5D=%D0%BA%D0%B0%D0%BA+%D0%B2%D0%BA%D1%80%D1%83%D1%82%D0%B8%D1%82%D1%8C+%D1%81%D0%B0%D0%BC%D0%BE%D1%80%D0%B5%D0%B7+%D0%B2+%D0%B1%D0%B5%D1%82%D0%BE%D0%BD%0A%D0%BA%D0%B0%D0%BA+%D0%B2%D0%BA%D1%80%D1%83%D1%82%D0%B8%D1%82%D1%8C+%D1%81%D0%B0%D0%BC%D0%BE%D1%80%D0%B5%D0%B7+%D0%B2+%D0%B3%D0%B8%D0%BF%D1%81%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D0%BD%0A%D0%BA%D0%B0%D0%BA+%D1%81%D0%B0%D0%BC%D0%BE%D1%80%D0%B5%D0%B7+%D0%B2%D0%BA%D1%80%D1%83%D1%82%D0%B8%D1%82%D1%8C+%D0%B2+%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%0A%D0%BA%D1%83%D0%B4%D0%B0+%D0%B2%D0%BA%D1%80%D1%83%D1%87%D0%B8%D0%B2%D0%B0%D1%82%D1%8C+%D1%81%D0%B0%D0%BC%D0%BE%D1%80%D0%B5%D0%B7%D1%8B+%D0%B2+%D0%BF%D1%80%D0%BE%D1%84%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D0%BB%0A%D0%BA%D0%B0%D0%BA+%D0%B2%D0%BA%D1%80%D1%83%D1%82%D0%B8%D1%82%D1%8C+%D1%81%D0%B0%D0%BC%D0%BE%D1%80%D0%B5%D0%B7+%D0%B2+%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%0A%D0%BA%D0%B0%D0%BA+%D0%B2%D0%BA%D1%80%D1%83%D1%87%D0%B8%D0%B2%D0%B0%D1%82%D1%8C+%D1%81%D0%B0%D0%BC%D0%BE%D1%80%D0%B5%D0%B7%D1%8B+%D0%B2+%D0%BF%D1%80%D0%BE%D1%84%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D0%BB%0A%D0%BA%D0%B0%D0%BA+%D0%B2%D0%BA%D1%80%D1%83%D1%82%D0%B8%D1%82%D1%8C+%D1%81%D0%B0%D0%BC%D0%BE%D1%80%D0%B5%D0%B7%0A%D0%BA%D1%83%D0%B4%D0%B0+%D0%B2%D0%BA%D1%80%D1%83%D1%87%D0%B8%D0%B2%D0%B0%D1%82%D1%8C+%D1%81%D0%B0%D0%BC%D0%BE%D1%80%D0%B5%D0%B7%D1%8B+%D0%B2+%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D0%BE%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B8%D1%86%D1%83%0A%D0%BA%D0%B0%D0%BA+%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE+%D0%B2%D0%BA%D1%80%D1%83%D1%87%D0%B8%D0%B2%D0%B0%D1%82%D1%8C+%D1%81%D0%B0%D0%BC%D0%BE%D1%80%D0%B5%D0%B7%D1%8B%0A%0A%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%B0%D0%B2%D1%82%D0%BE%D0%BD%D0%BE%D0%BC%D0%BD%D0%B0%D1%8F+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5+%D1%81%D1%85%D0%B5%D0%BC%D0%B0%0A%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%D0%B6+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%BF%D1%80%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D1%83%D0%BA%D0%BB%D0%BE%D0%BD+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D1%80%D0%B0%D0%B7%D0%B2%D0%BE%D0%B4%D0%BA%D0%B0+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D1%8F+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%BE%D0%B1%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%B3%D0%BE+%D0%B4%D0%BE%D0%BC%D0%B0%0A%D0%BC%D0%B5%D1%81%D1%82%D0%BD%D0%B0%D1%8F+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%BD%D0%B0%D1%80%D1%83%D0%B6%D0%BD%D0%B0%D1%8F+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%B3%D0%BB%D1%83%D0%B1%D0%B8%D0%BD%D0%B0+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%B8%D0%BD%D0%B4%D0%B8%D0%B2%D0%B8%D0%B4%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%B3%D0%BE+%D0%B4%D0%BE%D0%BC%D0%B0%0A%D0%BF%D0%BE%D0%B4%D0%B2%D0%BE%D0%B4+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8+%D0%BA+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC%D1%83+%D0%B4%D0%BE%D0%BC%D1%83%0A%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%BA%D0%B0+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5+%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%0A%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8E+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D1%81%D0%BB%D0%B8%D0%B2+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%B2%D0%B8%D0%B4%D1%8B+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%BF%D1%80%D0%BE%D0%BB%D0%BE%D0%B6%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8E+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%B4%D0%B5%D0%BB%D0%B0%D0%B5%D0%BC+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8E+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5+%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%0A%D0%BA%D0%B0%D0%BA+%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D1%8C+%D1%81+%D0%BF%D0%BE%D0%BB%D0%B0+%D1%80%D1%82%D1%83%D1%82%D1%8C%0A%D0%BA%D0%B0%D0%BA+%D1%83%D0%B1%D1%80%D0%B0%D1%82%D1%8C+%D1%80%D1%82%D1%83%D1%82%D1%8C+%D1%81+%D0%BF%D0%BE%D0%BB%D0%B0%0A%D0%BA%D0%B0%D0%BA+%D1%83%D0%B1%D1%80%D0%B0%D1%82%D1%8C+%D1%80%D1%82%D1%83%D1%82%D1%8C+%D0%BE%D1%82+%D0%B3%D1%80%D0%B0%D0%B4%D1%83%D1%81%D0%BD%D0%B8%D0%BA%D0%B0%0A%D0%BA%D0%B0%D0%BA+%D1%83%D0%B4%D0%B0%D0%BB%D0%B8%D1%82%D1%8C+%D1%80%D1%82%D1%83%D1%82%D1%8C+%D1%81+%D0%BF%D0%BE%D0%BB%D0%B0%0A%D0%BA%D0%B0%D0%BA+%D1%83%D0%B1%D1%80%D0%B0%D1%82%D1%8C+%D1%80%D1%82%D1%83%D1%82%D1%8C+%D1%81+%D0%BA%D0%BE%D0%B2%D1%80%D0%B0%0A%D0%BA%D0%B0%D0%BA+%D1%83%D0%B1%D1%80%D0%B0%D1%82%D1%8C+%D1%80%D1%82%D1%83%D1%82%D1%8C+%D1%80%D0%B0%D0%B7%D0%B1%D0%B8%D1%82%D0%BE%D0%B3%D0%BE+%D0%B3%D1%80%D0%B0%D0%B4%D1%83%D1%81%D0%BD%D0%B8%D0%BA%D0%B0%0A%D1%80%D0%B0%D0%B7%D0%B1%D0%B8%D0%BB%D1%81%D1%8F+%D0%B3%D1%80%D0%B0%D0%B4%D1%83%D1%81%D0%BD%D0%B8%D0%BA+%D0%BA%D0%B0%D0%BA+%D1%83%D0%B1%D1%80%D0%B0%D1%82%D1%8C+%D1%80%D1%82%D1%83%D1%82%D1%8C%0A%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE+%D0%BB%D0%B8+%D1%83%D0%B1%D0%B8%D1%80%D0%B0%D1%82%D1%8C+%D1%80%D1%82%D1%83%D1%82%D1%8C+%D0%BF%D1%8B%D0%BB%D0%B5%D1%81%D0%BE%D1%81%D0%BE%D0%BC%0A%D0%BA%D0%B0%D0%BA+%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE+%D1%83%D0%B1%D1%80%D0%B0%D1%82%D1%8C+%D1%80%D1%82%D1%83%D1%82%D1%8C%0A%D1%83%D0%B1%D1%80%D0%B0%D1%82%D1%8C+%D1%80%D1%82%D1%83%D1%82%D1%8C+%D0%B2+%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D1%85+%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F%D1%85%0A%0A%D0%BA%D0%B0%D0%BA+%D0%BF%D1%80%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D1%81%D0%BE%D1%80+%D0%B2+%D1%83%D0%BD%D0%B8%D1%82%D0%B0%D0%B7%D0%B5%0A%D0%B7%D0%B0%D1%81%D0%BE%D1%80%D0%B8%D0%BB%D1%81%D1%8F+%D1%83%D0%BD%D0%B8%D1%82%D0%B0%D0%B7+%D1%87%D1%82%D0%BE+%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C%0A%D0%BA%D0%B0%D0%BA+%D1%83%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D1%81%D0%BE%D1%80+%D0%B2+%D1%83%D0%BD%D0%B8%D1%82%D0%B0%D0%B7%D0%B5%0A%D0%B7%D0%B0%D1%81%D0%BE%D1%80%D0%B8%D0%BB%D1%81%D1%8F+%D1%83%D0%BD%D0%B8%D1%82%D0%B0%D0%B7%0A%D0%B7%D0%B0%D1%81%D0%BE%D1%80+%D1%83%D0%BD%D0%B8%D1%82%D0%B0%D0%B7%D0%B0+%D1%87%D1%82%D0%BE+%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C%0A%D0%B7%D0%B0%D1%81%D0%BE%D1%80+%D0%B2+%D1%83%D0%BD%D0%B8%D1%82%D0%B0%D0%B7%D0%B5%0A%D1%83%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5+%D0%B7%D0%B0%D1%81%D0%BE%D1%80%D0%BE%D0%B2+%D0%B2+%D1%83%D0%BD%D0%B8%D1%82%D0%B0%D0%B7%D0%B5%0A%D1%87%D0%B5%D0%BC+%D0%BF%D1%80%D0%BE%D0%B1%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D1%81%D0%BE%D1%80+%D0%B2+%D1%83%D0%BD%D0%B8%D1%82%D0%B0%D0%B7%D0%B5%0A%D0%B7%D0%B0%D1%81%D0%BE%D1%80%D0%B8%D0%BB%D1%81%D1%8F+%D1%83%D0%BD%D0%B8%D1%82%D0%B0%D0%B7+%D0%BA%D1%83%D0%B4%D0%B0+%D0%B7%D0%B2%D0%BE%D0%BD%D0%B8%D1%82%D1%8C%0A%D0%B7%D0%B0%D1%81%D0%BE%D1%80%D0%B8%D0%BB%D1%81%D1%8F+%D1%83%D0%BD%D0%B8%D1%82%D0%B0%D0%B7+%D0%BA%D0%BE%D1%88%D0%B0%D1%87%D1%8C%D0%B8%D0%BC+%D0%BD%D0%B0%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%0A%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0+%D0%BE%D1%82+%D0%B7%D0%B0%D1%81%D0%BE%D1%80%D0%B0+%D1%83%D0%BD%D0%B8%D1%82%D0%B0%D0%B7%D0%B0%0A%D0%BA%D0%B0%D0%BA+%D0%BF%D1%80%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D1%81%D0%BE%D1%80%D0%B8%D0%B2%D1%88%D0%B8%D0%B9%D1%81%D1%8F+%D1%83%D0%BD%D0%B8%D1%82%D0%B0%D0%B7%0A%D0%B7%D0%B0%D1%81%D0%BE%D1%80%D0%B8%D0%BB%D1%81%D1%8F+%D1%83%D0%BD%D0%B8%D1%82%D0%B0%D0%B7+%D0%B1%D1%83%D0%BC%D0%B0%D0%B3%D0%BE%D0%B9%0A%0A%D1%88%D1%83%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D0%B2+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B5%0A%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD%0A%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD%D1%8B+%D0%B2+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B5%0A%D1%88%D1%83%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD%0A%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D1%81%D0%B2%D0%BE%D0%B8%D0%BC%D0%B8+%D1%80%D1%83%D0%BA%D0%B0%D0%BC%D0%B8%0A%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB+%D0%B4%D0%BB%D1%8F+%D1%88%D1%83%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8+%D1%81%D1%82%D0%B5%D0%BD%0A%D1%88%D1%83%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D0%B2+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B5+%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%0A%D1%88%D1%83%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D1%81%D0%B2%D0%BE%D0%B8%D0%BC%D0%B8+%D1%80%D1%83%D0%BA%D0%B0%D0%BC%D0%B8%0A%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD%D1%8B+%D0%B2+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B5+%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%0A%D1%88%D1%83%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D0%B2+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B+%D0%B4%D0%BB%D1%8F+%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8+%D1%81%D1%82%D0%B5%D0%BD%0A%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D0%B2+%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%B5%0A%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D1%81%D0%B2%D0%BE%D0%B8%D0%BC%D0%B8+%D1%80%D1%83%D0%BA%D0%B0%D0%BC%D0%B8+%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%0A%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D0%B2+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B5+%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%0A%D1%88%D1%83%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D0%B2+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B5+%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%0A%D0%BA%D0%B0%D0%BA+%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C+%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8E+%D1%81%D1%82%D0%B5%D0%BD%0A%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE+%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8+%D1%81%D1%82%D0%B5%D0%BD%0A%D0%BA%D0%B0%D0%BA+%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C+%D1%88%D1%83%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8E+%D1%81%D1%82%D0%B5%D0%BD%0A%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D0%B8+%D0%BF%D0%BE%D1%82%D0%BE%D0%BB%D0%BA%D0%B0%0A%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%0A%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%D0%B6+%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8+%D1%81%D1%82%D0%B5%D0%BD%0A%D1%88%D1%83%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%0A%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%D0%B6+%D1%88%D1%83%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8+%D1%81%D1%82%D0%B5%D0%BD%0A%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD%D1%8B+%D0%BE%D1%82+%D1%81%D0%BE%D1%81%D0%B5%D0%B4%D0%B5%D0%B9%0A%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F+%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8+%D1%81%D1%82%D0%B5%D0%BD%0A%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D0%B2+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D0%B8+%D0%BF%D0%BE%D0%BB%D0%B0%0A%D1%88%D1%83%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D1%84%D0%BE%D1%82%D0%BE%0A%D0%BA%D0%B0%D0%BA+%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C+%D1%88%D1%83%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8E+%D1%81%D1%82%D0%B5%D0%BD%D1%8B+%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%0A%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B+%D1%81%D0%B2%D0%BE%D0%B8%D0%BC%D0%B8+%D1%80%D1%83%D0%BA%D0%B0%D0%BC%D0%B8%0A%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D1%8B+%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8+%D1%81%D1%82%D0%B5%D0%BD%0A%D1%88%D1%83%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D0%B8+%D0%BF%D0%BE%D0%BB%D0%B0%0A%D1%88%D1%83%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F+%D1%81%D1%82%D0%B5%D0%BD+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B+%D1%81%D0%B2%D0%BE%D0%B8%D0%BC%D0%B8+%D1%80%D1%83%D0%BA%D0%B0%D0%BC%D0%B8%0A%0A%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B0+%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE+%D1%88%D0%BA%D0%B0%D1%84%D0%B0%0A%0A%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F+%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%81%D0%BE+%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5%D0%B9%0A%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F+%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%81+%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%BE%D0%B9+%D1%84%D0%BE%D1%82%D0%BE%0A%D0%BA%D0%B0%D0%BA+%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D1%82%D1%8C+%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D1%83%D1%8E+%D0%B8+%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8E%0A%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F+%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%81+%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%BE%D0%B9%0A%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D1%82%D1%8C+%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D1%83%D1%8E+%D0%B8+%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8E+%D1%84%D0%BE%D1%82%D0%BE%0A%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82+%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%BE%D0%B9+%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9+%D1%81%D0%BE+%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5%D0%B9%0A%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F+%D1%81+%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5%D0%B9%0A%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D1%8B+%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D1%8B%D1%85+%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D1%85+%D1%81%D0%BE+%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5%D0%B9%0A%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F+%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%81%D0%BE+%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5%D0%B9+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%0A%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F+%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%81+%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5%D0%B9+%D1%84%D0%BE%D1%82%D0%BE%0A%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD+%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8F+%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D1%8F%0A%D0%BF%D0%BB%D0%B0%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0+%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%BE%D0%B9+%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9+%D1%81%D0%BE+%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5%D0%B9%0A%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80+%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%BE%D0%B9+%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9+%D1%81+%D1%81%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5%D0%B9%0A%0A%D0%BA%D0%B0%D0%BA+%D1%81%D1%82%D0%B8%D1%80%D0%B0%D1%82%D1%8C+%D0%B2%D0%B5%D1%89%D0%B8+%D0%B8%D0%B7+%D1%88%D0%B5%D1%80%D1%81%D1%82%D0%B8%0A%D1%81%D1%83%D1%88%D0%B8%D1%82%D1%8C+%D0%B2%D0%B5%D1%89%D0%B8+%D0%B8%D0%B7+%D1%88%D0%B5%D1%80%D1%81%D1%82%D0%B8%0A%0A%D0%BA%D0%BB%D0%B5%D0%B9+%D0%B4%D0%BB%D1%8F+%D0%BF%D0%BE%D1%82%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D0%BE%D0%B9+%D0%BF%D0%BB%D0%B8%D1%82%D0%BA%D0%B8%0A%D0%BA%D0%B0%D0%BA%D0%B8%D0%BC+%D0%BA%D0%BB%D0%B5%D0%B5%D0%BC+%D0%BA%D0%BB%D0%B5%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D1%82%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%83%D1%8E+%D0%BF%D0%BB%D0%B8%D1%82%D0%BA%D1%83%0A%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B8%D0%B9+%D0%BA%D0%BB%D0%B5%D0%B9+%D0%B4%D0%BB%D1%8F+%D0%BF%D0%BB%D0%B8%D1%82%D0%BA%D0%B8+%D0%BF%D0%BE%D1%82%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D0%BE%D0%B9%0A%D0%BA%D0%B0%D0%BA%D0%B8%D0%BC+%D0%BA%D0%BB%D0%B5%D0%B5%D0%BC+%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B5%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D1%82%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%83%D1%8E+%D0%BF%D0%BB%D0%B8%D1%82%D0%BA%D1%83%0A%D0%BA%D0%BB%D0%B5%D0%B5%D0%BC+%D0%BF%D0%BE%D1%82%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%83%D1%8E+%D0%BF%D0%BB%D0%B8%D1%82%D0%BA%D1%83+%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%0A%0A%D0%BB%D0%B5%D1%81%D1%82%D0%BD%D0%B8%D1%86%D1%8B+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%BB%D0%B5%D1%81%D1%82%D0%BD%D0%B8%D1%86%D1%8B+%D0%B4%D0%BE%D0%BC%D0%B0+%D0%BD%D0%B0+%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B9+%D1%8D%D1%82%D0%B0%D0%B6%0A%D0%BB%D0%B5%D1%81%D1%82%D0%BD%D0%B8%D1%86%D0%B0+%D0%B2+%D0%B4%D0%BE%D0%BC%D0%B5+%D1%84%D0%BE%D1%82%D0%BE%0A%D0%BB%D0%B5%D1%81%D1%82%D0%BD%D0%B8%D1%86%D0%B0+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D1%8B%D0%B9+%D0%B4%D0%BE%D0%BC+%D1%84%D0%BE%D1%82%D0%BE%0A%D1%84%D0%BE%D1%82%D0%BE+%D0%BB%D0%B5%D1%81%D1%82%D0%BD%D0%B8%D1%86%D1%8B+%D0%B2+%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC+%D0%B4%D0%BE%D0%BC%D0%B5%0A%D0%BB%D0%B5%D1%81%D1%82%D0%BD%D0%B8%D1%86%D1%8B+%D0%B4%D0%BB%D1%8F+%D0%B7%D0%B0%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE+%D0%B4%D0%BE%D0%BC%D0%B0%0A%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D1%8F%D0%BD%D0%BD%D1%8B%D0%B5+%D0%BB%D0%B5%D1%81%D1%82%D0%BD%D0%B8%D1%86%D1%8B+%D0%B4%D0%BB%D1%8F+%D0%B4%D0%BE%D0%BC%D0%B0%0A%0A%D1%87%D0%B5%D0%BC+%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B8%D1%82%D1%8C+%D0%B1%D0%B5%D1%82%D0%BE%D0%BD%0A%D0%BA%D0%B0%D0%BA+%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B8%D1%82%D1%8C+%D0%B1%D0%B5%D1%82%D0%BE%D0%BD+%D0%BE%D1%82+%D1%80%D0%B0%D0%B7%D1%80%D1%83%D1%88%D0%B5%D0%BD%D0%B8%D1%8F%0A%D0%BA%D0%B0%D0%BA+%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B8%D1%82%D1%8C+%D0%B1%D0%B5%D1%82%D0%BE%D0%BD+%D0%BE%D1%82+%D0%B2%D0%BB%D0%B0%D0%B3%D0%B8%0A%D1%87%D0%B5%D0%BC+%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B8%D1%82%D1%8C+%D0%B1%D0%B5%D1%82%D0%BE%D0%BD+%D0%BD%D0%B0+%D1%83%D0%BB%D0%B8%D1%86%D0%B5&Xml%5Btop1000%5D=on";s:17:"Decoded to Params";a:1:{s:3:"Xml";a:4:{s:7:"siteUrl";s:14:"buff-mobile.ru";s:6:"region";s:3:"225";s:7:"queries";s:7411:"как вкрутить саморез в бетон
+как вкрутить саморез в гипсокартон
+как саморез вкрутить в металл
+куда вкручивать саморезы в профнастил
+как вкрутить саморез в дерево
+как вкручивать саморезы в профнастил
+как вкрутить саморез
+куда вкручивать саморезы в металлочерепицу
+как правильно вкручивать саморезы
+
+канализация в частном доме
+автономная канализация в частном доме
+канализация в частном доме схема
+устройство канализации в частном доме
+монтаж канализации в частном доме
+прокладка канализации в частном доме
+система канализации в частном доме
+уклон канализации в частном доме
+разводка канализации в частном доме
+внутренняя канализация в частном доме
+обустройство канализации частного дома
+местная канализация в частном доме
+наружная канализация в частном доме
+глубина канализации в частном доме
+установка канализации в частном доме
+индивидуальная канализация частного дома
+подвод канализации к частному дому
+проводка канализации в частном доме
+правильная канализация в частном доме
+канализация в частном доме видео
+центральная канализация в частном доме
+установить канализацию в частном доме
+слив канализации в частном доме
+виды канализации в частном доме
+проложить канализацию в частном доме
+делаем канализацию в частном доме
+подключение канализации в частном доме
+проведение канализации в частном доме
+
+как собрать с пола ртуть
+как убрать ртуть с пола
+как убрать ртуть от градусника
+как удалить ртуть с пола
+как убрать ртуть с ковра
+как убрать ртуть разбитого градусника
+разбился градусник как убрать ртуть
+можно ли убирать ртуть пылесосом
+как правильно убрать ртуть
+убрать ртуть в домашних условиях
+
+как прочистить засор в унитазе
+засорился унитаз что делать
+как устранить засор в унитазе
+засорился унитаз
+засор унитаза что делать
+засор в унитазе
+устранение засоров в унитазе
+чем пробить засор в унитазе
+засорился унитаз куда звонить
+засорился унитаз кошачьим наполнителем
+средства от засора унитаза
+как прочистить засорившийся унитаз
+засорился унитаз бумагой
+
+шумоизоляция стен в квартире
+звукоизоляция стен
+звукоизоляция стены в квартире
+шумоизоляция стен
+звукоизоляция стен своими руками
+материал для шумоизоляции стен
+шумоизоляция стен в квартире материал
+шумоизоляция стен своими руками
+звукоизоляция стены в квартире видео
+шумоизоляция стен в доме
+материалы для звукоизоляции стен
+звукоизоляция стен в комнате
+звукоизоляция стен своими руками видео
+звукоизоляция стен в квартире материал
+шумоизоляция стен в квартире видео
+как сделать звукоизоляцию стен
+устройство звукоизоляции стен
+как сделать шумоизоляцию стен
+звукоизоляция стен и потолка
+звукоизоляция стен видео
+монтаж звукоизоляции стен
+шумоизоляция стен видео
+монтаж шумоизоляции стен
+звукоизоляция стены от соседей
+технология звукоизоляции стен
+звукоизоляция стен в доме
+звукоизоляция стен и пола
+шумоизоляция стен фото
+как сделать шумоизоляцию стены видео
+звукоизоляция стен квартиры своими руками
+способы звукоизоляции стен
+шумоизоляция стен и пола
+шумоизоляция стен квартиры своими руками
+
+чистка холодильного шкафа
+
+гостиная совмещенная со спальней
+спальня совмещенная с гостиной фото
+как совместить гостиную и спальню
+спальня совмещенная с гостиной
+совместить гостиную и спальню фото
+проект гостиной совмещенной со спальней
+совмещенная гостиная с спальней
+интерьеры гостиных совмещенных со спальней
+гостиная совмещенная со спальней дизайн
+гостиная совмещенная с спальней фото
+дизайн совмещенная спальня гостиная
+планировка гостиной совмещенной со спальней
+интерьер гостиной совмещенной с спальней
+
+как стирать вещи из шерсти
+сушить вещи из шерсти
+
+клей для потолочной плитки
+каким клеем клеить потолочную плитку
+хороший клей для плитки потолочной
+каким клеем приклеить потолочную плитку
+клеем потолочную плитку видео
+
+лестницы в частном доме
+лестницы дома на второй этаж
+лестница в доме фото
+лестница в частный дом фото
+фото лестницы в частном доме
+лестницы для загородного дома
+деревянные лестницы для дома
+
+чем защитить бетон
+как защитить бетон от разрушения
+как защитить бетон от влаги
+чем защитить бетон на улице";s:7:"top1000";s:2:"on";}}}s:6:"SERVER";a:35:{s:15:"REDIRECT_STATUS";s:3:"200";s:9:"HTTP_HOST";s:19:"xd42xml.code2you.ru";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:14:"CONTENT_LENGTH";s:5:"21468";s:11:"HTTP_ACCEPT";s:3:"*/*";s:11:"HTTP_ORIGIN";s:26:"http://xd42xml.code2you.ru";s:17:"HTTP_X_CSRF_TOKEN";s:56:"LVNyLklucjB.YSF7ZBsUXFUaIUQGHwAJcjAYWX0nNURUfhAXcDYFfQ==";s:21:"HTTP_X_REQUESTED_WITH";s:14:"XMLHttpRequest";s:15:"HTTP_USER_AGENT";s:108:"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36";s:12:"CONTENT_TYPE";s:48:"application/x-www-form-urlencoded; charset=UTF-8";s:12:"HTTP_REFERER";s:27:"http://xd42xml.code2you.ru/";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4";s:11:"HTTP_COOKIE";s:158:"_csrf=556fba63806bdf0baded8b60142a6e8c8950b4b5f20c0abd05cdc7293c060a02s%3A32%3A%22S2SU-uflxISjOqr9_cjw4IGty-b99XwM%22%3B; PHPSESSID=rekdjramehanpgs6f8csg6bko6";s:4:"PATH";s:28:"/usr/local/bin:/usr/bin:/bin";s:16:"SERVER_SIGNATURE";s:80:"<address>Apache/2.2.22 (Debian) Server at xd42xml.code2you.ru Port 80</address>
+";s:15:"SERVER_SOFTWARE";s:22:"Apache/2.2.22 (Debian)";s:11:"SERVER_NAME";s:19:"xd42xml.code2you.ru";s:11:"SERVER_ADDR";s:14:"128.199.249.29";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:13:"94.188.74.111";s:13:"DOCUMENT_ROOT";s:18:"/var/www/xd42/web/";s:12:"SERVER_ADMIN";s:19:"webmaster@localhost";s:15:"SCRIPT_FILENAME";s:27:"/var/www/xd42/web/index.php";s:11:"REMOTE_PORT";s:5:"62506";s:12:"REDIRECT_URL";s:19:"/ajax/parseposition";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:19:"/ajax/parseposition";s:11:"SCRIPT_NAME";s:10:"/index.php";s:8:"PHP_SELF";s:10:"/index.php";s:18:"REQUEST_TIME_FLOAT";d:1417334065.382;s:12:"REQUEST_TIME";i:1417334065;}s:3:"GET";a:0:{}s:4:"POST";a:1:{s:3:"Xml";a:4:{s:7:"siteUrl";s:14:"buff-mobile.ru";s:6:"region";s:3:"225";s:7:"queries";s:7411:"как вкрутить саморез в бетон
+как вкрутить саморез в гипсокартон
+как саморез вкрутить в металл
+куда вкручивать саморезы в профнастил
+как вкрутить саморез в дерево
+как вкручивать саморезы в профнастил
+как вкрутить саморез
+куда вкручивать саморезы в металлочерепицу
+как правильно вкручивать саморезы
+
+канализация в частном доме
+автономная канализация в частном доме
+канализация в частном доме схема
+устройство канализации в частном доме
+монтаж канализации в частном доме
+прокладка канализации в частном доме
+система канализации в частном доме
+уклон канализации в частном доме
+разводка канализации в частном доме
+внутренняя канализация в частном доме
+обустройство канализации частного дома
+местная канализация в частном доме
+наружная канализация в частном доме
+глубина канализации в частном доме
+установка канализации в частном доме
+индивидуальная канализация частного дома
+подвод канализации к частному дому
+проводка канализации в частном доме
+правильная канализация в частном доме
+канализация в частном доме видео
+центральная канализация в частном доме
+установить канализацию в частном доме
+слив канализации в частном доме
+виды канализации в частном доме
+проложить канализацию в частном доме
+делаем канализацию в частном доме
+подключение канализации в частном доме
+проведение канализации в частном доме
+
+как собрать с пола ртуть
+как убрать ртуть с пола
+как убрать ртуть от градусника
+как удалить ртуть с пола
+как убрать ртуть с ковра
+как убрать ртуть разбитого градусника
+разбился градусник как убрать ртуть
+можно ли убирать ртуть пылесосом
+как правильно убрать ртуть
+убрать ртуть в домашних условиях
+
+как прочистить засор в унитазе
+засорился унитаз что делать
+как устранить засор в унитазе
+засорился унитаз
+засор унитаза что делать
+засор в унитазе
+устранение засоров в унитазе
+чем пробить засор в унитазе
+засорился унитаз куда звонить
+засорился унитаз кошачьим наполнителем
+средства от засора унитаза
+как прочистить засорившийся унитаз
+засорился унитаз бумагой
+
+шумоизоляция стен в квартире
+звукоизоляция стен
+звукоизоляция стены в квартире
+шумоизоляция стен
+звукоизоляция стен своими руками
+материал для шумоизоляции стен
+шумоизоляция стен в квартире материал
+шумоизоляция стен своими руками
+звукоизоляция стены в квартире видео
+шумоизоляция стен в доме
+материалы для звукоизоляции стен
+звукоизоляция стен в комнате
+звукоизоляция стен своими руками видео
+звукоизоляция стен в квартире материал
+шумоизоляция стен в квартире видео
+как сделать звукоизоляцию стен
+устройство звукоизоляции стен
+как сделать шумоизоляцию стен
+звукоизоляция стен и потолка
+звукоизоляция стен видео
+монтаж звукоизоляции стен
+шумоизоляция стен видео
+монтаж шумоизоляции стен
+звукоизоляция стены от соседей
+технология звукоизоляции стен
+звукоизоляция стен в доме
+звукоизоляция стен и пола
+шумоизоляция стен фото
+как сделать шумоизоляцию стены видео
+звукоизоляция стен квартиры своими руками
+способы звукоизоляции стен
+шумоизоляция стен и пола
+шумоизоляция стен квартиры своими руками
+
+чистка холодильного шкафа
+
+гостиная совмещенная со спальней
+спальня совмещенная с гостиной фото
+как совместить гостиную и спальню
+спальня совмещенная с гостиной
+совместить гостиную и спальню фото
+проект гостиной совмещенной со спальней
+совмещенная гостиная с спальней
+интерьеры гостиных совмещенных со спальней
+гостиная совмещенная со спальней дизайн
+гостиная совмещенная с спальней фото
+дизайн совмещенная спальня гостиная
+планировка гостиной совмещенной со спальней
+интерьер гостиной совмещенной с спальней
+
+как стирать вещи из шерсти
+сушить вещи из шерсти
+
+клей для потолочной плитки
+каким клеем клеить потолочную плитку
+хороший клей для плитки потолочной
+каким клеем приклеить потолочную плитку
+клеем потолочную плитку видео
+
+лестницы в частном доме
+лестницы дома на второй этаж
+лестница в доме фото
+лестница в частный дом фото
+фото лестницы в частном доме
+лестницы для загородного дома
+деревянные лестницы для дома
+
+чем защитить бетон
+как защитить бетон от разрушения
+как защитить бетон от влаги
+чем защитить бетон на улице";s:7:"top1000";s:2:"on";}}s:6:"COOKIE";a:2:{s:5:"_csrf";s:104:"556fba63806bdf0baded8b60142a6e8c8950b4b5f20c0abd05cdc7293c060a02s:32:"S2SU-uflxISjOqr9_cjw4IGty-b99XwM";";s:9:"PHPSESSID";s:26:"rekdjramehanpgs6f8csg6bko6";}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}s:3:"log";a:1:{s:8:"messages";a:11:{i:0;a:5:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1417334066.3166511;i:4;a:0:{}}i:1;a:5:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1417334066.3167231;i:4;a:0:{}}i:2;a:5:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1417334066.3212659;i:4;a:0:{}}i:3;a:5:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1417334066.32511;i:4;a:0:{}}i:4;a:5:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1417334066.3256841;i:4;a:0:{}}i:5;a:5:{i:0;s:55:"No matching URL rules. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1417334066.32902;i:4;a:0:{}}i:6;a:5:{i:0;s:37:"Route requested: 'ajax/parseposition'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1417334066.3290939;i:4;a:0:{}}i:7;a:5:{i:0;s:32:"Route to run: ajax/parseposition";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1417334066.3317809;i:4;a:0:{}}i:8;a:5:{i:0;s:69:"Running action: app\controllers\AjaxController::actionParseposition()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1417334066.339237;i:4;a:0:{}}i:9;a:5:{i:0;s:60:"Rendering view file: /var/www/xd42/views/ajax/xml-result.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1417334198.9771559;i:4;a:1:{i:0;a:5:{s:4:"file";s:44:"/var/www/xd42/controllers/AjaxController.php";s:4:"line";i:61;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}i:10;a:5:{i:0;s:57:"Rendering view file: /var/www/xd42/views/layouts/ajax.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1417334198.9781671;i:4;a:1:{i:0;a:5:{s:4:"file";s:44:"/var/www/xd42/controllers/AjaxController.php";s:4:"line";i:61;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}}}s:9:"profiling";a:3:{s:6:"memory";i:4666688;s:4:"time";d:132.68461179733276;s:8:"messages";a:0:{}}s:2:"db";a:1:{s:8:"messages";a:0:{}}s:6:"assets";a:0:{}s:4:"mail";a:0:{}s:7:"summary";a:9:{s:3:"tag";s:13:"547acd324e8eb";s:3:"url";s:45:"http://xd42xml.code2you.ru/ajax/parseposition";s:4:"ajax";i:1;s:6:"method";s:4:"POST";s:2:"ip";s:13:"94.188.74.111";s:4:"time";i:1417334198;s:10:"statusCode";i:200;s:8:"sqlCount";i:0;s:9:"mailCount";i:0;}}
