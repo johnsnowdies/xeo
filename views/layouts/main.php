@@ -12,12 +12,17 @@ AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
-<html lang="<?= Yii::$app->language ?>">
+<html lang="<?= Yii::$app->language ?>" ng-app>
 <head>
     <meta charset="<?= Yii::$app->charset ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
+    <style>
+        th{
+            vertical-align: top!important;
+        }
+    </style>
     <?php $this->head() ?>
 </head>
 <body>
@@ -37,10 +42,9 @@ AppAsset::register($this);
                 'items' => [
                     /*['label' => 'Выполнить запрос', 'url' => ['/site/index']],
                     ['label' => 'История запросов', 'url' => ['/site/history']],*/
-
-                  
                      Yii::$app->user->isGuest ?
                          ['label' => 'Login', 'url' => ['/site/login']] :
+
                          ['label' => 'Logout (' . Yii::$app->user->identity->username . ')',
                              'url' => ['/site/logout'],
                              'linkOptions' => ['data-method' => 'post']],

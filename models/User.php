@@ -3,7 +3,7 @@ namespace app\models;
 
 //app\models\gii\Users is the model generated using Gii from users table
 
-use app\models\users as DbUser;
+use app\models\objects\users as DbUser;
 
 class User extends \yii\base\Object implements \yii\web\IdentityInterface {
 

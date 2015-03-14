@@ -1,6 +1,7 @@
 <?php
 namespace app\controllers;
 
+use app\models\objects\Project;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -89,10 +90,12 @@ class ProjectsController  extends Controller{
     // Общая страница проектов
     public function actionIndex()
     {
+        $model = new Project();
+//        $model->createTest();
+        $data = ["projects" => $model->getProjectsList(Yii::$app->user->getId())];
 
 
-
-        return $this->render('index');
+        return $this->render('index',$data);
     }
 
     // Детали проекта

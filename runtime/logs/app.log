@@ -22426,3 +22426,1673 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1426193750.838
     'REQUEST_TIME' => 1426193750
 ]
+2015-03-13 11:36:20 [127.0.0.1][1][t5m7psb0c1js77mnjo170dgdq0][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\objects\PDO' not found' in D:\Documents\Workspace\Projects\xd42\models\objects\Project.php:38
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-13 11:36:20 [127.0.0.1][1][t5m7psb0c1js77mnjo170dgdq0][info][application] $_COOKIE = [
+    '_csrf' => 'bd01d04dc65fe2757f556f225391d2a04804fe222672f779a1cccc0e613011d1s:32:\"gxg-Tut2T3bXrXzNOAmBmsk_UnYiIos4\";'
+    'PHPSESSID' => 't5m7psb0c1js77mnjo170dgdq0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/projects/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bd01d04dc65fe2757f556f225391d2a04804fe222672f779a1cccc0e613011d1s%3A32%3A%22gxg-Tut2T3bXrXzNOAmBmsk_UnYiIos4%22%3B; PHPSESSID=t5m7psb0c1js77mnjo170dgdq0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '51264'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426242980.613
+    'REQUEST_TIME' => 1426242980
+]
+2015-03-13 11:37:39 [127.0.0.1][1][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: queries' in D:\Documents\Workspace\Projects\xd42\models\objects\Project.php:48
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(48): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\Documents\\Wo...', 48, Array)
+#1 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->getProjectsList(1)
+#2 [internal function]: app\controllers\ProjectsController->actionIndex()
+#3 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2015-03-13 11:37:39 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'bd01d04dc65fe2757f556f225391d2a04804fe222672f779a1cccc0e613011d1s:32:\"gxg-Tut2T3bXrXzNOAmBmsk_UnYiIos4\";'
+    'PHPSESSID' => 't5m7psb0c1js77mnjo170dgdq0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/projects/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=bd01d04dc65fe2757f556f225391d2a04804fe222672f779a1cccc0e613011d1s%3A32%3A%22gxg-Tut2T3bXrXzNOAmBmsk_UnYiIos4%22%3B; PHPSESSID=t5m7psb0c1js77mnjo170dgdq0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '51281'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426243059.761
+    'REQUEST_TIME' => 1426243059
+]
+2015-03-14 15:22:55 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(88): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+The SQL being executed was: INSERT INTO projects(name,oid,queries_top,region,tic,pr,yc,dmoz,start_date,update_date)
+                                     VALUES('http://www.site-0.ru',1,'a:4:{s:4:\"top3\";i:1;s:4:\"top5\";i:3;s:5:\"top10\";i:4;s:5:\"top20\";i:5;}',213,141,7,1,1,NOW(), NOW();' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO pro...')
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(88): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+)
+
+2015-03-14 15:22:55 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/projects/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '50070'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426342975.227
+    'REQUEST_TIME' => 1426342975
+]
+2015-03-14 15:24:22 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: INSERT INTO projects(name,oid,queries_top,region,tic,pr,yc,dmoz,start_date,update_date) VALUES('http://www.site-0.ru',1,'{\"top3\":1,\"top5\":3,\"top10\":4,\"top20\":5}',213,190,3,1,1,NOW(), NOW();' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO pro...')
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2015-03-14 15:24:22 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/projects/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '50081'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426343062.361
+    'REQUEST_TIME' => 1426343062
+]
+2015-03-14 15:24:25 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: INSERT INTO projects(name,oid,queries_top,region,tic,pr,yc,dmoz,start_date,update_date) VALUES('http://www.site-0.ru',1,'{\"top3\":1,\"top5\":3,\"top10\":4,\"top20\":5}',213,102,3,1,1,NOW(), NOW();' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO pro...')
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2015-03-14 15:24:25 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '50082'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426343065.789
+    'REQUEST_TIME' => 1426343065
+]
+2015-03-14 15:24:31 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: INSERT INTO projects(name,oid,queries_top,region,tic,pr,yc,dmoz,start_date,update_date) VALUES('http://www.site-0.ru',1,'{\"top3\":1,\"top5\":3,\"top10\":4,\"top20\":5}',213,147,2,0,0,NOW(), NOW();' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO pro...')
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2015-03-14 15:24:31 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '50083'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426343071.475
+    'REQUEST_TIME' => 1426343071
+]
+2015-03-14 15:24:45 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: INSERT INTO projects(name,oid,queries_top,region,tic,pr,yc,dmoz,start_date,update_date) VALUES('http://www.site-0.ru',1,'{\"top3\":1,\"top5\":3,\"top10\":4,\"top20\":5}',213,15,5,1,0,NOW(), NOW();' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO pro...')
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2015-03-14 15:24:45 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '50092'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426343085.302
+    'REQUEST_TIME' => 1426343085
+]
+2015-03-14 15:24:46 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: INSERT INTO projects(name,oid,queries_top,region,tic,pr,yc,dmoz,start_date,update_date) VALUES('http://www.site-0.ru',1,'{\"top3\":1,\"top5\":3,\"top10\":4,\"top20\":5}',213,76,3,0,1,NOW(), NOW();' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO pro...')
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2015-03-14 15:24:46 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '50093'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426343086.919
+    'REQUEST_TIME' => 1426343086
+]
+2015-03-14 15:24:48 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: INSERT INTO projects(name,oid,queries_top,region,tic,pr,yc,dmoz,start_date,update_date) VALUES('http://www.site-0.ru',1,'{\"top3\":1,\"top5\":3,\"top10\":4,\"top20\":5}',213,152,7,0,1,NOW(), NOW();' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO pro...')
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2015-03-14 15:24:48 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '50094'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426343088.424
+    'REQUEST_TIME' => 1426343088
+]
+2015-03-14 15:24:49 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: INSERT INTO projects(name,oid,queries_top,region,tic,pr,yc,dmoz,start_date,update_date) VALUES('http://www.site-0.ru',1,'{\"top3\":1,\"top5\":3,\"top10\":4,\"top20\":5}',213,200,6,0,1,NOW(), NOW();' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO pro...')
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2015-03-14 15:24:49 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '50096'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426343089.088
+    'REQUEST_TIME' => 1426343089
+]
+2015-03-14 15:24:49 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: INSERT INTO projects(name,oid,queries_top,region,tic,pr,yc,dmoz,start_date,update_date) VALUES('http://www.site-0.ru',1,'{\"top3\":1,\"top5\":3,\"top10\":4,\"top20\":5}',213,15,10,1,1,NOW(), NOW();' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO pro...')
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2015-03-14 15:24:49 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '50100'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426343089.639
+    'REQUEST_TIME' => 1426343089
+]
+2015-03-14 15:24:50 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: INSERT INTO projects(name,oid,queries_top,region,tic,pr,yc,dmoz,start_date,update_date) VALUES('http://www.site-0.ru',1,'{\"top3\":1,\"top5\":3,\"top10\":4,\"top20\":5}',213,42,0,1,1,NOW(), NOW();' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO pro...')
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2015-03-14 15:24:50 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '50102'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426343090.2
+    'REQUEST_TIME' => 1426343090
+]
+2015-03-14 15:24:50 [127.0.0.1][1][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: INSERT INTO projects(name,oid,queries_top,region,tic,pr,yc,dmoz,start_date,update_date) VALUES('http://www.site-0.ru',1,'{\"top3\":1,\"top5\":3,\"top10\":4,\"top20\":5}',213,152,7,1,1,NOW(), NOW();' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO pro...')
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(87): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(94): app\models\objects\Project->createTest()
+#3 [internal function]: app\controllers\ProjectsController->actionIndex()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2015-03-14 15:24:50 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '50104'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426343090.735
+    'REQUEST_TIME' => 1426343090
+]
+2015-03-14 15:31:11 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/angular.min.js.map".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('js/angular.min....', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-14 15:31:11 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '50233'
+    'REDIRECT_URL' => '/js/angular.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/angular.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426343471.586
+    'REQUEST_TIME' => 1426343471
+]
+2015-03-14 15:31:20 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/angular.min.js.map".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('js/angular.min....', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-14 15:31:20 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '50239'
+    'REDIRECT_URL' => '/js/angular.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/angular.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426343480.545
+    'REQUEST_TIME' => 1426343480
+]
+2015-03-14 16:31:11 [127.0.0.1][1][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: $queries_cnt' in D:\Documents\Workspace\Projects\xd42\models\objects\Project.php:51
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(51): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\Documents\\Wo...', 51, Array)
+#1 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(95): app\models\objects\Project->getProjectsList(1)
+#2 [internal function]: app\controllers\ProjectsController->actionIndex()
+#3 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/index', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2015-03-14 16:31:11 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+    '__ngDebug' => 'true'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01; __ngDebug=true'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '50868'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426347071.025
+    'REQUEST_TIME' => 1426347071
+]
+2015-03-14 18:43:22 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: projects/queries' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('queries', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/querie...', Array)
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: projects/queries' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-14 18:43:22 [127.0.0.1][1][-][info][application] $_GET = [
+    'id' => '22'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+    '__ngDebug' => 'true'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01; __ngDebug=true'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '53525'
+    'REDIRECT_URL' => '/projects/queries/22'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/projects/queries/22'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426355002.733
+    'REQUEST_TIME' => 1426355002
+]
+2015-03-14 18:43:27 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: projects/queries' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('queries', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/querie...', Array)
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: projects/queries' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-14 18:43:27 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+    '__ngDebug' => 'true'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01; __ngDebug=true'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '53526'
+    'REDIRECT_URL' => '/projects/queries/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/projects/queries/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426355007.738
+    'REQUEST_TIME' => 1426355007
+]
+2015-03-14 18:43:46 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: projects/queries' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('queries', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/querie...', Array)
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: projects/queries' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-14 18:43:46 [127.0.0.1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+    '__ngDebug' => 'true'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01; __ngDebug=true'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '53534'
+    'REDIRECT_URL' => '/projects/queries/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/projects/queries/1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426355026.07
+    'REQUEST_TIME' => 1426355026
+]
+2015-03-14 18:44:26 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "show".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('show', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "show".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-14 18:44:26 [127.0.0.1][1][-][info][application] $_GET = [
+    'pid' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => 'e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s:32:\"RhB71HZUreAPdPosvroY8b-rBMRq2ufu\";'
+    'PHPSESSID' => '5e7d8jb7dlqdh2bi6mangirr01'
+    '__ngDebug' => 'true'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=e7e1d8e5f63cd44b8ee82b5a626415dacff771f5a3872079ca83abafe2c86e76s%3A32%3A%22RhB71HZUreAPdPosvroY8b-rBMRq2ufu%22%3B; PHPSESSID=5e7d8jb7dlqdh2bi6mangirr01; __ngDebug=true'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '53551'
+    'REDIRECT_QUERY_STRING' => 'pid=1'
+    'REDIRECT_URL' => '/show'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'pid=1'
+    'REQUEST_URI' => '/show?pid=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426355066.927
+    'REQUEST_TIME' => 1426355066
+]
