@@ -27,7 +27,7 @@ class LoginForm extends Model
             // rememberMe must be a boolean value
             ['rememberMe', 'boolean'],
             // password is validated by validatePassword()
-            ['password', 'validatePassword','message' => 'В авторизации отказано! (Проверьте доступы?)'],
+            ['password', 'validatePassword','message' => 'В авторизации отказано!'],
         ];
     }
 
@@ -44,7 +44,7 @@ class LoginForm extends Model
             $user = $this->getUser();
 
             if (!$user || !$user->validatePassword($this->password)) {
-                $this->addError($attribute, 'Incorrect username or password.');
+                $this->addError($attribute, 'В авторизации отказано!');
             }
         }
     }

@@ -105,6 +105,10 @@ class ProjectsController  extends Controller{
             return $this->goHome();
         }
 
-        return $this->render('queries',["pid"=>$pid]);
+        $model = new Project();
+        $info = $model->getProjectInfo($pid);
+        $queries = $model->getProjectQueries($pid,Yii::$app->user->getId());
+
+        return $this->render('queries',["pid"=>$pid,"info"=>$info,"queries" => $queries]);
     }
 }
