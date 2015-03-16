@@ -5,6 +5,7 @@ use yii\bootstrap\NavBar;
 use app\assets\AppAsset;
 AppAsset::register($this);
 ?>
+
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>" ng-app>
@@ -20,8 +21,10 @@ AppAsset::register($this);
     </style>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- TODO Все библиотеки разместить в проекте! -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
+    <!-- TODO Все библиотеки разместить в проекте! -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
     <?php $this->head() ?>

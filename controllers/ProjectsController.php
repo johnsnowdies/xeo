@@ -8,9 +8,6 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 
-
-
-
 class ProjectsController  extends Controller{
 
     public function behaviors()

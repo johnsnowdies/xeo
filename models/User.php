@@ -98,4 +98,22 @@ class User extends \yii\base\Object implements \yii\web\IdentityInterface {
         return $this->password === $password;
     }
 
+    /**
+     * Получить роль пользователя по id
+     * @param $uid
+     * @return string
+     */
+    public function getUserRole($uid){
+        $command = Yii::$app->db->createCommand("SELECT role FROM users WHERE id = :uid");
+        $command->bindParam(":uid", $uid);
+
+        $role = "";
+        $dataReader = $command->query();
+        while (($row = $dataReader->read()) !== false) {
+            $role = $row['role'];
+        }
+
+        return $role;
+    }
+
 }

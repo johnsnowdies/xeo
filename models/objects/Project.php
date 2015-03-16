@@ -1,15 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Sergey
- * Date: 13.03.2015
- * Time: 13:18
- */
-
 namespace app\models\objects;
 
 
 use Yii;
+use app\models\User;
 
 class Project
 {
@@ -36,15 +30,21 @@ class Project
     {
         $projectList = [];
 
+        $users = new User();
+        // Разграничение пользователей
+        $permitions = "";
+        if ($users->getUserRole($oid) == 'U'){
+            $permitions = "HAVING p.oid = {$oid}";
+        }
+
         $selectQuery = "SELECT p.id, p.name,p.oid,p.queries_top, p.tic,p.pr,p.yc,p.dmoz,p.start_date,p.update_date,
             r.title as reg_name, COUNT(q.id) as pqueries_cnt
             FROM projects p
             LEFT JOIN geo_regions r ON p.region = r.id
             LEFT JOIN queries q ON p.id = q.pid
-            GROUP BY p.id HAVING p.oid = :oid;";
+            GROUP BY p.id $permitions";
 
         $command = Yii::$app->db->createCommand($selectQuery);
-        $command->bindParam(":oid", $oid);
 
         $dataReader = $command->query();
 
@@ -69,16 +69,45 @@ class Project
         return $projectList;
     }
 
-    /* Получить запросы проекта
-     * */
-    public function getProjectQueries($pid,$oid){
-        $queriesList = [];
-        $selectQuery = "SELECT * FROM queries q
-        LEFT JOIN projects p ON p.id = q.pid
-        WHERE q.pid = :pid AND p.oid = :oid";
+    /**
+     * Получить запросы проекта
+     * @param $pid
+     * @param $oid
+     * @param null $date
+     * @return array
+     */
+    public function getProjectQueries($pid, $oid, $date = null)
+    {
+        $users = new User();
 
-        $command = Yii::$app->db->createCommand($selectQuery);
-        $command->bindParam(":oid", $oid);
+        // Разграничение пользователей
+        $permitions = "";
+        if ($users->getUserRole($oid) == 'U'){
+            $permitions = "AND p.oid = {$oid}";
+        }
+
+        $queriesList = [];
+        // Если не указана дата, получаем за последний апдейт
+        if ($date == null) {
+            $command = Yii::$app->db->createCommand("SELECT q.text,q.url, h.position as up_new, h2.position as up_old, h.date as date_new, h2.date as date_old
+              FROM queries q
+              LEFT JOIN projects p ON p.id = q.pid
+              LEFT JOIN history h ON h.qid = q.id
+              LEFT JOIN history h2 ON h2.qid = q.id
+              WHERE q.pid = :pid $permitions AND h.date = (SELECT MAX(date) FROM history)
+              AND h2.date = (SELECT date FROM history WHERE date < (SELECT MAX(date) FROM history) ORDER BY date DESC LIMIT 1)");
+        }
+        else{
+            $command = Yii::$app->db->createCommand("SELECT q.text,q.url, h.position as up_new, h2.position as up_old, h.date as date_new, h2.date as date_old
+              FROM queries q
+              LEFT JOIN projects p ON p.id = q.pid
+              LEFT JOIN history h ON h.qid = q.id
+              LEFT JOIN history h2 ON h2.qid = q.id
+              WHERE q.pid = :pid $permitions AND h.date = :date
+              AND h2.date = (SELECT date FROM history WHERE date < :date ORDER BY date DESC LIMIT 1)");
+            $command->bindParam(":date", $date);
+        }
+
         $command->bindParam(":pid", $pid);
 
         $dataReader = $command->query();
@@ -86,14 +115,32 @@ class Project
             $rowQuery = new Query();
             $rowQuery->text = $row['text'];
             $rowQuery->url = $row['url'];
-            $queriesList[] = $rowQuery;
+            $rowQuery->positions = [$row['date_new'] => $row['up_new'], $row['date_old'] => $row['up_old']];
 
+            $queriesList[] = $rowQuery;
         }
 
         return $queriesList;
     }
 
-    public function getProjectInfo($pid){
+    /*
+     * Получить даты апдейтов
+     * */
+    public function getUpdateDates()
+    {
+        $updates = [];
+        $command = Yii::$app->db->createCommand("SELECT DISTINCT date FROM history ORDER date DESC");
+        $dataReader = $command->query();
+
+        while (($row = $dataReader->read()) !== false) {
+            $updates[] = $row['date'];
+        }
+
+        return $updates;
+    }
+
+    public function getProjectInfo($pid)
+    {
         $selectQuery = "SELECT p.name, p.update_date, p.start_date,
         u.username as email,
         u.firstname,
@@ -129,7 +176,7 @@ class Project
 
             $cmdProject = Yii::$app->db->createCommand($createProjectQuery);
 
-            $name = "http://www.site-$pr.ru";
+            $name = "http://www.site-$prj.ru";
             $oid = 1;
             $queries_top = serialize([rand(1, 3), rand(3, 5), rand(5, 10), rand(10, 20)]);
             $region = 213;
@@ -137,6 +184,7 @@ class Project
             $pr = rand(0, 10);
             $yc = rand(0, 1);
             $dmoz = rand(0, 1);
+
 
             $cmdProject->bindParam(":name", $name);
             $cmdProject->bindParam(":oid", $oid);
@@ -160,8 +208,6 @@ class Project
                 $cmdQuery->bindParam(":url", $url);
                 $cmdQuery->execute();
             }
-
-
         }
     }
 }
