@@ -8,7 +8,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 
-class ProjectsController  extends Controller{
+class TestController  extends Controller{
 
     public function behaviors()
     {
@@ -54,59 +54,11 @@ class ProjectsController  extends Controller{
         return parent::beforeAction($event);
     }
 
-    // Авторизация пользователя
-    public function actionLogin()
-    {
-        if (!\Yii::$app->user->isGuest) {
-            return $this->goHome();
-        }
-
-        $model = new LoginForm();
-        if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();
-        } else {
-            return $this->render('login', [
-                'model' => $model,
-            ]);
-        }
-    }
-
-    // Выход из системы
-
-    public function actionLogout()
-    {
-        Yii::$app->user->logout();
-
-        return $this->goHome();
-    }
-
-
-
-
-
     // Общая страница проектов
     public function actionIndex()
     {
         $model = new Project();
-//        $model->createTest();
-        $data = ["projects" => $model->getProjectsList(Yii::$app->user->getId())];
-
-
-        return $this->render('index',$data);
-    }
-
-    // Детали проекта
-    public function actionShow($pid = null){
-
-        if (!$pid){
-            return $this->goHome();
-        }
-
-        $model = new Project();
-        $info = $model->getProjectInfo($pid);
-        $queries = $model->getProjectQueries($pid,Yii::$app->user->getId());
-        $updates = $model->getUpdateDates($pid);
-
-        return $this->render('queries',["pid"=>$pid,"info"=>$info,"queries" => $queries,"updates" => $updates]);
+        $model->createTest();
+        return $this->render('index');
     }
 }
