@@ -88,7 +88,7 @@ class Project
         $queriesList = [];
         // Если не указана дата, получаем за последний апдейт
         if ($date == null) {
-            $command = Yii::$app->db->createCommand("SELECT q.text,q.url, h.frequency, h.position as up_new, h2.position as up_old, h.date as date_new, h2.date as date_old
+            $command = Yii::$app->db->createCommand("SELECT q.id,q.text,q.url, h.frequency, h.position as up_new, h2.position as up_old, h.date as date_new, h2.date as date_old
               FROM queries q
               LEFT JOIN projects p ON p.id = q.pid
               LEFT JOIN history h ON h.qid = q.id AND h.date = (SELECT MAX(date) FROM history)
@@ -96,7 +96,7 @@ class Project
               WHERE q.pid = :pid $permitions");
         }
         else{
-            $command = Yii::$app->db->createCommand("SELECT q.text,q.url, h.frequency, h.position as up_new, h2.position as up_old, h.date as date_new, h2.date as date_old
+            $command = Yii::$app->db->createCommand("SELECT q.id,q.text,q.url, h.frequency, h.position as up_new, h2.position as up_old, h.date as date_new, h2.date as date_old
               FROM queries q
               LEFT JOIN projects p ON p.id = q.pid
               LEFT JOIN history h ON h.qid = q.id AND h.date = :date
@@ -111,6 +111,7 @@ class Project
 
         while (($row = $dataReader->read()) !== false) {
             $rowQuery = new Query();
+            $rowQuery->id = $row['id'];
             $rowQuery->text = $row['text'];
             $rowQuery->url = $row['url'];
             $rowQuery->frequency = $row['frequency'];
@@ -122,10 +123,7 @@ class Project
             if ($row['date_new']!=null){
                 $rowQuery->position[] = [$row['date_new'] => $row['up_new']];
                 $rowQuery->top=$row['up_new'];
-
             }
-
-
 
             if ($row['up_new']!=null && $row['up_old']!=null){
                 $rowQuery->diff = $row['up_old'] - $row['up_new'];
@@ -185,6 +183,17 @@ class Project
         }
 
         return $projectInfo;
+    }
+
+    public function updateProject($pid,$tic,$pr,$yc,$dmoz,$updateDate){
+        $cmdUpdate = Yii::$app->db->createCommand("UPDATE projects SET tic = :tic, pr = :pr, yc = :yc, dmoz = :dmoz, update_date = :updateDate WHERE id = :pid");
+        $cmdUpdate->bindParam(":tic",$tic);
+        $cmdUpdate->bindParam(":pr",$pr);
+        $cmdUpdate->bindParam(":yc",$yc);
+        $cmdUpdate->bindParam(":dmoz",$dmoz);
+        $cmdUpdate->bindParam(":updateDate",$updateDate);
+        $cmdUpdate->bindParam(":pid",$pid);
+        $cmdUpdate->execute();
     }
 
     public function createTest()

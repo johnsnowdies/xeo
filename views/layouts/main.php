@@ -18,6 +18,8 @@ AppAsset::register($this);
         th{
             vertical-align: top!important;
         }
+
+
     </style>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -27,10 +29,13 @@ AppAsset::register($this);
     <!-- TODO Все библиотеки разместить в проекте! -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
+
+
     <?php $this->head() ?>
 </head>
 <body>
 <?php $this->beginBody() ?>
+
     <div class="wrap">
         <?php
         if (!\Yii::$app->user->isGuest) {
@@ -60,6 +65,26 @@ AppAsset::register($this);
         </div>
     </div>
 <?php $this->endBody() ?>
+<!-- Admin modal windows -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
 <?php $this->endPage() ?>

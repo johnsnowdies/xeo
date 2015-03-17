@@ -47,23 +47,24 @@ $this->title = 'Запросы';
 </script>
 
 <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-4">
         <a href="<?= $info['name'] ?>"><h1><?= $info['name'] ?></h1></a>
 
         <p><a href="/" class="btn btn-default"> < Список проектов </a></p>
     </div>
 
-    <div class="col-sm-4" style="display: none">
+
+    <div class="col-sm-4">
+        <?if ($userRole == 'A'):?>
         <div class="panel panel-default">
             <div class="panel-heading">Администрирование</div>
             <div class="panel-body">
-                <p><a href="#" class="btn btn-default">Редактировать разбивку</a></p>
-
+                <p><a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal">Редактировать разбивку</a></p>
                 <p><a href="#" class="btn btn-default">Сменить оптимизатора</a></p>
-
                 <p><a href="#" class="btn btn-danger">Удалить проект</a></p>
             </div>
         </div>
+        <?endif;?>
     </div>
 
     <div class="col-sm-4">
@@ -153,3 +154,5 @@ $this->title = 'Запросы';
         </table>
     </div>
 </div>
+
+

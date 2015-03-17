@@ -9,7 +9,7 @@ return [
     'id' => 'basic-console',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log', 'gii'],
-    'controllerNamespace' => 'app\commands',
+    'controllerNamespace' => 'app\console\controllers',
     'modules' => [
         'gii' => 'yii\gii\Module',
     ],

@@ -2,6 +2,7 @@
 namespace app\controllers;
 
 use app\models\objects\Project;
+use app\models\User;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -102,11 +103,14 @@ class ProjectsController  extends Controller{
             return $this->goHome();
         }
 
+        $users = new User();
+        $userRole = $users->getUserRole(Yii::$app->user->getId());
+
         $model = new Project();
         $info = $model->getProjectInfo($pid);
         $queries = $model->getProjectQueries($pid,Yii::$app->user->getId());
         $updates = $model->getUpdateDates($pid);
 
-        return $this->render('queries',["pid"=>$pid,"info"=>$info,"queries" => $queries,"updates" => $updates]);
+        return $this->render('queries',["pid"=>$pid,"info"=>$info,"queries" => $queries,"updates" => $updates, "userRole" => $userRole]);
     }
 }

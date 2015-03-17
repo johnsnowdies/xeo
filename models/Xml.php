@@ -5,6 +5,7 @@ namespace app\models;
 use Yii;
 use yii\base\Model;
 use app\lib\Punycode;
+use app\models\objects\Project;
 /**
  * ContactForm is the model behind the contact form.
  */
@@ -46,11 +47,9 @@ class Xml extends Model
 
     public function load($model) {
         parent::load($model);
-       // var_dump($model);
         $this->queries = explode("\n", $this->queries);
         mb_internal_encoding('utf-8');
         $Punycode = new Punycode();
-// var_dump('renangonçalves.com'));
         $this->siteUrlOrig = $this->siteUrl;
         $this->siteUrl = $Punycode->encode($this->siteUrl);
     }
@@ -60,7 +59,6 @@ class Xml extends Model
 
         $this->result = array();
         foreach ($this->queries as $q) {
-          //  var_dump($q);
             $this->result[] = array(
                 'query' => $q,
                 'data' => $this->makeYandexQuery($q),
@@ -91,7 +89,6 @@ class Xml extends Model
     }
 
     public function makeYandexQuery($q) {
-
         $query = "http://xmlsearch.yandex.ru/xmlsearch?".
         "user=active-seo-steam".
         "&key=03.281498801:8d74d0c282393baee75dc20d8aa7681e".
@@ -102,10 +99,9 @@ class Xml extends Model
         "&lr=".$this->region.
         "&groupby=attr%3D%22%22.mode%3Dflat.groups-on-page%3D100.docs-in-group%3D1";
 
-        //echo $query;
         $strXml = file_get_contents($query);
         $pos = $this->searchXmlUrl($strXml, $this->siteUrl);
-       // var_dump($pos);
+
         $result = array(
                 'response' => '',
                 'position' => $pos['pos'],
@@ -114,19 +110,61 @@ class Xml extends Model
         return $result;
     }
 
+    /**
+     * Получение тИЦ, PR, Наличия в ЯК и DMOZ
+     */
+    public function fetchProjectData($url){
+        $project = new Project();
+        $project->tic = $this->getTIC($url);
+        $project->pr = $this->getPR($url);
+
+        if ($this->getYC($url)){
+            $project->yc = 1;
+        }else{
+            $project->yc = 0;
+        }
+
+        if ($this->getDMOZ($url)){
+            $project->dmoz = 1;
+        }else{
+            $project->dmoz = 0;
+        }
+
+        return $project;
+    }
+
+
+    private function getTIC($url){
+        // Из информеров
+        return true;
+    }
+
+    private function getPR($url){
+        // Из информеров
+        return true;
+    }
+
+    private function getYC($url){
+        //https://yaca.yandex.ru/yca/cy/ch/www.my-page.ru/
+        //ресурс не описан в Яндекс.Каталоге => false
+
+        return true;
+    }
+
+    private function getDMOZ($url){
+        //http://www.dmoz.org/search?q=www.my-page.ru
+        // DMOZ Sites => true
+        return true;
+    }
+
     private function searchXmlUrl($strXml, $url2Find) {
-        
-        
         $xml = simplexml_load_string($strXml);
-        //echo "<pre>$strXml</pre>";
         $result = $xml->xpath('//doc/url');
         $i = 0;
         $isFound = false;
         while((list( , $node) = each($result)) && (!$isFound)) {
-            //echo $node. ' ' . $this->getSecondDomain($node).'<br />';
             $i++;
             $isFound = ($this->getSecondDomain($node)===$this->getSecondDomain($url2Find));
-            //echo $this->getSecondDomain($node) . '<br />';
             if ($isFound) {
                 $fNode = $node;
             }
@@ -134,7 +172,7 @@ class Xml extends Model
         return ($isFound?
             array('pos'=>$i, 'uri'=>$fNode)
             :
-            array('pos'=>'нет в топ', 'uri'=>'-'));
+            array('pos'=>null, 'uri'=>null));
     }
 
     private function getSecondDomain($url) {
