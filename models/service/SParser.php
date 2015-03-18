@@ -13,7 +13,7 @@ class SParser extends Model{
 
     public function run(){
         $projectsManager = new Project();
-        $projectsList = $projectsManager->getProjectsList(SParser::SYSTEM_USER);
+        $projectsList = $projectsManager->getAllProjectsList(SParser::SYSTEM_USER);
         $updateDate = date("Y-m-d");
 
         foreach($projectsList as $currentProject){
@@ -21,21 +21,27 @@ class SParser extends Model{
             $pid = $currentProject->id;
             $url = $currentProject->name;
 
+            $url = str_replace('http://','',$url);
+
             $XMLParser = new Xml();
             $XMLParser->region = $currentProject->region;
             $XMLParser->siteUrl = $url;
             $XMLParser->siteUrlOrig = $url;
 
-            print "Парсинг проекта $url id($pid)\r\n";
-            $queriesList = $projectsManager->getProjectQueries($pid,SParser::SYSTEM_USER);
+
+
+            print "Parsing project $url id($pid)\r\n";
+            $queriesList = $projectsManager->getProjectAllQueries($pid,SParser::SYSTEM_USER);
 
             foreach($queriesList as $query){
-                //$result = $XMLParser->makeYandexQuery($query->text);
-                $result = array(
+                $result = $XMLParser->makeYandexQuery($query->text);
+                print_r($result);
+
+               /* $result = array(
                     'response' => '',
                     'position' => 10,
                     'uri' => $query->url,
-                );
+                );*/
 
                 //TODO Определять частотность запроса - проблема
                 $freq = 0;

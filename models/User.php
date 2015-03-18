@@ -103,17 +103,35 @@ class User extends \yii\base\Object implements \yii\web\IdentityInterface {
      * @param $uid
      * @return string
      */
-    public function getUserRole($uid){
+    public static function getUserRole($uid){
         $command = Yii::$app->db->createCommand("SELECT role FROM users WHERE id = :uid");
         $command->bindParam(":uid", $uid);
+        $role = $command->queryOne();
+        return $role['role'];
+    }
 
-        $role = "";
+    public static function getUsername($uid){
+        $command = Yii::$app->db->createCommand("SELECT firstname, lastname FROM users WHERE id = :uid");
+        $command->bindParam(":uid", $uid);
+
+        $username = "";
         $dataReader = $command->query();
         while (($row = $dataReader->read()) !== false) {
-            $role = $row['role'];
+            $username = $row['firstname'].' '.$row['lastname'];
         }
 
-        return $role;
+        return $username;
+    }
+
+    public static function getUserList(){
+        $command = Yii::$app->db->createCommand("SELECT * FROM users");
+        $dataReader = $command->query();
+        $userList = [];
+        while (($row = $dataReader->read()) !== false) {
+            $userList[] = $row;
+        }
+
+        return $userList;
     }
 
 }

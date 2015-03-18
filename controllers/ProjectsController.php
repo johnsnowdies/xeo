@@ -81,36 +81,32 @@ class ProjectsController  extends Controller{
         return $this->goHome();
     }
 
-
-
-
-
     // Общая страница проектов
     public function actionIndex()
     {
         $model = new Project();
-//        $model->createTest();
-        $data = ["projects" => $model->getProjectsList(Yii::$app->user->getId())];
 
+        $userRole = User::getUserRole(Yii::$app->user->getId());
 
-        return $this->render('index',$data);
+        return $this->render('index',["projects" => $model->getProjectsList(Yii::$app->user->getId()),"userRole" => $userRole,
+        "newProjects" => $model->getNewProjectsList(Yii::$app->user->getId())]);
     }
 
     // Детали проекта
     public function actionShow($pid = null){
-
         if (!$pid){
             return $this->goHome();
         }
 
-        $users = new User();
-        $userRole = $users->getUserRole(Yii::$app->user->getId());
-
+        $userRole = User::getUserRole(Yii::$app->user->getId());
         $model = new Project();
         $info = $model->getProjectInfo($pid);
         $queries = $model->getProjectQueries($pid,Yii::$app->user->getId());
+        $newQueries = $model->getProjectNewQueries($pid,Yii::$app->user->getId());
+
         $updates = $model->getUpdateDates($pid);
 
-        return $this->render('queries',["pid"=>$pid,"info"=>$info,"queries" => $queries,"updates" => $updates, "userRole" => $userRole]);
+        return $this->render('queries',["pid"=>$pid,"info"=>$info,"queries" => $queries,"updates" => $updates,
+            "userRole" => $userRole,"newQueries" => $newQueries]);
     }
 }

@@ -6,6 +6,6 @@ class Query {
     public $url;
     public $position = [];
     public $frequency;
-    public $diff = false;
+    public $diff = null;
     public $top;
 }

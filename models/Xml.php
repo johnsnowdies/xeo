@@ -100,6 +100,7 @@ class Xml extends Model
         "&groupby=attr%3D%22%22.mode%3Dflat.groups-on-page%3D100.docs-in-group%3D1";
 
         $strXml = file_get_contents($query);
+
         $pos = $this->searchXmlUrl($strXml, $this->siteUrl);
 
         $result = array(

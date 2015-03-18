@@ -38,14 +38,49 @@ class AjaxController extends Controller
         ];
     }
 
-    public function actionIndex(){
+    public function beforeAction($action)
+    {
+        $this->enableCsrfValidation = false;
+        return parent::beforeAction($action);
+    }
+
+    public function actionIndex()
+    {
         echo "ss";
     }
 
-    public function actionUpdate($pid,$date)
+    public function actionGetQueriesForPeriod($pid, $date)
     {
         $model = new Project();
-        $queries = $model->getProjectQueries($pid,Yii::$app->user->getId(),$date);
-        return $this->render('result',["queries"=>$queries]);
+        $queries = $model->getProjectQueries($pid, Yii::$app->user->getId(), $date);
+        return $this->render('result', ["result" => $queries]);
+    }
+
+    public function actionDeleteQuery($qid)
+    {
+        $model = new Project();
+        return $this->render('result', ["result" => $model->deleteQuery($qid)]);
+    }
+
+    public function actionAddNewQueries()
+    {
+        $postData = Yii::$app->request->post();
+        $pid = $postData['pid'];
+        $queriesList = explode("\n", $postData['queriesList']);
+        $model = new Project();
+        return $this->render('result', ["result" => $model->addQueries($queriesList, $pid)]);
+    }
+
+    public function actionNewProject(){
+        $model = new Project();
+        $postData = Yii::$app->request->post();
+        $name = $postData['name'];
+        $user = $postData['user'];
+        $queries = $postData['newQueries'];
+        $region = $postData['region'];
+
+
+
+        return $this->render('result', ["result" => $model->createProjcet($name,$user,$queries,$region)]);
     }
 }
