@@ -203,7 +203,7 @@ $this->title = 'Запросы';
             <div class="col-md-4">
                 <div class="alert alert-info" role="alert">Запросы добавленные после последнего апдейта будут посчитаны в следующий</div>
                 <div class="panel panel-default">
-                    <div class="panel-heading">Запросы без URL, либо не обработанные</div>
+                    <div class="panel-heading">Новые запросы</div>
 
                     <table class="table table-hover ">
                         <thead>

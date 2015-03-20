@@ -41,7 +41,7 @@ class Project
             FROM projects p
             LEFT JOIN geo_regions r ON p.region = r.id
             LEFT JOIN queries q ON p.id = q.pid
-            WHERE p.queries_top is not null
+            WHERE p.new_project = 0
             GROUP BY p.id $permitions ";
 
         $command = Yii::$app->db->createCommand($selectQuery);
@@ -127,7 +127,7 @@ class Project
         }
 
         $selectQuery = "SELECT p.id, p.name,p.oid,COUNT(q.id) as pqueries_cnt,p.start_date,p.update_date
-              FROM projects p LEFT JOIN queries q ON p.id = q.pid WHERE p.queries_top is null
+              FROM projects p LEFT JOIN queries q ON p.id = q.pid WHERE p.new_project = 1
               GROUP BY p.id $permitions";
 
         $selectCmd  = Yii::$app->db->createCommand($selectQuery);
@@ -171,7 +171,7 @@ class Project
               LEFT JOIN projects p ON p.id = q.pid
               LEFT JOIN history h ON h.qid = q.id AND h.date = (SELECT MAX(date) FROM history)
               LEFT JOIN history h2 ON h2.qid = q.id  AND h2.date = (SELECT date FROM history WHERE date < (SELECT MAX(date) FROM history) ORDER BY date DESC LIMIT 1)
-              WHERE q.pid = :pid $permitions AND url IS NOT NULL ORDER BY h.position DESC");
+              WHERE q.pid = :pid $permitions AND q.new_query = 0 ORDER BY h.position DESC");
         }
         else{
             $command = Yii::$app->db->createCommand("SELECT q.id,q.text,q.url, h.frequency, h.position as up_new, h2.position as up_old, h.date as date_new, h2.date as date_old
@@ -179,7 +179,7 @@ class Project
               LEFT JOIN projects p ON p.id = q.pid
               LEFT JOIN history h ON h.qid = q.id AND h.date = :date
               LEFT JOIN history h2 ON h2.qid = q.id AND h2.date = (SELECT date FROM history WHERE date < :date ORDER BY date DESC LIMIT 1)
-              WHERE q.pid = :pid $permitions AND url IS NOT NULL ORDER BY h.position DESC");
+              WHERE q.pid = :pid $permitions AND q.new_query = 0 ORDER BY h.position DESC");
             $command->bindParam(":date", $date);
         }
 
@@ -280,6 +280,24 @@ class Project
         return $queriesList;
     }
 
+    public function getProjectAllTextQueries($pid)
+    {
+        $selectCmd = Yii::$app->db->createCommand("SELECT id,text FROM queries WHERE pid = :pid");
+        $selectCmd->bindParam(":pid",$pid);
+
+        $dataReader = $selectCmd->query();
+        $textQueries = [];
+        while (($row = $dataReader->read()) !== false) {
+            $rowQuery = new Query();
+            $rowQuery->id = $row['id'];
+            $rowQuery->text = $row['text'];
+            $textQueries[] = $rowQuery;
+        }
+
+        return $textQueries;
+
+    }
+
     /**
      * Получить запросы проекта
      * @param $pid
@@ -297,7 +315,7 @@ class Project
             $permitions = "AND p.oid = {$oid}";
         }
 
-        $selectCmd = Yii::$app->db->createCommand("SELECT * FROM queries WHERE url IS NULL AND pid = :pid $permitions");
+        $selectCmd = Yii::$app->db->createCommand("SELECT * FROM queries WHERE new_query = 1 AND pid = :pid $permitions");
         $selectCmd->bindParam(":pid",$pid);
         $dataReader = $selectCmd->query();
 
@@ -371,7 +389,10 @@ class Project
         $top = [3,5,10,20];
         $topValues = [];
         foreach($top as $t){
-            $query = "SELECT COUNT(*) as top FROM history WHERE pid = :pid AND position <= :t AND date=:updateDate";
+            $query = "SELECT COUNT(h.id) as top FROM history h
+LEFT JOIN queries q ON q.id = h.qid
+LEFT JOIN projects p ON p.id = q.pid
+WHERE p.id = :pid AND h.position <= :t AND h.date=:updateDate";
             $cmd = Yii::$app->db->createCommand($query);
             $cmd->bindParam(":pid",$pid);
                 $cmd->bindParam(":t",$t);
@@ -386,7 +407,7 @@ class Project
 
         $topValues = serialize($topValues);
 
-        $cmdUpdate = Yii::$app->db->createCommand("UPDATE projects SET queries_top = :top, tic = :tic, pr = :pr, yc = :yc, dmoz = :dmoz, update_date = :updateDate WHERE id = :pid");
+        $cmdUpdate = Yii::$app->db->createCommand("UPDATE projects SET new_project=0, queries_top = :top, tic = :tic, pr = :pr, yc = :yc, dmoz = :dmoz, update_date = :updateDate WHERE id = :pid");
         $cmdUpdate->bindParam(":tic",$tic);
         $cmdUpdate->bindParam(":pr",$pr);
         $cmdUpdate->bindParam(":yc",$yc);
@@ -458,7 +479,6 @@ class Project
             $pr = rand(0, 10);
             $yc = rand(0, 1);
             $dmoz = rand(0, 1);
-
 
             $cmdProject->bindParam(":name", $name);
             $cmdProject->bindParam(":oid", $oid);

@@ -76,7 +76,8 @@ AppAsset::register($this);
             </nav>
         <?php endif; ?>
 
-        <div class="container">
+        <div class="container" ng-cloak>
+
             <?= $content ?>
         </div>
     </div>

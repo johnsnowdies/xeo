@@ -5,6 +5,10 @@ $this->title = 'Проекты';
 ?>
 
     <script type="text/javascript">
+        function ManageUsersController($scope,$http, $window){
+            $scope.users = <?= json_encode(User::getUserList()) ?>;
+
+        }
 
         function AddProjectController($scope, $http, $window) {
             $scope.users = <?= json_encode(User::getUserList()) ?>;
@@ -23,7 +27,7 @@ $this->title = 'Проекты';
                         error(function (data, status, headers, config) {
                             //TODO ошибка при удаление
                         });
-                    //$window.location.reload();
+                    $window.location.reload();
                 }
             }
         }
@@ -46,6 +50,7 @@ $this->title = 'Проекты';
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="#" data-toggle="modal" data-target="#addProject">Добавить проект</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#manageUsers">Управление пользователями</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -54,97 +59,93 @@ $this->title = 'Проекты';
     </nav>
 <? endif; ?>
 
-
     <div ng-init ng-controller="ProjectsController">
-        <? if (empty($projects) && empty($newProjects)):?>
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-4">
-                    <img src="/img/xd42.png"/><img src="/img/cat_hungry.png">
-                    <h3><?=User::getUsername(Yii::$app->user->getId())?>, у Вас нет проектов!<br><small>Обратитесь, пожалуйста к администратору :(</small>
-                    </h3>
+        <? if (empty($projects) && empty($newProjects)): ?>
+    <div class="row">
+        <div class="col-sm-6 col-sm-offset-4">
+            <img src="/img/xd42.png"/><img src="/img/cat_hungry.png">
 
-                </div>
-            </div>
+            <h3><?= User::getUsername(Yii::$app->user->getId()) ?>, у Вас нет проектов!<br>
+                <small>Обратитесь, пожалуйста к администратору :(</small>
+            </h3>
 
-        <? else: ?>
-            <h1>Проекты</h1>
-        <? endif;?>
-
-        <? if (!empty($newProjects)):?>
-        <!-- Новые проекты -->
-        <div class="alert alert-info" role="alert">Позиции по новым проектам будут доступны после следующего апдейта</div>
-        <div class="panel panel-default">
-            <div class="panel-heading">Новые проекты</div>
-
-            <table class="table table-striped  table-hover ">
-                <thead>
-                <tr>
-                    <th>Проект</th>
-                    <th>Количество <br/>запросов</th>
-
-                </tr>
-
-
-                </thead>
-
-                <tbody>
-                <tr ng-repeat="newProject in newProjects">
-                    <td><a href="/projects/show?pid={{newProject.id}}">{{ newProject.name }}</a></td>
-                    <td>{{ newProject.queriesCnt }}</td>
-                </tr>
-                </tbody>
-            </table>
         </div>
-        <?endif;?>
+    </div>
 
-        <? if (!empty($projects)):?>
-        <!-- Старые проекты-->
-        <div class="panel panel-default">
-            <div class="panel-heading">Проекты на продвижении</div>
+<? else: ?>
+    <h1>Проекты</h1>
+<? endif; ?>
 
-            <table class="table table-striped  table-hover ">
-                <thead>
-                <tr>
-                    <th rowspan=2>Проект</th>
-                    <th rowspan=2 class="col-md-1">Количество <br/>запросов</th>
-                    <td colspan="4"><strong>В топе:</strong></td>
-                    <th rowspan=2 class="col-md-1">Регион<br/>продвижения</th>
-                    <th class=" col-md-1" rowspan=2>тИЦ</th>
-                    <th class="col-md-1" rowspan=2>PR</th>
-                    <th class=" col-md-1" rowspan=2>ЯК</th>
-                    <th class="col-md-1" rowspan=2>DMOZ</th>
-                </tr>
-                <tr class="warning">
-                    <th rowspan=2>3</th>
-                    <th rowspan=2>5</th>
-                    <th rowspan=2>10</th>
-                    <th rowspan=2>20</th>
-                </tr>
+<? if (!empty($newProjects)): ?>
+    <!-- Новые проекты -->
+    <div class="alert alert-info" role="alert">Позиции по новым проектам будут доступны после следующего апдейта</div>
+    <div class="panel panel-default">
+        <div class="panel-heading">Новые проекты</div>
+        <table class="table table-striped  table-hover ">
+            <thead>
+            <tr>
+                <th>Проект</th>
+                <th>Количество <br/>запросов</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="newProject in newProjects">
+                <td><a href="/projects/show?pid={{newProject.id}}">{{ newProject.name }}</a></td>
+                <td>{{ newProject.queriesCnt }}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+<? endif; ?>
 
-                </thead>
+<? if (!empty($projects)): ?>
+    <!-- Старые проекты-->
+    <div class="panel panel-default">
+        <div class="panel-heading">Проекты на продвижении</div>
 
-                <tbody>
-                <tr ng-repeat="project in projects">
-                    <td><a href="/projects/show?pid={{project.id}}">{{ project.name }}</a></td>
-                    <td>{{ project.queriesCnt }}</td>
+        <table class="table table-striped  table-hover ">
+            <thead>
+            <tr>
+                <th rowspan=2>Проект</th>
+                <th rowspan=2 class="col-md-1">Количество <br/>запросов</th>
+                <td colspan="4"><strong>В топе:</strong></td>
+                <th rowspan=2 class="col-md-1">Регион<br/>продвижения</th>
+                <th class=" col-md-1" rowspan=2>тИЦ</th>
+                <th class="col-md-1" rowspan=2>PR</th>
+                <th class=" col-md-1" rowspan=2>ЯК</th>
+                <th class="col-md-1" rowspan=2>DMOZ</th>
+            </tr>
+            <tr class="warning">
+                <th rowspan=2>3</th>
+                <th rowspan=2>5</th>
+                <th rowspan=2>10</th>
+                <th rowspan=2>20</th>
+            </tr>
 
-                    <td class="warning" ng-repeat="t in project.queriesTop">{{t}}</td>
-                    <td>{{ project.region}}</td>
-                    <td>{{ project.tic}}</td>
-                    <td>{{ project.pr}}</td>
-                    <td>
-                        <span class="label label-success" ng-hide="!project.yc">Да</span>
-                        <span class="label label-danger" ng-hide="project.yc">Нет</span>
-                    </td>
-                    <td>
-                        <span class="label label-success" ng-hide="!project.dmoz">Да</span>
-                        <span class="label label-danger" ng-hide="project.dmoz">Нет</span>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </div><!-- panel -->
-        <?endif;?>
+            </thead>
+
+            <tbody>
+            <tr ng-repeat="project in projects">
+                <td><a href="/projects/show?pid={{project.id}}">{{ project.name }}</a></td>
+                <td>{{ project.queriesCnt }}</td>
+
+                <td class="warning" ng-repeat="t in project.queriesTop">{{t}}</td>
+                <td>{{ project.region}}</td>
+                <td>{{ project.tic}}</td>
+                <td>{{ project.pr}}</td>
+                <td>
+                    <span class="label label-success" ng-hide="!project.yc">Да</span>
+                    <span class="label label-danger" ng-hide="project.yc">Нет</span>
+                </td>
+                <td>
+                    <span class="label label-success" ng-hide="!project.dmoz">Да</span>
+                    <span class="label label-danger" ng-hide="project.dmoz">Нет</span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div><!-- panel -->
+<? endif; ?>
 
     </div>
 <? if ($userRole == 'A'): ?>
@@ -215,6 +216,57 @@ $this->title = 'Проекты';
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
                     <button type="button" class="btn btn-primary" ng-click="createProject()">Сохранить изменения
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div ng-init ng-controller="ManageUsersController" class="modal fade" id="manageUsers" tabindex="-1" role="dialog"
+         aria-labelledby="manageUsersLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Управление пользователями</h4>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-6" style="border-right: 1px solid #ccc;"">
+                            <table class="table">
+                            <thead>
+                <tr>
+                    <th>Пользователь</th>
+                    <th>Действие</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="user in users">
+                <td> {{user.firstname}}&nbsp;{{user.lastname}}
+                                    &lt;{{user.username}}&gt;</td>
+                <td> <button type="button" ng-click="deleteUser($index)" class="btn btn-danger">Удалить
+                                </button></td>
+</tr>
+</tbody>
+                            </table>
+                        </div>
+
+                        <div class="col-sm-6" id="addUser" style="display: none;">
+<h3>Новый пользователь</h3>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                    <button type="button" class="btn btn-primary" ng-click="saveUserChanges()">Сохранить изменения
                     </button>
                 </div>
             </div>

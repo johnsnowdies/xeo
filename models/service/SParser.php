@@ -35,13 +35,7 @@ class SParser extends Model{
 
             foreach($queriesList as $query){
                 $result = $XMLParser->makeYandexQuery($query->text);
-                print_r($result);
-
-               /* $result = array(
-                    'response' => '',
-                    'position' => 10,
-                    'uri' => $query->url,
-                );*/
+                print $query->text."\r\n";
 
                 //TODO Определять частотность запроса - проблема
                 $freq = 0;
@@ -53,7 +47,7 @@ class SParser extends Model{
                 $commandInsert->bindParam(":date",$updateDate);
                 $commandInsert->execute();
 
-                $commandUpdate = Yii::$app->db->createCommand("UPDATE queries SET url = :url WHERE id=:qid");
+                $commandUpdate = Yii::$app->db->createCommand("UPDATE queries SET new_query=0, url = :url WHERE id=:qid");
                 $commandUpdate->bindParam(":url",$result['uri']);
                 $commandUpdate->bindParam(":qid",$query->id);
                 $commandUpdate->execute();

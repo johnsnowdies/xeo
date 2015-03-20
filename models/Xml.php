@@ -137,25 +137,126 @@ class Xml extends Model
 
     private function getTIC($url){
         // Из информеров
-        return true;
+        $url = "http://bar-navig.yandex.ru/u?ver=2&show=32&url=http://" .$url;
+        $cont = file_get_contents($url);
+        $cont = preg_replace ( "'(.+?)value=\"'si","",$cont);
+        $cont = preg_replace ( "'\"/>(.+?)'si","",$cont);
+        return $cont;
     }
+
+    private function strToNum($str, $check, $magic)
+    {
+        $int32Unit = 4294967296;  // 2^32
+        $length = strlen($str);
+        for ($i = 0; $i < $length; $i++)
+        {
+            $check *= $magic;
+            if ($check >= $int32Unit)
+            {
+                $check = ($check - $int32Unit * (int) ($check / $int32Unit));
+                $check = ($check < -2147483648) ? ($check + $int32Unit) : $check;
+            }
+            $check += ord($str{$i});
+        }
+        return $check;
+    }
+
+    private function hashUrl($string)
+    {
+        $check1 = $this->strToNum($string, 0x1505, 0x21);
+        $check2 = $this->strToNum($string, 0, 0x1003F);
+        $check1 >>= 2;
+        $check1 = (($check1 >> 4) & 0x3FFFFC0 ) | ($check1 & 0x3F);
+        $check1 = (($check1 >> 4) & 0x3FFC00 ) | ($check1 & 0x3FF);
+        $check1 = (($check1 >> 4) & 0x3C000 ) | ($check1 & 0x3FFF);
+        $T1 = (((($check1 & 0x3C0) << 4) | ($check1 & 0x3C)) <<2 ) | ($check2 & 0xF0F );
+        $T2 = (((($check1 & 0xFFFFC000) << 4) | ($check1 & 0x3C00)) << 0xA) | ($check2 & 0xF0F0000 );
+        return ($T1 | $T2);
+    }
+
+    private  function checkHash($hashNum)
+    {
+        $checkByte = 0;
+        $flag = 0;
+        $hashStr = sprintf('%u', $hashNum) ;
+        $length = strlen($hashStr);
+        for ($i = $length - 1;  $i >= 0;  $i --)
+        {
+            $re = $hashStr{$i};
+            if (1 === ($flag % 2))
+            {
+                $re += $re;
+                $re = (int)($re / 10) + ($re % 10);
+            }
+            $checkByte += $re;
+            $flag ++;
+        }
+        $checkByte %= 10;
+        if (0 !== $checkByte)
+        {
+            $checkByte = 10 - $checkByte;
+            if (1 === ($flag % 2) )
+            {
+                if (1 === ($checkByte % 2))
+                {
+                    $checkByte += 9;
+                }
+                $checkByte >>= 1;
+            }
+        }
+        return '7' . $checkByte . $hashStr;
+    }
+
 
     private function getPR($url){
         // Из информеров
-        return true;
+
+            if ( ! preg_match('/^(http:\/\/)(.*)/i', $url)) {
+                $url = 'http://' .$url;
+            }
+            $googlehost = 'toolbarqueries.google.com';
+            $googleua = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.6) Gecko/20060728 Firefox/1.5';
+            $ch = $this->checkHash($this->hashUrl($url));
+            $fp = fsockopen($googlehost, 80, $errno, $errstr, 30);
+            if ($fp)
+            {
+                $out = "GET /tbr?features=Rank&sourceid=navclient-ff&client=navclient-auto-ff&ch=$ch&q=info:$url HTTP/1.1\r\n";
+                $out .= "User-Agent: $googleua\r\n";
+                $out .= "Host: $googlehost\r\n";
+                $out .= "Connection: Close\r\n\r\n";
+                fwrite($fp, $out);
+                $data = '';
+                while ( ! feof($fp))
+                {
+                    $data = $data .fgets($fp, 1024);
+                }
+                fclose($fp);
+                $pos = strpos($data, "Rank_");
+                if($pos)
+                {
+                    $pr=substr($data, $pos + 9);
+                    $pr=str_replace("\n",'',$pr);
+                    $pr=trim($pr);
+                }
+            }
+            if($pr=='')$pr='0';
+            return $pr;
     }
 
     private function getYC($url){
         //https://yaca.yandex.ru/yca/cy/ch/www.my-page.ru/
         //ресурс не описан в Яндекс.Каталоге => false
 
-        return true;
+        $yaca = file_get_contents("https://yaca.yandex.ru/yca/cy/ch/$url");
+        return !preg_match("#ресурс не описан в Яндекс.Каталоге#siU",$yaca);
     }
 
     private function getDMOZ($url){
         //http://www.dmoz.org/search?q=www.my-page.ru
         // DMOZ Sites => true
-        return true;
+
+        $dmoz = file_get_contents("http://www.dmoz.org/search?q=$url");
+        return preg_match("#DMOZ Sites#siU",$dmoz);
     }
 
     private function searchXmlUrl($strXml, $url2Find) {

@@ -35890,3 +35890,169 @@ Array
     ]
     'argc' => 2
 ]
+2015-03-19 20:12:22 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'queries_top = 'a:4:{i:0;s:1:\"0\";i:1;s:1:\"0\";i:2;s:1:\"0\";i:3;s:1:\"0\";}', ' at line 1' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(415): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\models\service\SParser.php(66): app\models\objects\Project->updateProject('25', true, true, 1, 1, '2015-03-19')
+#3 D:\Documents\Workspace\Projects\xd42\console\controllers\ParserController.php(13): app\models\service\SParser->run()
+#4 [internal function]: app\console\controllers\ParserController->actionRun()
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('run', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('run', Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('parser/run', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('parser/run', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'queries_top = 'a:4:{i:0;s:1:\"0\";i:1;s:1:\"0\";i:2;s:1:\"0\";i:3;s:1:\"0\";}', ' at line 1
+The SQL being executed was: UPDATE projects SET new_project=0 queries_top = 'a:4:{i:0;s:1:\"0\";i:1;s:1:\"0\";i:2;s:1:\"0\";i:3;s:1:\"0\";}', tic = 1, pr = 1, yc = 1, dmoz = 1, update_date = '2015-03-19' WHERE id = '25'' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'UPDATE projects...')
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(415): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\models\service\SParser.php(66): app\models\objects\Project->updateProject('25', true, true, 1, 1, '2015-03-19')
+#3 D:\Documents\Workspace\Projects\xd42\console\controllers\ParserController.php(13): app\models\service\SParser->run()
+#4 [internal function]: app\console\controllers\ParserController->actionRun()
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('run', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('run', Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('parser/run', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('parser/run', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'queries_top = 'a:4:{i:0;s:1:\"0\";i:1;s:1:\"0\";i:2;s:1:\"0\";i:3;s:1:\"0\";}', ' at line 1
+)
+
+2015-03-19 20:11:56 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Sergey\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WINTERMUTE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Sergey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Sergey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'D:\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'WINTERMUTE'
+    'USERDOMAIN_ROAMINGPROFILE' => 'WINTERMUTE'
+    'USERNAME' => 'Sergey'
+    'USERPROFILE' => 'C:\\Users\\Sergey'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1426792316.6994
+    'REQUEST_TIME' => 1426792316
+    'argv' => [
+        0 => 'yii'
+        1 => 'parser/run'
+    ]
+    'argc' => 2
+]
+2015-03-19 20:16:55 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: hashNum' in D:\Documents\Workspace\Projects\xd42\models\Xml.php:151
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\models\Xml.php(151): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\Documents\\Wo...', 151, Array)
+#1 D:\Documents\Workspace\Projects\xd42\models\Xml.php(120): app\models\Xml->getPR('tambov.tiu.ru')
+#2 D:\Documents\Workspace\Projects\xd42\models\service\SParser.php(65): app\models\Xml->fetchProjectData('tambov.tiu.ru')
+#3 D:\Documents\Workspace\Projects\xd42\console\controllers\ParserController.php(13): app\models\service\SParser->run()
+#4 [internal function]: app\console\controllers\ParserController->actionRun()
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('run', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('run', Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('parser/run', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('parser/run', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#13 {main}
+2015-03-19 20:16:27 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Sergey\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WINTERMUTE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Sergey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Sergey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'D:\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'WINTERMUTE'
+    'USERDOMAIN_ROAMINGPROFILE' => 'WINTERMUTE'
+    'USERNAME' => 'Sergey'
+    'USERPROFILE' => 'C:\\Users\\Sergey'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1426792587.4448
+    'REQUEST_TIME' => 1426792587
+    'argv' => [
+        0 => 'yii'
+        1 => 'parser/run'
+    ]
+    'argc' => 2
+]
