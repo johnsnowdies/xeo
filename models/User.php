@@ -134,4 +134,26 @@ class User extends \yii\base\Object implements \yii\web\IdentityInterface {
         return $userList;
     }
 
+    public function deleteUser($uid){
+        $command = Yii::$app->db->createCommand("DELETE FROM USERS WHERE id = :uid");
+        $command->bindParam(":uid",$uid);
+        $command->execute();
+        return true;
+    }
+
+    public function addUser($username,$password,$firstname,$lastname,$isadmin = false, $sendmail){
+        //TODO sendmail
+        $command = Yii::$app->db->createCommand("INSERT INTO users(active,username,password,accessToken,authKey,firstname,lastname,role)
+        VALUES(1,:username,:password,:password,:password,:firstname,:lastname,:role);");
+        $isadmin == 1 ? $role = 'A': $role='U';
+
+        $command->bindParam(":username",$username);
+        $command->bindParam(":password",$password);
+        $command->bindParam(":firstname",$firstname);
+        $command->bindParam(":lastname",$lastname);
+        $command->bindParam(":role",$role);
+        $command->execute();
+        return true;
+    }
+
 }

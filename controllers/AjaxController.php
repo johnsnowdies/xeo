@@ -3,6 +3,8 @@
 namespace app\controllers;
 
 use app\models\objects\Project;
+use app\models\User;
+use app\models\Xml;
 use Yii;
 use yii\web\Controller;
 use yii\filters\AccessControl;
@@ -44,9 +46,19 @@ class AjaxController extends Controller
         return parent::beforeAction($action);
     }
 
-    public function actionIndex()
+
+    public function actionParseposition()
     {
-        echo "ss";
+        // echo 'ok';
+        $model = new Xml();
+        $model->load(Yii::$app->request->post());
+        // var_dump(Yii::$app->request->post());
+        // var_dump($model->queries);
+        // die('ok');
+        $model->getXml();
+
+        //$model->writeResultToCSC($model->siteUrlOrig . '_' . date('d-m-Y_H:i:s') . '.csv');
+        return $this->render('xml-result', ['model' => $model]);
     }
 
     public function actionGetQueriesForPeriod($pid, $date)
@@ -82,5 +94,27 @@ class AjaxController extends Controller
 
 
         return $this->render('result', ["result" => $model->createProjcet($name,$user,$queries,$region)]);
+    }
+
+    public function actionDeleteUser($uid){
+        $model = new User();
+        return $this->render('result', ["result" => $model->deleteUser($uid)]);
+
+    }
+
+    public function actionAddUser($username,$password,$firstname,$lastname,$isadmin, $sendmail){
+        $model = new User();
+        return $this->render('result', ["result" => $model->addUser($username,$password,$firstname,$lastname,$isadmin, $sendmail)]);
+
+    }
+
+    public function actionChangeProjectUser($pid,$uid){
+        $model = new Project();
+        return $this->render('result', ["result" => $model->changeProjectUser($pid,$uid)]);
+    }
+
+    public function actionDeleteProject($pid){
+        $model = new Project();
+        return $this->render('result', ["result" => $model->deleteProject($pid)]);
     }
 }

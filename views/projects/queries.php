@@ -1,4 +1,6 @@
 <?php
+use app\models\User;
+
 $this->title = 'Запросы';
 ?>
     <style>
@@ -10,6 +12,39 @@ $this->title = 'Запросы';
     </style>
 
     <script type="text/javascript">
+        function DeleteProjectController($scope, $http, $window,$location){
+            $scope.pid = <?= $pid ?>;
+            $scope.deleteProject = function(){
+                $http.get('/ajax/delete-project?pid=' + $scope.pid).
+                    success(function (data, status, headers, config) {
+
+                    }).
+                    error(function (data, status, headers, config) {
+                        //TODO ошибка при удалении
+                    });
+                $window.location.href = "/";
+            };
+        }
+
+        function ChangeProjectUserController($scope, $http, $window){
+            $scope.users = <?= json_encode(User::getUserList()) ?>;
+            $scope.pid = <?= $pid ?>;
+
+            $scope.saveUserChanges = function(){
+
+                if ($scope.currentUser){
+                    $http.get('/ajax/change-project-user?pid=' + $scope.pid + '&uid=' + $scope.currentUser).
+                        success(function (data, status, headers, config) {
+
+                        }).
+                        error(function (data, status, headers, config) {
+                            //TODO ошибка при смене
+                        });
+                }
+                $window.location.reload();
+            };
+        }
+
         function UpdateQueriesController($scope, $http, $window) {
             $scope.queries = <?= json_encode($queries)?>;
             $scope.pid = <?= $pid ?>;
@@ -47,6 +82,7 @@ $this->title = 'Запросы';
                             //TODO ошибка при добавлении новых запросов
                         });
                 }
+
                 $scope.newQueries = "";
                 $scope.toDelete = [];
                 $window.location.reload();
@@ -97,9 +133,9 @@ $this->title = 'Запросы';
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#" data-toggle="modal" data-target="#editUrls">Редактировать разбивку</a></li>
-                    <li><a href="#">Сменить оптимизатора</a></li>
-                    <li><a href="#">Удалить проект</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#editUrls"><span class="glyphicon glyphicon-th-list" aria-hidden=""></span>&nbsp;&nbsp;Редактировать разбивку</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#changeUser"><span class="glyphicon glyphicon-user" aria-hidden=""></span>&nbsp;&nbsp;Сменить оптимизатора</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#deleteProject"><span class="glyphicon glyphicon-fire" aria-hidden=""></span>&nbsp;&nbsp;Удалить проект</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -163,7 +199,7 @@ $this->title = 'Запросы';
                 <tr>
                     <th>Запрос</th>
                     <th>URL</th>
-                    <th>Частотность</th>
+                    <!--<th>Частотность</th>-->
                     <th ng-repeat="pos in queries[0].position">
                     <span ng-repeat="(key,value) in pos">
                         {{key}}
@@ -177,7 +213,7 @@ $this->title = 'Запросы';
                 <tr ng-repeat="query in queries" ng-show="isShown('{{query.top}}')">
                     <td>{{ query.text}}</td>
                     <td>{{ query.url }}</td>
-                    <td>{{ query.frequency }}</td>
+                    <!--<td>{{ query.frequency }}</td>-->
                     <td ng-repeat="pos in query.position">
                     <span ng-repeat="(key,value) in pos">
                         {{value}}
@@ -253,7 +289,7 @@ $this->title = 'Запросы';
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Редактировать разбивку</h4>
+                    <h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-th-list" aria-hidden=""></span>&nbsp;&nbsp;Редактировать разбивку</h4>
                 </div>
 
                 <div class="modal-body">
@@ -275,7 +311,8 @@ $this->title = 'Запросы';
                             ">
                             <td>{{ query.text}}</td>
                             <td>
-                                <button type="button" ng-click="deleteQuery($index)" class="btn btn-danger">Удалить
+                                <button type="button" ng-click="deleteQuery($index)" class="btn btn-danger">
+                                    <span class="glyphicon glyphicon-minus-sign" aria-hidden=""></span>&nbsp;&nbsp;Удалить
                                 </button>
                             </td>
                             </tr>
@@ -294,6 +331,61 @@ $this->title = 'Запросы';
                     <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
                     <button type="button" class="btn btn-primary" ng-click="saveChanges()">Сохранить изменения</button>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div ng-init ng-controller="ChangeProjectUserController" class="modal fade" id="changeUser" tabindex="-1" role="dialog"
+         aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-user" aria-hidden=""></span>&nbsp;&nbsp;Сменить пользователя проекта</h4>
+                </div>
+
+                <div class="modal-body">
+                    <select class="form-control" required="" name="user" ng-model="currentUser">
+                        <option ng-repeat="user in users" value="{{user.id}}">
+                            {{user.firstname}}&nbsp;{{user.lastname}}
+                            &lt;{{user.username}}&gt;
+                        </option>
+                    </select>
+
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                    <button type="button" class="btn btn-primary" ng-click="saveUserChanges()">Сохранить изменения</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div ng-init ng-controller="DeleteProjectController" class="modal fade" id="deleteProject" tabindex="-1" role="dialog"
+         aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-fire "></span>&nbsp;&nbsp;Удалить проект</h4>
+                </div>
+
+                <div class="modal-body">
+<div class="alert alert-danger">
+    <h4>Внимание!</h4>
+    <p>Проект будет полностью удален, включая все его запросы и историю позиций</p>
+    <p><strong>Вы уверены?</strong></p>
+    <p>&nbsp;</p>
+    <button class="btn btn-success" data-dismiss="modal">Нет, отмена</button>
+    <button class="btn btn-danger" ng-click="deleteProject()">Да, удалить проект</button>
+</div>
+                </div>
+
+
             </div>
         </div>
     </div>

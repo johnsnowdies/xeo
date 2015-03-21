@@ -36056,3 +36056,3178 @@ Stack trace:
     ]
     'argc' => 2
 ]
+2015-03-20 06:03:48 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "parser\run".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('parser\\run', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('parser\\run', Array)
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "parser\run".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php:163
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('parser\\run', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#3 {main}
+2015-03-20 06:03:48 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Sergey\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WINTERMUTE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Sergey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Sergey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'D:\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'WINTERMUTE'
+    'USERDOMAIN_ROAMINGPROFILE' => 'WINTERMUTE'
+    'USERNAME' => 'Sergey'
+    'USERPROFILE' => 'C:\\Users\\Sergey'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1426827828.4284
+    'REQUEST_TIME' => 1426827828
+    'argv' => [
+        0 => 'yii'
+        1 => 'parser\\run'
+    ]
+    'argc' => 2
+]
+2015-03-21 12:36:48 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "parser\run".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('parser\\run', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('parser\\run', Array)
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "parser\run".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php:163
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('parser\\run', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#3 {main}
+2015-03-21 12:36:48 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Sergey\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WINTERMUTE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Sergey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Sergey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'D:\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'WINTERMUTE'
+    'USERDOMAIN_ROAMINGPROFILE' => 'WINTERMUTE'
+    'USERNAME' => 'Sergey'
+    'USERPROFILE' => 'C:\\Users\\Sergey'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1426937808.3274
+    'REQUEST_TIME' => 1426937808
+    'argv' => [
+        0 => 'yii'
+        1 => 'parser\\run'
+    ]
+    'argc' => 2
+]
+2015-03-21 14:53:26 [127.0.0.1][1][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: sendmail' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Controller.php:93
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('add-user', Array)
+#3 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('ajax/add-user', Array)
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2015-03-21 14:53:26 [127.0.0.1][1][-][info][application] $_GET = [
+    'username' => 'user2@user.ru'
+    'password' => 'debbug789'
+    'firstname' => 'Сергей'
+    'lastname' => 'Чанышев'
+    'isadmin' => 'undefined'
+    'sendmailundefined' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '49502'
+    'REDIRECT_QUERY_STRING' => 'username=user2@user.ru&password=debbug789&firstname=%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9&lastname=%D0%A7%D0%B0%D0%BD%D1%8B%D1%88%D0%B5%D0%B2&isadmin=undefined&sendmailundefined'
+    'REDIRECT_URL' => '/ajax/add-user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'username=user2@user.ru&password=debbug789&firstname=%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9&lastname=%D0%A7%D0%B0%D0%BD%D1%8B%D1%88%D0%B5%D0%B2&isadmin=undefined&sendmailundefined'
+    'REQUEST_URI' => '/ajax/add-user?username=user2@user.ru&password=debbug789&firstname=%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9&lastname=%D0%A7%D0%B0%D0%BD%D1%8B%D1%88%D0%B5%D0%B2&isadmin=undefined&sendmailundefined'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426946006.474
+    'REQUEST_TIME' => 1426946006
+]
+2015-03-21 14:54:03 [127.0.0.1][1][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: sendmail' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Controller.php:93
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('add-user', Array)
+#3 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('ajax/add-user', Array)
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2015-03-21 14:54:03 [127.0.0.1][1][-][info][application] $_GET = [
+    'username' => 'user2@user.ru'
+    'password' => 'debbug789'
+    'firstname' => 'Sergey'
+    'lastname' => 'Ch'
+    'isadmin' => 'undefined'
+    'sendmailundefined' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '49547'
+    'REDIRECT_QUERY_STRING' => 'username=user2@user.ru&password=debbug789&firstname=Sergey&lastname=Ch&isadmin=undefined&sendmailundefined'
+    'REDIRECT_URL' => '/ajax/add-user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'username=user2@user.ru&password=debbug789&firstname=Sergey&lastname=Ch&isadmin=undefined&sendmailundefined'
+    'REQUEST_URI' => '/ajax/add-user?username=user2@user.ru&password=debbug789&firstname=Sergey&lastname=Ch&isadmin=undefined&sendmailundefined'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426946043.79
+    'REQUEST_TIME' => 1426946043
+]
+2015-03-21 14:57:41 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ')', expecting ']'' in D:\Documents\Workspace\Projects\xd42\controllers\AjaxController.php:96
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-21 14:57:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'username' => 'user2@user.ru'
+    'password' => 'debbug789'
+    'firstname' => 'Sergey'
+    'lastname' => 'Ch'
+    'isadmin' => 'false'
+    'sendmail' => 'false'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '49677'
+    'REDIRECT_QUERY_STRING' => 'username=user2@user.ru&password=debbug789&firstname=Sergey&lastname=Ch&isadmin=false&sendmail=false'
+    'REDIRECT_URL' => '/ajax/add-user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'username=user2@user.ru&password=debbug789&firstname=Sergey&lastname=Ch&isadmin=false&sendmail=false'
+    'REQUEST_URI' => '/ajax/add-user?username=user2@user.ru&password=debbug789&firstname=Sergey&lastname=Ch&isadmin=false&sendmail=false'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426946261.438
+    'REQUEST_TIME' => 1426946261
+]
+2015-03-21 15:31:11 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'User' not found' in D:\Documents\Workspace\Projects\xd42\views\projects\queries.php:14
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-21 15:31:11 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][info][application] $_GET = [
+    'pid' => '25'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '51012'
+    'REDIRECT_QUERY_STRING' => 'pid=25'
+    'REDIRECT_URL' => '/projects/show'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'pid=25'
+    'REQUEST_URI' => '/projects/show?pid=25'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426948271.264
+    'REQUEST_TIME' => 1426948271
+]
+2015-03-21 15:58:48 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: ajax/change-project-user' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('change-project-...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('ajax/change-pro...', Array)
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: ajax/change-project-user' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 15:58:48 [127.0.0.1][1][-][info][application] $_GET = [
+    'pid' => '25'
+    'uid' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/projects/show?pid=25'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '52274'
+    'REDIRECT_QUERY_STRING' => 'pid=25&uid=3'
+    'REDIRECT_URL' => '/ajax/change-project-user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'pid=25&uid=3'
+    'REQUEST_URI' => '/ajax/change-project-user?pid=25&uid=3'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426949928.253
+    'REQUEST_TIME' => 1426949928
+]
+2015-03-21 16:06:52 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(470): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\AjaxController.php(102): app\models\objects\Project->changeProjectUser('25', '5')
+#3 [internal function]: app\controllers\AjaxController->actionChangeProjectUser('25', '5')
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('change-project-...', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('ajax/change-pro...', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+The SQL being executed was: UPDATE projects SET oid='5' WHERE id=:pid' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'UPDATE projects...')
+#1 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(470): yii\db\Command->execute()
+#2 D:\Documents\Workspace\Projects\xd42\controllers\AjaxController.php(102): app\models\objects\Project->changeProjectUser('25', '5')
+#3 [internal function]: app\controllers\AjaxController->actionChangeProjectUser('25', '5')
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('change-project-...', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('ajax/change-pro...', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => HY093
+    [1] => 0
+)
+
+2015-03-21 16:06:52 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][info][application] $_GET = [
+    'pid' => '25'
+    'uid' => '5'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/projects/show?pid=25'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '52618'
+    'REDIRECT_QUERY_STRING' => 'pid=25&uid=5'
+    'REDIRECT_URL' => '/ajax/change-project-user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'pid=25&uid=5'
+    'REQUEST_URI' => '/ajax/change-project-user?pid=25&uid=5'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426950412.145
+    'REQUEST_TIME' => 1426950412
+]
+2015-03-21 16:07:39 [127.0.0.1][5][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.oid' in 'where clause'' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php:819
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(819): PDOStatement->execute()
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(337): yii\db\Command->queryInternal('')
+#2 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(320): yii\db\Command->query()
+#3 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(105): app\models\objects\Project->getProjectNewQueries('25', 5)
+#4 [internal function]: app\controllers\ProjectsController->actionShow('25')
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('show', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/show', Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.oid' in 'where clause'
+The SQL being executed was: SELECT * FROM queries WHERE new_query = 1 AND pid = '25' AND p.oid = 5' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM q...')
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(337): yii\db\Command->queryInternal('')
+#2 D:\Documents\Workspace\Projects\xd42\models\objects\Project.php(320): yii\db\Command->query()
+#3 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(105): app\models\objects\Project->getProjectNewQueries('25', 5)
+#4 [internal function]: app\controllers\ProjectsController->actionShow('25')
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('show', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/show', Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'p.oid' in 'where clause'
+)
+
+2015-03-21 16:07:39 [127.0.0.1][5][-][info][application] $_GET = [
+    'pid' => '25'
+]
+
+$_COOKIE = [
+    '_csrf' => 'dbad0c2d978efa5d4b7144eadc69758417617db08399a875166418e7785cf25as:32:\"rVneTFAKBUiPcmI4WfZEYKkPgcqsf3RY\";'
+    'PHPSESSID' => 'qgonknetlduqdo372655kn4p33'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, */*'
+    'HTTP_REFERER' => 'http://xd42.local:8080/'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.7,en;q=0.3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=dbad0c2d978efa5d4b7144eadc69758417617db08399a875166418e7785cf25as%3A32%3A%22rVneTFAKBUiPcmI4WfZEYKkPgcqsf3RY%22%3B; PHPSESSID=qgonknetlduqdo372655kn4p33'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '52662'
+    'REDIRECT_QUERY_STRING' => 'pid=25'
+    'REDIRECT_URL' => '/projects/show'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'pid=25'
+    'REQUEST_URI' => '/projects/show?pid=25'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426950459.626
+    'REQUEST_TIME' => 1426950459
+]
+2015-03-21 16:10:17 [127.0.0.1][5][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in D:\Documents\Workspace\Projects\xd42\views\projects\queries.php:135
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\views\projects\queries.php(135): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\Documents\\Wo...', 135, Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(325): require('D:\\Documents\\Wo...')
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\Documents\\Wo...', Array)
+#3 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\Documents\\Wo...', Array, Object(app\controllers\ProjectsController))
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('queries', Array, Object(app\controllers\ProjectsController))
+#5 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(110): yii\base\Controller->render('queries', Array)
+#6 [internal function]: app\controllers\ProjectsController->actionShow('11')
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('show', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/show', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2015-03-21 16:10:17 [127.0.0.1][5][-][info][application] $_GET = [
+    'pid' => '11'
+]
+
+$_COOKIE = [
+    '_csrf' => 'dbad0c2d978efa5d4b7144eadc69758417617db08399a875166418e7785cf25as:32:\"rVneTFAKBUiPcmI4WfZEYKkPgcqsf3RY\";'
+    'PHPSESSID' => 'qgonknetlduqdo372655kn4p33'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, */*'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.7,en;q=0.3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => '_csrf=dbad0c2d978efa5d4b7144eadc69758417617db08399a875166418e7785cf25as%3A32%3A%22rVneTFAKBUiPcmI4WfZEYKkPgcqsf3RY%22%3B; PHPSESSID=qgonknetlduqdo372655kn4p33'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '52755'
+    'REDIRECT_QUERY_STRING' => 'pid=11'
+    'REDIRECT_URL' => '/projects/show'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'pid=11'
+    'REQUEST_URI' => '/projects/show?pid=11'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426950617.202
+    'REQUEST_TIME' => 1426950617
+]
+2015-03-21 18:44:39 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: ajax/parseposition' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('parseposition', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('ajax/parseposit...', Array)
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: ajax/parseposition' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 18:44:39 [127.0.0.1][1][-][info][application] $_POST = [
+    'Xml' => [
+        'siteUrl' => 'http://tambov.tiu.ru'
+        'region' => '213'
+        'queries' => 'купить готовые пластиковые окна'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '252'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'http://xd42.local:8080'
+    'HTTP_X_CSRF_TOKEN' => 'N25RbzFNRHlZOTYeWQggE0YAGj5UIxAJWQk8CWNgAjRRJGMWYw5zQA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '59917'
+    'REDIRECT_URL' => '/ajax/parseposition'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ajax/parseposition'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426959879.789
+    'REQUEST_TIME' => 1426959879
+]
+2015-03-21 18:45:33 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\controllers\Xml' not found' in D:\Documents\Workspace\Projects\xd42\controllers\AjaxController.php:52
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-21 18:45:33 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][info][application] $_POST = [
+    'Xml' => [
+        'siteUrl' => 'http://tambov.tiu.ru'
+        'region' => '213'
+        'queries' => 'купить готовые пластиковые окна'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '252'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'http://xd42.local:8080'
+    'HTTP_X_CSRF_TOKEN' => 'Z1RuWTRhWGgJAwkoXCQ8AhY6JQhRDwwYCTMDP2ZMHiUBHlwgZiJvUQ=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '59990'
+    'REDIRECT_URL' => '/ajax/parseposition'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ajax/parseposition'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426959933.389
+    'REQUEST_TIME' => 1426959933
+]
+2015-03-21 18:45:38 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\controllers\Xml' not found' in D:\Documents\Workspace\Projects\xd42\controllers\AjaxController.php:52
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-21 18:45:38 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][info][application] $_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '59996'
+    'REDIRECT_URL' => '/ajax/parseposition'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ajax/parseposition'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426959938.35
+    'REQUEST_TIME' => 1426959938
+]
+2015-03-21 18:48:53 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'fopen(results//_21-03-2015_18:48:53.csv): failed to open stream: Invalid argument' in D:\Documents\Workspace\Projects\xd42\models\Xml.php:76
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'fopen(results//...', 'D:\\Documents\\Wo...', 76, Array)
+#1 D:\Documents\Workspace\Projects\xd42\models\Xml.php(76): fopen('results//_21-03...', 'w')
+#2 D:\Documents\Workspace\Projects\xd42\controllers\AjaxController.php(60): app\models\Xml->writeResultToCSC('_21-03-2015_18:...')
+#3 [internal function]: app\controllers\AjaxController->actionParseposition()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('parseposition', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('ajax/parseposit...', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2015-03-21 18:48:52 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][info][application] $_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '60177'
+    'REDIRECT_URL' => '/ajax/parseposition'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ajax/parseposition'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426960132.033
+    'REQUEST_TIME' => 1426960132
+]
+2015-03-21 18:50:35 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'fopen(results/http://tambov.tiu.ru/http://tambov.tiu.ru_21-03-2015_18:50:35.csv): failed to open stream: Invalid argument' in D:\Documents\Workspace\Projects\xd42\models\Xml.php:76
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'fopen(results/h...', 'D:\\Documents\\Wo...', 76, Array)
+#1 D:\Documents\Workspace\Projects\xd42\models\Xml.php(76): fopen('results/http://...', 'w')
+#2 D:\Documents\Workspace\Projects\xd42\controllers\AjaxController.php(60): app\models\Xml->writeResultToCSC('http://tambov.t...')
+#3 [internal function]: app\controllers\AjaxController->actionParseposition()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('parseposition', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('ajax/parseposit...', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2015-03-21 18:50:24 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][info][application] $_POST = [
+    'Xml' => [
+        'siteUrl' => 'http://tambov.tiu.ru'
+        'region' => '213'
+        'queries' => 'купить недорогие пластиковые окна'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '264'
+    'HTTP_ORIGIN' => 'http://xd42.local:8080'
+    'HTTP_X_CSRF_TOKEN' => 'WVc5ZUhTVDQ3AF4UIBYwXig5cjQtPQBENzBUAxp.Enk/HQscGhBjDQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '60282'
+    'REDIRECT_URL' => '/ajax/parseposition'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ajax/parseposition'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426960224.844
+    'REQUEST_TIME' => 1426960224
+]
+2015-03-21 18:51:24 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'fopen(results/tambov.tiu.ru/tambov.tiu.ru_21-03-2015_18:51:24.csv): failed to open stream: Invalid argument' in D:\Documents\Workspace\Projects\xd42\models\Xml.php:76
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'fopen(results/t...', 'D:\\Documents\\Wo...', 76, Array)
+#1 D:\Documents\Workspace\Projects\xd42\models\Xml.php(76): fopen('results/tambov....', 'w')
+#2 D:\Documents\Workspace\Projects\xd42\controllers\AjaxController.php(60): app\models\Xml->writeResultToCSC('tambov.tiu.ru_2...')
+#3 [internal function]: app\controllers\AjaxController->actionParseposition()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('parseposition', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('ajax/parseposit...', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2015-03-21 18:51:18 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][info][application] $_POST = [
+    'Xml' => [
+        'siteUrl' => 'tambov.tiu.ru'
+        'region' => '213'
+        'queries' => 'купить недорогие пластиковые окна'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '251'
+    'HTTP_ORIGIN' => 'http://xd42.local:8080'
+    'HTTP_X_CSRF_TOKEN' => 'WVc5ZUhTVDQ3AF4UIBYwXig5cjQtPQBENzBUAxp.Enk/HQscGhBjDQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '60306'
+    'REDIRECT_URL' => '/ajax/parseposition'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ajax/parseposition'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426960278.994
+    'REQUEST_TIME' => 1426960278
+]
+2015-03-21 18:52:06 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\Documents\Workspace\Projects\xd42\views\ajax\xml-result.php' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\Documents\\Wo...', Array, Object(app\controllers\AjaxController))
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('xml-result', Array, Object(app\controllers\AjaxController))
+#2 D:\Documents\Workspace\Projects\xd42\controllers\AjaxController.php(61): yii\base\Controller->render('xml-result', Array)
+#3 [internal function]: app\controllers\AjaxController->actionParseposition()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('parseposition', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('ajax/parseposit...', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2015-03-21 18:51:59 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][info][application] $_POST = [
+    'Xml' => [
+        'siteUrl' => 'tambov.tiu.ru'
+        'region' => '213'
+        'queries' => 'купить недорогие пластиковые окна'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '251'
+    'HTTP_ORIGIN' => 'http://xd42.local:8080'
+    'HTTP_X_CSRF_TOKEN' => 'WVc5ZUhTVDQ3AF4UIBYwXig5cjQtPQBENzBUAxp.Enk/HQscGhBjDQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '60328'
+    'REDIRECT_URL' => '/ajax/parseposition'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ajax/parseposition'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426960319.836
+    'REQUEST_TIME' => 1426960319
+]
+2015-03-21 18:52:37 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\Documents\Workspace\Projects\xd42\views\ajax\xml-result.php' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\Documents\\Wo...', Array, Object(app\controllers\AjaxController))
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('xml-result', Array, Object(app\controllers\AjaxController))
+#2 D:\Documents\Workspace\Projects\xd42\controllers\AjaxController.php(61): yii\base\Controller->render('xml-result', Array)
+#3 [internal function]: app\controllers\AjaxController->actionParseposition()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('parseposition', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('ajax/parseposit...', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2015-03-21 18:52:31 [127.0.0.1][1][rnrc3m9k5aao487et5cbrmjt11][info][application] $_POST = [
+    'Xml' => [
+        'siteUrl' => 'tambov.tiu.ru'
+        'region' => '213'
+        'queries' => 'купить недорогие пластиковые окна'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '251'
+    'HTTP_ORIGIN' => 'http://xd42.local:8080'
+    'HTTP_X_CSRF_TOKEN' => 'WVc5ZUhTVDQ3AF4UIBYwXig5cjQtPQBENzBUAxp.Enk/HQscGhBjDQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '60341'
+    'REDIRECT_URL' => '/ajax/parseposition'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ajax/parseposition'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426960351.615
+    'REQUEST_TIME' => 1426960351
+]
+2015-03-21 18:53:21 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/results' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('results', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/results/', Array)
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: site/results' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 18:53:21 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://xd42.local:8080/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '60386'
+    'REDIRECT_URL' => '/site/results/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/results/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426960401.413
+    'REQUEST_TIME' => 1426960401
+]
+2015-03-21 18:56:36 [127.0.0.1][1][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in D:\Documents\Workspace\Projects\xd42\views\projects\queries.php:149
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\views\projects\queries.php(149): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\Documents\\Wo...', 149, Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(325): require('D:\\Documents\\Wo...')
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\Documents\\Wo...', Array)
+#3 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\Documents\\Wo...', Array, Object(app\controllers\ProjectsController))
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('queries', Array, Object(app\controllers\ProjectsController))
+#5 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(110): yii\base\Controller->render('queries', Array)
+#6 [internal function]: app\controllers\ProjectsController->actionShow('325')
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('show', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/show', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2015-03-21 18:56:36 [127.0.0.1][1][-][info][application] $_GET = [
+    'pid' => '325'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '60612'
+    'REDIRECT_QUERY_STRING' => 'pid=325'
+    'REDIRECT_URL' => '/projects/show'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'pid=325'
+    'REQUEST_URI' => '/projects/show?pid=325'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426960596.887
+    'REQUEST_TIME' => 1426960596
+]
+2015-03-21 18:58:33 [127.0.0.1][1][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in D:\Documents\Workspace\Projects\xd42\views\projects\queries.php:149
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\views\projects\queries.php(149): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\Documents\\Wo...', 149, Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(325): require('D:\\Documents\\Wo...')
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\Documents\\Wo...', Array)
+#3 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\Documents\\Wo...', Array, Object(app\controllers\ProjectsController))
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('queries', Array, Object(app\controllers\ProjectsController))
+#5 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(110): yii\base\Controller->render('queries', Array)
+#6 [internal function]: app\controllers\ProjectsController->actionShow('325')
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('show', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/show', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2015-03-21 18:58:33 [127.0.0.1][1][-][info][application] $_GET = [
+    'pid' => '325'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '60680'
+    'REDIRECT_QUERY_STRING' => 'pid=325'
+    'REDIRECT_URL' => '/projects/show'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'pid=325'
+    'REQUEST_URI' => '/projects/show?pid=325'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426960713.327
+    'REQUEST_TIME' => 1426960713
+]
+2015-03-21 18:58:44 [127.0.0.1][1][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in D:\Documents\Workspace\Projects\xd42\views\projects\queries.php:149
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\views\projects\queries.php(149): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\Documents\\Wo...', 149, Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(325): require('D:\\Documents\\Wo...')
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\Documents\\Wo...', Array)
+#3 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\Documents\\Wo...', Array, Object(app\controllers\ProjectsController))
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('queries', Array, Object(app\controllers\ProjectsController))
+#5 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(110): yii\base\Controller->render('queries', Array)
+#6 [internal function]: app\controllers\ProjectsController->actionShow('325')
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('show', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/show', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2015-03-21 18:58:44 [127.0.0.1][1][-][info][application] $_GET = [
+    'pid' => '325'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '60687'
+    'REDIRECT_QUERY_STRING' => 'pid=325'
+    'REDIRECT_URL' => '/projects/show'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'pid=325'
+    'REQUEST_URI' => '/projects/show?pid=325'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426960724.41
+    'REQUEST_TIME' => 1426960724
+]
+2015-03-21 18:59:05 [127.0.0.1][1][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in D:\Documents\Workspace\Projects\xd42\views\projects\queries.php:149
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\views\projects\queries.php(149): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\Documents\\Wo...', 149, Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(325): require('D:\\Documents\\Wo...')
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\Documents\\Wo...', Array)
+#3 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\Documents\\Wo...', Array, Object(app\controllers\ProjectsController))
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('queries', Array, Object(app\controllers\ProjectsController))
+#5 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(110): yii\base\Controller->render('queries', Array)
+#6 [internal function]: app\controllers\ProjectsController->actionShow('325')
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('show', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/show', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2015-03-21 18:59:04 [127.0.0.1][1][-][info][application] $_GET = [
+    'pid' => '325'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '60719'
+    'REDIRECT_QUERY_STRING' => 'pid=325'
+    'REDIRECT_URL' => '/projects/show'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'pid=325'
+    'REQUEST_URI' => '/projects/show?pid=325'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426960744.937
+    'REQUEST_TIME' => 1426960744
+]
+2015-03-21 19:01:03 [127.0.0.1][1][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in D:\Documents\Workspace\Projects\xd42\views\projects\queries.php:149
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\views\projects\queries.php(149): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\Documents\\Wo...', 149, Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(325): require('D:\\Documents\\Wo...')
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\Documents\\Wo...', Array)
+#3 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\Documents\\Wo...', Array, Object(app\controllers\ProjectsController))
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('queries', Array, Object(app\controllers\ProjectsController))
+#5 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(110): yii\base\Controller->render('queries', Array)
+#6 [internal function]: app\controllers\ProjectsController->actionShow('325')
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('show', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/show', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2015-03-21 19:01:03 [127.0.0.1][1][-][info][application] $_GET = [
+    'pid' => '325'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '60812'
+    'REDIRECT_QUERY_STRING' => 'pid=325'
+    'REDIRECT_URL' => '/projects/show'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'pid=325'
+    'REQUEST_URI' => '/projects/show?pid=325'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426960863.531
+    'REQUEST_TIME' => 1426960863
+]
+2015-03-21 19:01:24 [127.0.0.1][1][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in D:\Documents\Workspace\Projects\xd42\views\projects\queries.php:149
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\views\projects\queries.php(149): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\Documents\\Wo...', 149, Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(325): require('D:\\Documents\\Wo...')
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\Documents\\Wo...', Array)
+#3 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\Documents\\Wo...', Array, Object(app\controllers\ProjectsController))
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('queries', Array, Object(app\controllers\ProjectsController))
+#5 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(110): yii\base\Controller->render('queries', Array)
+#6 [internal function]: app\controllers\ProjectsController->actionShow('325')
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('show', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/show', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2015-03-21 19:01:24 [127.0.0.1][1][-][info][application] $_GET = [
+    'pid' => '325'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s:32:\"nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79\";'
+    'PHPSESSID' => 'rnrc3m9k5aao487et5cbrmjt11'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'xd42.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b0c5a0184e2a0c091f5376fa4e31b192e290e8b016e7cb334fe21130002ee8a0s%3A32%3A%22nWgqhEdjqnKQenTpngmfR-FMfJ2yRC79%22%3B; PHPSESSID=rnrc3m9k5aao487et5cbrmjt11'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at xd42.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => 'xd42.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '60839'
+    'REDIRECT_QUERY_STRING' => 'pid=325'
+    'REDIRECT_URL' => '/projects/show'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'pid=325'
+    'REQUEST_URI' => '/projects/show?pid=325'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426960884.322
+    'REQUEST_TIME' => 1426960884
+]
+2015-03-21 19:08:04 [192.168.1.16][1][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in D:\Documents\Workspace\Projects\xd42\views\projects\queries.php:149
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\views\projects\queries.php(149): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\Documents\\Wo...', 149, Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(325): require('D:\\Documents\\Wo...')
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\Documents\\Wo...', Array)
+#3 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\Documents\\Wo...', Array, Object(app\controllers\ProjectsController))
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('queries', Array, Object(app\controllers\ProjectsController))
+#5 D:\Documents\Workspace\Projects\xd42\controllers\ProjectsController.php(110): yii\base\Controller->render('queries', Array)
+#6 [internal function]: app\controllers\ProjectsController->actionShow('244')
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('show', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('projects/show', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2015-03-21 19:08:04 [192.168.1.16][1][-][info][application] $_GET = [
+    'pid' => '244'
+]
+
+$_COOKIE = [
+    '_csrf' => '033867d344e835e255f033aae47944bed9a64b9893a487426200b900a2845e4ds:32:\"yK6hR_JNpxtHMVeK7hEi-Atwlx56yo4E\";'
+    'PHPSESSID' => '5im1h3feuqgsaou9impuc2t6d1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_COOKIE' => '_csrf=033867d344e835e255f033aae47944bed9a64b9893a487426200b900a2845e4ds%3A32%3A%22yK6hR_JNpxtHMVeK7hEi-Atwlx56yo4E%22%3B; PHPSESSID=5im1h3feuqgsaou9impuc2t6d1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508 Safari/600.1.4'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61250'
+    'REDIRECT_QUERY_STRING' => 'pid=244'
+    'REDIRECT_URL' => '/projects/show'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'pid=244'
+    'REQUEST_URI' => '/projects/show?pid=244'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961284.173
+    'REQUEST_TIME' => 1426961284
+]
+2015-03-21 19:08:29 [192.168.1.16][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon-76x76-precomposed.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "apple-touch-icon-76x76-precomposed.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 19:08:29 [192.168.1.16][][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'MobileSafari/600.1.4 CFNetwork/711.2.23 Darwin/14.0.0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_ACCEPT' => '*/*'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61257'
+    'REDIRECT_URL' => '/apple-touch-icon-76x76-precomposed.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/apple-touch-icon-76x76-precomposed.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961309.583
+    'REQUEST_TIME' => 1426961309
+]
+2015-03-21 19:08:30 [192.168.1.16][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon-76x76.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "apple-touch-icon-76x76.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 19:08:30 [192.168.1.16][][-][info][application] $_COOKIE = [
+    '_csrf' => 'aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s:32:\"AHu07DoyipWs4XDcA57gV5O98Osqwo0G\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_csrf=aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s%3A32%3A%22AHu07DoyipWs4XDcA57gV5O98Osqwo0G%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_USER_AGENT' => 'MobileSafari/600.1.4 CFNetwork/711.2.23 Darwin/14.0.0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61257'
+    'REDIRECT_URL' => '/apple-touch-icon-76x76.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/apple-touch-icon-76x76.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961310.441
+    'REQUEST_TIME' => 1426961310
+]
+2015-03-21 19:08:31 [192.168.1.16][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 19:08:31 [192.168.1.16][][-][info][application] $_COOKIE = [
+    '_csrf' => 'aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s:32:\"AHu07DoyipWs4XDcA57gV5O98Osqwo0G\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_csrf=aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s%3A32%3A%22AHu07DoyipWs4XDcA57gV5O98Osqwo0G%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_USER_AGENT' => 'MobileSafari/600.1.4 CFNetwork/711.2.23 Darwin/14.0.0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61257'
+    'REDIRECT_URL' => '/apple-touch-icon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/apple-touch-icon.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961311.139
+    'REQUEST_TIME' => 1426961311
+]
+2015-03-21 19:08:31 [192.168.1.16][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 19:08:31 [192.168.1.16][][-][info][application] $_COOKIE = [
+    '_csrf' => 'aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s:32:\"AHu07DoyipWs4XDcA57gV5O98Osqwo0G\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_csrf=aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s%3A32%3A%22AHu07DoyipWs4XDcA57gV5O98Osqwo0G%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_USER_AGENT' => 'MobileSafari/600.1.4 CFNetwork/711.2.23 Darwin/14.0.0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61257'
+    'REDIRECT_URL' => '/apple-touch-icon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/apple-touch-icon.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961311.869
+    'REQUEST_TIME' => 1426961311
+]
+2015-03-21 19:13:40 [192.168.1.16][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon-76x76-precomposed.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "apple-touch-icon-76x76-precomposed.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 19:13:40 [192.168.1.16][][-][info][application] $_COOKIE = [
+    '_csrf' => 'aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s:32:\"AHu07DoyipWs4XDcA57gV5O98Osqwo0G\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_csrf=aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s%3A32%3A%22AHu07DoyipWs4XDcA57gV5O98Osqwo0G%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_USER_AGENT' => 'MobileSafari/600.1.4 CFNetwork/711.2.23 Darwin/14.0.0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61335'
+    'REDIRECT_URL' => '/apple-touch-icon-76x76-precomposed.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/apple-touch-icon-76x76-precomposed.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961620.594
+    'REQUEST_TIME' => 1426961620
+]
+2015-03-21 19:13:41 [192.168.1.16][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon-76x76.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "apple-touch-icon-76x76.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 19:13:41 [192.168.1.16][][-][info][application] $_COOKIE = [
+    '_csrf' => 'aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s:32:\"AHu07DoyipWs4XDcA57gV5O98Osqwo0G\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_csrf=aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s%3A32%3A%22AHu07DoyipWs4XDcA57gV5O98Osqwo0G%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_USER_AGENT' => 'MobileSafari/600.1.4 CFNetwork/711.2.23 Darwin/14.0.0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61335'
+    'REDIRECT_URL' => '/apple-touch-icon-76x76.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/apple-touch-icon-76x76.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961621.389
+    'REQUEST_TIME' => 1426961621
+]
+2015-03-21 19:13:41 [192.168.1.16][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 19:13:41 [192.168.1.16][][-][info][application] $_COOKIE = [
+    '_csrf' => 'aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s:32:\"AHu07DoyipWs4XDcA57gV5O98Osqwo0G\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_csrf=aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s%3A32%3A%22AHu07DoyipWs4XDcA57gV5O98Osqwo0G%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_USER_AGENT' => 'MobileSafari/600.1.4 CFNetwork/711.2.23 Darwin/14.0.0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61335'
+    'REDIRECT_URL' => '/apple-touch-icon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/apple-touch-icon.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961621.699
+    'REQUEST_TIME' => 1426961621
+]
+2015-03-21 19:13:42 [192.168.1.16][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 19:13:42 [192.168.1.16][][-][info][application] $_COOKIE = [
+    '_csrf' => 'aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s:32:\"AHu07DoyipWs4XDcA57gV5O98Osqwo0G\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_csrf=aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s%3A32%3A%22AHu07DoyipWs4XDcA57gV5O98Osqwo0G%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_USER_AGENT' => 'MobileSafari/600.1.4 CFNetwork/711.2.23 Darwin/14.0.0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61335'
+    'REDIRECT_URL' => '/apple-touch-icon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/apple-touch-icon.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961622.02
+    'REQUEST_TIME' => 1426961622
+]
+2015-03-21 19:13:54 [192.168.1.16][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon-76x76-precomposed.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "apple-touch-icon-76x76-precomposed.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 19:13:54 [192.168.1.16][][-][info][application] $_COOKIE = [
+    '_csrf' => 'aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s:32:\"AHu07DoyipWs4XDcA57gV5O98Osqwo0G\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_csrf=aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s%3A32%3A%22AHu07DoyipWs4XDcA57gV5O98Osqwo0G%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_USER_AGENT' => 'MobileSafari/600.1.4 CFNetwork/711.2.23 Darwin/14.0.0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61347'
+    'REDIRECT_URL' => '/apple-touch-icon-76x76-precomposed.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/apple-touch-icon-76x76-precomposed.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961634.323
+    'REQUEST_TIME' => 1426961634
+]
+2015-03-21 19:13:54 [192.168.1.16][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon-76x76.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "apple-touch-icon-76x76.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 19:13:54 [192.168.1.16][][-][info][application] $_COOKIE = [
+    '_csrf' => 'aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s:32:\"AHu07DoyipWs4XDcA57gV5O98Osqwo0G\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_csrf=aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s%3A32%3A%22AHu07DoyipWs4XDcA57gV5O98Osqwo0G%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_USER_AGENT' => 'MobileSafari/600.1.4 CFNetwork/711.2.23 Darwin/14.0.0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61347'
+    'REDIRECT_URL' => '/apple-touch-icon-76x76.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/apple-touch-icon-76x76.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961634.756
+    'REQUEST_TIME' => 1426961634
+]
+2015-03-21 19:13:55 [192.168.1.16][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 19:13:55 [192.168.1.16][][-][info][application] $_COOKIE = [
+    '_csrf' => 'aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s:32:\"AHu07DoyipWs4XDcA57gV5O98Osqwo0G\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_csrf=aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s%3A32%3A%22AHu07DoyipWs4XDcA57gV5O98Osqwo0G%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_USER_AGENT' => 'MobileSafari/600.1.4 CFNetwork/711.2.23 Darwin/14.0.0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61347'
+    'REDIRECT_URL' => '/apple-touch-icon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/apple-touch-icon.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961635.119
+    'REQUEST_TIME' => 1426961635
+]
+2015-03-21 19:13:55 [192.168.1.16][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 19:13:55 [192.168.1.16][][-][info][application] $_COOKIE = [
+    '_csrf' => 'aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s:32:\"AHu07DoyipWs4XDcA57gV5O98Osqwo0G\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_csrf=aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s%3A32%3A%22AHu07DoyipWs4XDcA57gV5O98Osqwo0G%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_USER_AGENT' => 'MobileSafari/600.1.4 CFNetwork/711.2.23 Darwin/14.0.0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61347'
+    'REDIRECT_URL' => '/apple-touch-icon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/apple-touch-icon.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961635.465
+    'REQUEST_TIME' => 1426961635
+]
+2015-03-21 19:15:31 [192.168.1.16][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon-76x76-precomposed.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "apple-touch-icon-76x76-precomposed.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 19:15:31 [192.168.1.16][][-][info][application] $_COOKIE = [
+    '_csrf' => 'aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s:32:\"AHu07DoyipWs4XDcA57gV5O98Osqwo0G\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_csrf=aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s%3A32%3A%22AHu07DoyipWs4XDcA57gV5O98Osqwo0G%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_USER_AGENT' => 'MobileSafari/600.1.4 CFNetwork/711.2.23 Darwin/14.0.0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61357'
+    'REDIRECT_URL' => '/apple-touch-icon-76x76-precomposed.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/apple-touch-icon-76x76-precomposed.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961731.081
+    'REQUEST_TIME' => 1426961731
+]
+2015-03-21 19:15:31 [192.168.1.16][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon-76x76.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "apple-touch-icon-76x76.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 19:15:31 [192.168.1.16][][-][info][application] $_COOKIE = [
+    '_csrf' => 'aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s:32:\"AHu07DoyipWs4XDcA57gV5O98Osqwo0G\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_csrf=aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s%3A32%3A%22AHu07DoyipWs4XDcA57gV5O98Osqwo0G%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_USER_AGENT' => 'MobileSafari/600.1.4 CFNetwork/711.2.23 Darwin/14.0.0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61357'
+    'REDIRECT_URL' => '/apple-touch-icon-76x76.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/apple-touch-icon-76x76.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961731.598
+    'REQUEST_TIME' => 1426961731
+]
+2015-03-21 19:15:31 [192.168.1.16][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 19:15:31 [192.168.1.16][][-][info][application] $_COOKIE = [
+    '_csrf' => 'aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s:32:\"AHu07DoyipWs4XDcA57gV5O98Osqwo0G\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_csrf=aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s%3A32%3A%22AHu07DoyipWs4XDcA57gV5O98Osqwo0G%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_USER_AGENT' => 'MobileSafari/600.1.4 CFNetwork/711.2.23 Darwin/14.0.0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61357'
+    'REDIRECT_URL' => '/apple-touch-icon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/apple-touch-icon.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961731.916
+    'REQUEST_TIME' => 1426961731
+]
+2015-03-21 19:15:32 [192.168.1.16][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apple-touch-icon.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('apple-touch-ico...', Array)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Documents\Workspace\Projects\xd42\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-03-21 19:15:32 [192.168.1.16][][-][info][application] $_COOKIE = [
+    '_csrf' => 'aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s:32:\"AHu07DoyipWs4XDcA57gV5O98Osqwo0G\";'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/Programs/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/Programs/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.1.74:8080'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => '_csrf=aa33b0b43f03dd69c7f784e05ef3399b2fd0a1d8acfde0b74403c12e015de7e1s%3A32%3A%22AHu07DoyipWs4XDcA57gV5O98Osqwo0G%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru'
+    'HTTP_USER_AGENT' => 'MobileSafari/600.1.4 CFNetwork/711.2.23 Darwin/14.0.0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11 Server at 192.168.1.74 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) OpenSSL/1.0.1g PHP/5.5.11'
+    'SERVER_NAME' => '192.168.1.74'
+    'SERVER_ADDR' => '192.168.1.74'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '192.168.1.16'
+    'DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Documents/Workspace/Projects/xd42/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/Documents/Workspace/Projects/xd42/web/index.php'
+    'REMOTE_PORT' => '61357'
+    'REDIRECT_URL' => '/apple-touch-icon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/apple-touch-icon.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1426961732.228
+    'REQUEST_TIME' => 1426961732
+]

@@ -315,7 +315,9 @@ class Project
             $permitions = "AND p.oid = {$oid}";
         }
 
-        $selectCmd = Yii::$app->db->createCommand("SELECT * FROM queries WHERE new_query = 1 AND pid = :pid $permitions");
+        $selectCmd = Yii::$app->db->createCommand("SELECT * FROM queries q
+        LEFT JOIN projects p ON p.id = q.pid
+        WHERE q.new_query = 1 AND q.pid = :pid $permitions");
         $selectCmd->bindParam(":pid",$pid);
         $dataReader = $selectCmd->query();
 
@@ -329,6 +331,13 @@ class Project
         }
 
         return $newQueriesList;
+    }
+
+    public function deleteProject($pid){
+        $command = Yii::$app->db->createCommand("DELETE FROM projects WHERE id = :id");
+        $command->bindParam(":id",$pid);
+        $command->execute();
+        return true;
     }
 
 
@@ -460,6 +469,14 @@ WHERE p.id = :pid AND h.position <= :t AND h.date=:updateDate";
             $cmdQuery->execute();
         }
 
+        return true;
+    }
+
+    public function changeProjectUser($pid,$uid){
+        $command = Yii::$app->db->createCommand("UPDATE projects SET oid=:uid WHERE id=:id");
+        $command->bindParam(":uid",$uid);
+        $command->bindParam(":id",$pid);
+        $command->execute();
         return true;
     }
 
