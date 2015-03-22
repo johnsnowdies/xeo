@@ -4,6 +4,11 @@ use app\models\User;
 $this->title = 'Проекты';
 ?>
     <script type="text/javascript">
+
+        function UpdateStatusController($scope){
+            $scope.status = <?= json_encode($updateData)?>;
+        }
+
         function ManageUsersController($scope, $http, $window) {
             $scope.toDelete = [];
             $scope.users = <?= json_encode(User::getUserList()) ?>;
@@ -130,6 +135,7 @@ $this->title = 'Проекты';
                     <li><a href="#" data-toggle="modal" data-target="#addProject"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;&nbsp;Добавить проект</a></li>
                     <li><a href="#" data-toggle="modal" data-target="#manageUsers">
                             <span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;&nbsp;Управление пользователями</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#updateStatus"><span class="glyphicon glyphicon-time "></span>&nbsp;&nbsp;Статус апдейта</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -429,6 +435,40 @@ $this->title = 'Проекты';
                     <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
                     <button type="button" class="btn btn-primary" ng-click="saveUserChanges()">Сохранить изменения
                     </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div ng-init ng-controller="UpdateStatusController" class="modal fade" id="updateStatus" tabindex="-1"
+         role="dialog"
+         aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-time "></span>&nbsp;&nbsp;Статус апдейта</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Последний апдейт: <strong>{{status.last_update_date}}</strong></p>
+                    <p>Последняя проверка: <strong>{{status.last_check_date}}</strong></p>
+
+                    <p>Апдейт по seopult:
+                        <span ng-show="{{status.update_seopult}}"><span class="label label-success">Да</span></span>
+                        <span ng-hide="{{status.update_seopult}}"><span class="label label-danger">Нет</span></span>
+                    </p>
+
+                    <p>Апдейт по promosite:
+                        <span ng-show="{{status.update_promosite}}"><span class="label label-success">Да</span></span>
+                        <span ng-hide="{{status.update_promosite}}"><span class="label label-danger">Нет</span></span>
+                    </p>
+
+                    <p>Сейчас происходит апдейт:
+                        <span ng-show="{{status.update_runing}}"><span class="label label-success">Да</span></span>
+                        <span ng-hide="{{status.update_runing}}"><span class="label label-danger">Нет</span></span>
+                    </p>
+
                 </div>
             </div>
         </div>

@@ -39,16 +39,14 @@ class SParser extends Model{
 
                 //TODO Определять частотность запроса - проблема
                 $freq = 0;
-
-                $commandInsert = Yii::$app->db->createCommand("INSERT INTO history(qid,position,frequency,date) VALUES (:qid,:position,:freq,:date)");
+                $commandInsert = Yii::$app->db->createCommand("INSERT INTO history(qid,position,url,frequency,date) VALUES (:qid,:position,:url,:freq,:date)");
                 $commandInsert->bindParam(":qid",$query->id);
                 $commandInsert->bindParam(":position",$result['position']);
+                $commandInsert->bindParam(":url",$result['uri']);
                 $commandInsert->bindParam(":freq",$freq);
                 $commandInsert->bindParam(":date",$updateDate);
                 $commandInsert->execute();
-
-                $commandUpdate = Yii::$app->db->createCommand("UPDATE queries SET new_query=0, url = :url WHERE id=:qid");
-                $commandUpdate->bindParam(":url",$result['uri']);
+                $commandUpdate = Yii::$app->db->createCommand("UPDATE queries SET new_query=0 WHERE id=:qid");
                 $commandUpdate->bindParam(":qid",$query->id);
                 $commandUpdate->execute();
             }

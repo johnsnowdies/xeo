@@ -1,6 +1,7 @@
 <?php
 namespace app\controllers;
 
+use app\models\CronServices;
 use app\models\objects\Project;
 use app\models\User;
 use Yii;
@@ -88,8 +89,12 @@ class ProjectsController  extends Controller{
 
         $userRole = User::getUserRole(Yii::$app->user->getId());
 
+        $cron = new CronServices();
+        $updateData = $cron->getCronState();
+
+
         return $this->render('index',["projects" => $model->getProjectsList(Yii::$app->user->getId()),"userRole" => $userRole,
-        "newProjects" => $model->getNewProjectsList(Yii::$app->user->getId())]);
+        "newProjects" => $model->getNewProjectsList(Yii::$app->user->getId()),"updateData" => $updateData]);
     }
 
     // Детали проекта

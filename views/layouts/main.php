@@ -17,27 +17,9 @@ AppAsset::register($this);
     <link rel="apple-touch-startup-image" href="/img/xd42.png">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="apple-touch-icon" href="/img/xd422.png">
+
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
-    <style>
-        th{
-            vertical-align: top!important;
-        }
-
-
-    </style>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!-- TODO Все библиотеки разместить в проекте! -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <!-- TODO Все библиотеки разместить в проекте! -->
-
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" >
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script src="http://code.angularjs.org/1.1.4/angular.min.js"></script>
-
-    <script src="/js/xd42.js"></script>
     <?php $this->head() ?>
 </head>
 <body>
@@ -83,7 +65,6 @@ AppAsset::register($this);
         <?php endif; ?>
 
         <div class="container" ng-cloak>
-
             <?= $content ?>
         </div>
     </div>

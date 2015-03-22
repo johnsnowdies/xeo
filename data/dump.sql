@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Хост: 127.0.0.1
--- Время создания: Мар 20 2015 г., 06:05
+-- Время создания: Мар 22 2015 г., 15:59
 -- Версия сервера: 5.6.16
 -- Версия PHP: 5.5.11
 
@@ -19,6 +19,30 @@ SET time_zone = "+00:00";
 --
 -- База данных: `xd42`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `cron_services`
+--
+
+CREATE TABLE IF NOT EXISTS `cron_services` (
+  `id` int(11) NOT NULL,
+  `param` varchar(45) DEFAULT NULL,
+  `value` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `cron_services`
+--
+
+INSERT INTO `cron_services` (`id`, `param`, `value`) VALUES
+(0, 'last_update_date', '2013-03-22'),
+(1, 'last_check_date', '2013-03-22'),
+(2, 'update_seopult', 'false'),
+(3, 'update_promosite', 'false'),
+(4, 'update_runing', 'false');
 
 -- --------------------------------------------------------
 
@@ -538,59 +562,14 @@ INSERT INTO `geo_regions` (`id`, `position`, `title`, `cod`, `reduction`, `activ
 CREATE TABLE IF NOT EXISTS `history` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `qid` int(11) DEFAULT NULL COMMENT 'id запроса',
+  `url` varchar(2000) DEFAULT NULL,
   `position` int(11) DEFAULT NULL COMMENT 'Позиция',
   `frequency` int(11) DEFAULT NULL COMMENT 'Частотность',
   `date` date DEFAULT NULL COMMENT 'Дата апдейта',
   PRIMARY KEY (`id`),
   KEY `qid` (`qid`),
   KEY `date` (`date`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='История позиций' AUTO_INCREMENT=41 ;
-
---
--- Дамп данных таблицы `history`
---
-
-INSERT INTO `history` (`id`, `qid`, `position`, `frequency`, `date`) VALUES
-(1, 1, 4, 0, '2015-03-19'),
-(2, 2, 3, 0, '2015-03-19'),
-(3, 3, 5, 0, '2015-03-19'),
-(4, 4, 3, 0, '2015-03-19'),
-(5, 5, 4, 0, '2015-03-19'),
-(6, 6, 1, 0, '2015-03-19'),
-(7, 7, 10, 0, '2015-03-19'),
-(8, 8, 6, 0, '2015-03-19'),
-(9, 9, 8, 0, '2015-03-19'),
-(10, 10, 2, 0, '2015-03-19'),
-(11, 11, NULL, 0, '2015-03-19'),
-(12, 12, 5, 0, '2015-03-19'),
-(13, 13, 3, 0, '2015-03-19'),
-(14, 14, 4, 0, '2015-03-19'),
-(15, 15, 5, 0, '2015-03-19'),
-(16, 16, NULL, 0, '2015-03-19'),
-(17, 17, 24, 0, '2015-03-19'),
-(18, 18, 16, 0, '2015-03-19'),
-(19, 19, NULL, 0, '2015-03-19'),
-(20, 20, 3, 0, '2015-03-19'),
-(21, 1, NULL, 0, '2015-03-20'),
-(22, 2, NULL, 0, '2015-03-20'),
-(23, 3, NULL, 0, '2015-03-20'),
-(24, 4, NULL, 0, '2015-03-20'),
-(25, 5, NULL, 0, '2015-03-20'),
-(26, 6, NULL, 0, '2015-03-20'),
-(27, 7, NULL, 0, '2015-03-20'),
-(28, 8, NULL, 0, '2015-03-20'),
-(29, 9, NULL, 0, '2015-03-20'),
-(30, 10, NULL, 0, '2015-03-20'),
-(31, 11, NULL, 0, '2015-03-20'),
-(32, 12, NULL, 0, '2015-03-20'),
-(33, 13, NULL, 0, '2015-03-20'),
-(34, 14, NULL, 0, '2015-03-20'),
-(35, 15, NULL, 0, '2015-03-20'),
-(36, 16, NULL, 0, '2015-03-20'),
-(37, 17, NULL, 0, '2015-03-20'),
-(38, 18, NULL, 0, '2015-03-20'),
-(39, 19, NULL, 0, '2015-03-20'),
-(40, 20, NULL, 0, '2015-03-20');
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='История позиций' AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -614,15 +593,7 @@ CREATE TABLE IF NOT EXISTS `projects` (
   `new_project` int(1) DEFAULT '1',
   PRIMARY KEY (`id`),
   KEY `user` (`oid`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Проекты' AUTO_INCREMENT=27 ;
-
---
--- Дамп данных таблицы `projects`
---
-
-INSERT INTO `projects` (`id`, `name`, `oid`, `queries_cnt`, `queries_top`, `region`, `tic`, `pr`, `yc`, `dmoz`, `start_date`, `update_date`, `new_project`) VALUES
-(25, 'http://tambov.tiu.ru', 1, 0, 'a:4:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";}', 213, 10, 0, 0, 0, '2015-03-18 22:34:39', '2015-03-20 00:00:00', 0),
-(26, 'http://www.lenta.ru', 1, 0, 'a:4:{i:0;s:1:"0";i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";}', 213, 21000, 7, 1, 1, '2015-03-19 22:30:58', '2015-03-20 00:00:00', 0);
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Проекты' AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -634,39 +605,34 @@ CREATE TABLE IF NOT EXISTS `queries` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `pid` int(11) DEFAULT NULL COMMENT 'id проекта',
   `text` varchar(255) DEFAULT NULL COMMENT 'Текст запроса',
-  `url` varchar(255) DEFAULT NULL COMMENT 'URL запроса',
   `new_query` int(1) DEFAULT '1',
   PRIMARY KEY (`id`),
   KEY `index` (`pid`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Запросы' AUTO_INCREMENT=23 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Запросы' AUTO_INCREMENT=24 ;
 
 --
 -- Дамп данных таблицы `queries`
 --
 
-INSERT INTO `queries` (`id`, `pid`, `text`, `url`, `new_query`) VALUES
-(1, 25, 'пластиковых окон купить', NULL, 0),
-(2, 25, 'купить пластиковой окно', NULL, 0),
-(3, 25, 'окна пластиковые купить', NULL, 0),
-(4, 25, 'пластиковые окна купить где', NULL, 0),
-(5, 25, 'купить пластиковое окно цена', NULL, 0),
-(6, 25, 'жалюзи +на пластиковые окна купить', NULL, 0),
-(7, 25, 'окна пластиковые купить недорого', NULL, 0),
-(8, 25, 'купить недорогие пластиковые окна', NULL, 0),
-(9, 25, 'купить фурнитуру +для пластиковых окон', NULL, 0),
-(10, 25, 'шторы +на пластиковые окна купить', NULL, 0),
-(11, 25, 'пластиковые окна купить +в москве', NULL, 0),
-(12, 25, 'купить пластиковые окна дешево', NULL, 0),
-(13, 25, 'дешевые пластиковые окна купить', NULL, 0),
-(14, 25, 'купить ручки +для пластиковых окон', NULL, 0),
-(15, 25, 'купить ручку +для пластикового окна', NULL, 0),
-(16, 25, 'екатеринбург пластиковые окна купить', NULL, 0),
-(17, 25, 'куплю пластиковые окна бу', NULL, 0),
-(18, 25, 'купить готовые пластиковые окна', NULL, 0),
-(19, 25, 'купить пластиковые окна +в спб', NULL, 0),
-(20, 26, 'новости', NULL, 0),
-(21, 27, 'новости', NULL, 1),
-(22, 28, 'новости', NULL, 1);
+INSERT INTO `queries` (`id`, `pid`, `text`, `new_query`) VALUES
+(1, 25, 'пластиковых окон купить', 0),
+(2, 25, 'купить пластиковой окно', 0),
+(3, 25, 'окна пластиковые купить', 0),
+(4, 25, 'пластиковые окна купить где', 0),
+(5, 25, 'купить пластиковое окно цена', 0),
+(7, 25, 'окна пластиковые купить недорого', 0),
+(8, 25, 'купить недорогие пластиковые окна', 0),
+(9, 25, 'купить фурнитуру +для пластиковых окон', 0),
+(10, 25, 'шторы +на пластиковые окна купить', 0),
+(12, 25, 'купить пластиковые окна дешево', 0),
+(13, 25, 'дешевые пластиковые окна купить', 0),
+(14, 25, 'купить ручки +для пластиковых окон', 0),
+(15, 25, 'купить ручку +для пластикового окна', 0),
+(18, 25, 'купить готовые пластиковые окна', 0),
+(20, 26, 'новости', 1),
+(21, 27, 'новости', 1),
+(22, 28, 'новости', 1),
+(23, 25, 'рижские шпроты', 0);
 
 -- --------------------------------------------------------
 
@@ -686,15 +652,14 @@ CREATE TABLE IF NOT EXISTS `users` (
   `role` enum('U','A') DEFAULT NULL COMMENT 'Привелегии (User\\Admin)',
   `avatar` blob COMMENT 'Аватарка',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Пользователи' AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Пользователи' AUTO_INCREMENT=6 ;
 
 --
 -- Дамп данных таблицы `users`
 --
 
 INSERT INTO `users` (`id`, `active`, `username`, `password`, `accessToken`, `authKey`, `firstname`, `lastname`, `role`, `avatar`) VALUES
-(1, 1, 'admin@admin.ru', '123', '123', '123', 'Иван', 'Иванович', 'A', NULL),
-(2, 1, 'user@user.ru', '123', '123', '123', 'Сергей', 'Сергеевич', 'U', NULL);
+(1, 1, 'admin@admin.ru', '123', '123', '123', 'Иван', 'Иванович', 'A', NULL);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

@@ -166,7 +166,7 @@ class Project
         $queriesList = [];
         // Если не указана дата, получаем за последний апдейт
         if ($date == null) {
-            $command = Yii::$app->db->createCommand("SELECT q.id,q.text,q.url, h.frequency, h.position as up_new, h2.position as up_old, h.date as date_new, h2.date as date_old
+            $command = Yii::$app->db->createCommand("SELECT q.id,q.text,h.url as url, h2.url as url_old, h.frequency, h.position as up_new, h2.position as up_old, h.date as date_new, h2.date as date_old
               FROM queries q
               LEFT JOIN projects p ON p.id = q.pid
               LEFT JOIN history h ON h.qid = q.id AND h.date = (SELECT MAX(date) FROM history)
@@ -174,7 +174,7 @@ class Project
               WHERE q.pid = :pid $permitions AND q.new_query = 0 ORDER BY h.position DESC");
         }
         else{
-            $command = Yii::$app->db->createCommand("SELECT q.id,q.text,q.url, h.frequency, h.position as up_new, h2.position as up_old, h.date as date_new, h2.date as date_old
+            $command = Yii::$app->db->createCommand("SELECT q.id,q.text,h.url as url, h2.url as url_old, h.frequency, h.position as up_new, h2.position as up_old, h.date as date_new, h2.date as date_old
               FROM queries q
               LEFT JOIN projects p ON p.id = q.pid
               LEFT JOIN history h ON h.qid = q.id AND h.date = :date
@@ -192,6 +192,7 @@ class Project
             $rowQuery->id = $row['id'];
             $rowQuery->text = $row['text'];
             $rowQuery->url = $row['url'];
+            $rowQuery->url_old = $row['url_old'];
             $rowQuery->frequency = $row['frequency'];
 
             if ($row['date_old']!=null){
@@ -205,6 +206,10 @@ class Project
 
             if ($row['up_new']!=null && $row['up_old']!=null){
                 $rowQuery->diff = $row['up_old'] - $row['up_new'];
+            }
+
+            if( $row['url_old'] != null && $row['url_old']!= $row['url']){
+                $rowQuery->rel_change = true;
             }
 
             $queriesList[] = $rowQuery;
@@ -233,7 +238,7 @@ class Project
         $queriesList = [];
         // Если не указана дата, получаем за последний апдейт
         if ($date == null) {
-            $command = Yii::$app->db->createCommand("SELECT q.id,q.text,q.url, h.frequency, h.position as up_new, h2.position as up_old, h.date as date_new, h2.date as date_old
+            $command = Yii::$app->db->createCommand("SELECT q.id,q.text,h.url as url, h2.url as url_old, h.frequency, h.position as up_new, h2.position as up_old, h.date as date_new, h2.date as date_old
               FROM queries q
               LEFT JOIN projects p ON p.id = q.pid
               LEFT JOIN history h ON h.qid = q.id AND h.date = (SELECT MAX(date) FROM history)
@@ -241,7 +246,7 @@ class Project
               WHERE q.pid = :pid $permitions");
         }
         else{
-            $command = Yii::$app->db->createCommand("SELECT q.id,q.text,q.url, h.frequency, h.position as up_new, h2.position as up_old, h.date as date_new, h2.date as date_old
+            $command = Yii::$app->db->createCommand("SELECT q.id,q.text,h.url as url, h2.url as url_old, h.frequency, h.position as up_new, h2.position as up_old, h.date as date_new, h2.date as date_old
               FROM queries q
               LEFT JOIN projects p ON p.id = q.pid
               LEFT JOIN history h ON h.qid = q.id AND h.date = :date
@@ -259,6 +264,7 @@ class Project
             $rowQuery->id = $row['id'];
             $rowQuery->text = $row['text'];
             $rowQuery->url = $row['url'];
+            $rowQuery->url_old = $row['url_old'];
             $rowQuery->frequency = $row['frequency'];
 
             if ($row['date_old']!=null){
@@ -272,6 +278,10 @@ class Project
 
             if ($row['up_new']!=null && $row['up_old']!=null){
                 $rowQuery->diff = $row['up_old'] - $row['up_new'];
+            }
+
+            if( $row['url_old'] != null && $row['url_old']!= $row['url']){
+                $rowQuery->rel_change = true;
             }
 
             $queriesList[] = $rowQuery;
@@ -478,66 +488,5 @@ WHERE p.id = :pid AND h.position <= :t AND h.date=:updateDate";
         $command->bindParam(":id",$pid);
         $command->execute();
         return true;
-    }
-
-    public function createTest()
-    {
-        for ($prj = 0; $prj < rand(10, 15); $prj++) {
-            $createProjectQuery = "INSERT INTO projects(name,oid,queries_top,region,tic,pr,yc,dmoz,start_date,update_date)
-            VALUES(:name,:oid,:queries_top,:region,:tic,:pr,:yc,:dmoz,NOW(), NOW());";
-
-            $cmdProject = Yii::$app->db->createCommand($createProjectQuery);
-
-            $name = "http://www.site-$prj.ru";
-            $oid = 1;
-            $queries_top = serialize([rand(1, 3), rand(3, 5), rand(5, 10), rand(10, 20)]);
-            $region = 213;
-            $tic = rand(10, 200);
-            $pr = rand(0, 10);
-            $yc = rand(0, 1);
-            $dmoz = rand(0, 1);
-
-            $cmdProject->bindParam(":name", $name);
-            $cmdProject->bindParam(":oid", $oid);
-            $cmdProject->bindParam(":queries_top", $queries_top);
-            $cmdProject->bindParam(":region", $region);
-            $cmdProject->bindParam(":tic", $tic);
-            $cmdProject->bindParam(":pr", $pr);
-            $cmdProject->bindParam(":yc", $yc);
-            $cmdProject->bindParam(":dmoz", $dmoz);
-
-            $dataReader = $cmdProject->execute();
-            $pid = Yii::$app->db->getLastInsertID();
-
-            for ($q = 0; $q < rand(30, 50); $q++) {
-                $text = "Тестовый запрос $q проекта $prj";
-                $url = "http://www.site-$prj.ru/$q/";
-                $createQuery = "INSERT INTO queries(pid,text,url) VALUES(:pid,:text,:url);";
-
-                $cmdQuery = Yii::$app->db->createCommand($createQuery);
-                $cmdQuery->bindParam(":pid", $pid);
-                $cmdQuery->bindParam(":text", $text);
-                $cmdQuery->bindParam(":url", $url);
-                $cmdQuery->execute();
-
-                $qid = Yii::$app->db->getLastInsertID();
-                $updates = ['2015-03-08','2015-03-09','2015-03-10','2015-03-11','2015-03-12','2015-03-13','2015-03-14'];
-
-                foreach($updates as $date){
-                    $position = rand(1,30);
-                    $freq = rand(1,50);
-
-                    $createHistory = "INSERT INTO history(qid, position,frequency,date) VALUES(:qid,:pos, :freq, :date)";
-                    $cmdHistory = Yii::$app->db->createCommand($createHistory);
-                    $cmdHistory->bindParam(":qid", $qid);
-                    $cmdHistory->bindParam(":pos", $position);
-                    $cmdHistory->bindParam(":freq", $freq);
-                    $cmdHistory->bindParam(":date", $date);
-                    $cmdHistory->execute();
-
-                }
-
-            }
-        }
     }
 }
