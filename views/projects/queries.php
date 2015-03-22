@@ -170,7 +170,7 @@ $this->title = 'Запросы';
 
     </div>
     <div ng-init ng-controller="QueriesController">
-        <? if (!empty($queries)): ?>
+        <? if (empty($queries) == 0): ?>
             <div class="panel panel-default">
                 <div class="panel-heading">Запросы проекта</div>
 
@@ -258,7 +258,7 @@ $this->title = 'Запросы';
 
 
         <div class="row">
-            <? if (!empty($newQueries)): ?>
+            <? if (empty($newQueries) == 0): ?>
                 <div class="col-md-4">
                     <div class="alert alert-info" role="alert">Запросы добавленные после последнего апдейта будут
                         посчитаны в следующий

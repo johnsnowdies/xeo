@@ -47,6 +47,14 @@ class SiteController extends Controller
         ];
     }
 
+    // Проверка пользователя
+    public function beforeAction($event){
+        if (\Yii::$app->user->isGuest && \Yii::$app->controller->action->id != 'login') {
+            return $this->redirect('/projects/login',302);
+        }
+        return parent::beforeAction($event);
+    }
+
     public function actionIndex()
     {
         return $this->render('index');

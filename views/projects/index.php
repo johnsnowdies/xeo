@@ -145,7 +145,7 @@ $this->title = 'Проекты';
 <? endif; ?>
 
     <div ng-init ng-controller="ProjectsController">
-        <? if (empty($projects) && empty($newProjects)): ?>
+        <? if (empty($projects) == 1 && empty($newProjects) == 1): ?>
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-4">
                     <img src="/img/xd42.png"/><img src="/img/cat_laptop.png">
@@ -161,7 +161,7 @@ $this->title = 'Проекты';
             <h1>Проекты</h1>
         <? endif; ?>
 
-        <? if (!empty($newProjects)): ?>
+        <? if (empty($newProjects) == 0): ?>
             <!-- Новые проекты -->
             <div class="alert alert-info" role="alert">Позиции по новым проектам будут доступны после следующего
                 апдейта
@@ -185,7 +185,7 @@ $this->title = 'Проекты';
             </div>
         <? endif; ?>
 
-        <? if (!empty($projects)): ?>
+        <? if (empty($projects) == 0): ?>
             <!-- Старые проекты-->
             <div class="panel panel-default">
                 <div class="panel-heading">Проекты на продвижении</div>
