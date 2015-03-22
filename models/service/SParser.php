@@ -22,6 +22,7 @@ class SParser extends Model{
             $url = $currentProject->name;
 
             $url = str_replace('http://','',$url);
+            $url = str_replace('/','',$url);
 
             $XMLParser = new Xml();
             $XMLParser->region = $currentProject->region;
