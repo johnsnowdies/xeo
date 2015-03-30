@@ -454,7 +454,7 @@ $this->title = 'Проекты';
                     <p>Последний апдейт: <strong>{{status.last_update_date}}</strong></p>
                     <p>Последняя проверка: <strong>{{status.last_check_date}}</strong></p>
 
-                    <p>Апдейт по seopult:
+                    <!--<p>Апдейт по seopult:
                         <span ng-show="{{status.update_seopult}}"><span class="label label-success">Да</span></span>
                         <span ng-hide="{{status.update_seopult}}"><span class="label label-danger">Нет</span></span>
                     </p>
@@ -463,7 +463,7 @@ $this->title = 'Проекты';
                         <span ng-show="{{status.update_promosite}}"><span class="label label-success">Да</span></span>
                         <span ng-hide="{{status.update_promosite}}"><span class="label label-danger">Нет</span></span>
                     </p>
-
+-->
                     <p>Сейчас происходит апдейт:
                         <span ng-show="{{status.update_runing}}"><span class="label label-success">Да</span></span>
                         <span ng-hide="{{status.update_runing}}"><span class="label label-danger">Нет</span></span>

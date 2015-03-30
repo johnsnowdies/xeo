@@ -16,6 +16,6 @@ class CronServices extends Model
             $cronState[$row['param']] = $row['value'];
         }
 
-        return$cronState;
+        return $cronState;
     }
 }
