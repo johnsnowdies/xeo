@@ -214,6 +214,8 @@ class Xml extends Model
             if ( ! preg_match('/^(http:\/\/)(.*)/i', $url)) {
                 $url = 'http://' .$url;
             }
+
+            $pr = '';
             $googlehost = 'toolbarqueries.google.com';
             $googleua = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.6) Gecko/20060728 Firefox/1.5';
             $ch = $this->checkHash($this->hashUrl($url));
@@ -260,6 +262,7 @@ class Xml extends Model
     }
 
     private function searchXmlUrl($strXml, $url2Find) {
+        $fNode = '';
         $xml = simplexml_load_string($strXml);
         $result = $xml->xpath('//doc/url');
         $i = 0;

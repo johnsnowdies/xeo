@@ -17,7 +17,6 @@ class SParser extends Model{
         $updateDate = date("Y-m-d");
 
         foreach($projectsList as $currentProject){
-
             $pid = $currentProject->id;
             $url = $currentProject->name;
 
@@ -28,8 +27,6 @@ class SParser extends Model{
             $XMLParser->region = $currentProject->region;
             $XMLParser->siteUrl = $url;
             $XMLParser->siteUrlOrig = $url;
-
-
 
             print "Parsing project $url id($pid)\r\n";
             $queriesList = $projectsManager->getProjectAllQueries($pid,SParser::SYSTEM_USER);
@@ -52,9 +49,7 @@ class SParser extends Model{
                 $commandUpdate->execute();
             }
 
-            // TODO Определить запросы в топе
-
-            // Парсим изменения данных о проекте (объект типа Project)
+            // Парсим изменения данных о проекте (объект Project)
             $project = $XMLParser->fetchProjectData($url);
             $projectsManager->updateProject($pid,$project->tic,$project->pr,$project->yc,$project->dmoz,$updateDate);
         }

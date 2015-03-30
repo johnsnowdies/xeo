@@ -40391,3 +40391,794 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1427036188.033
     'REQUEST_TIME' => 1427036188
 ]
+2015-03-29 21:59:32 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'file_get_contents(https://seopult.ru/): failed to open stream: HTTP request failed! HTTP/1.1 406 Not Acceptable
+' in D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', 'D:\\Documents\\Wo...', 11, Array)
+#1 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(11): file_get_contents('https://seopult...')
+#2 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(29): app\models\service\SUpdate->getSeopultStatus('2015-03-29')
+#3 D:\Documents\Workspace\Projects\xd42\console\controllers\UpdateController.php(13): app\models\service\SUpdate->checkUpdate()
+#4 [internal function]: app\console\controllers\UpdateController->actionRun()
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('run', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('run', Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('update/run', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('update/run', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#13 {main}
+2015-03-29 21:59:31 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Sergey\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WINTERMUTE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Sergey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Sergey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php;C:\\Program Files (x86)\\Nmap'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'D:\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'WINTERMUTE'
+    'USERDOMAIN_ROAMINGPROFILE' => 'WINTERMUTE'
+    'USERNAME' => 'Sergey'
+    'USERPROFILE' => 'C:\\Users\\Sergey'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1427659171.0604
+    'REQUEST_TIME' => 1427659171
+    'argv' => [
+        0 => 'yii'
+        1 => 'update/run'
+    ]
+    'argc' => 2
+]
+2015-03-29 22:00:28 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'file_get_contents(https://seopult.ru/): failed to open stream: HTTP request failed! HTTP/1.1 406 Not Acceptable
+' in D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', 'D:\\Documents\\Wo...', 11, Array)
+#1 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(11): file_get_contents('https://seopult...')
+#2 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(29): app\models\service\SUpdate->getSeopultStatus('2015-03-29')
+#3 D:\Documents\Workspace\Projects\xd42\console\controllers\UpdateController.php(13): app\models\service\SUpdate->checkUpdate()
+#4 [internal function]: app\console\controllers\UpdateController->actionRun()
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('run', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('run', Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('update/run', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('update/run', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#13 {main}
+2015-03-29 22:00:26 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Sergey\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WINTERMUTE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Sergey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Sergey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php;C:\\Program Files (x86)\\Nmap'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'D:\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'WINTERMUTE'
+    'USERDOMAIN_ROAMINGPROFILE' => 'WINTERMUTE'
+    'USERNAME' => 'Sergey'
+    'USERPROFILE' => 'C:\\Users\\Sergey'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1427659226.6559
+    'REQUEST_TIME' => 1427659226
+    'argv' => [
+        0 => 'yii'
+        1 => 'update/run'
+    ]
+    'argc' => 2
+]
+2015-03-29 22:05:51 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'file_get_contents(https://seopult.ru/): failed to open stream: HTTP request failed! HTTP/1.1 406 Not Acceptable
+' in D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', 'D:\\Documents\\Wo...', 11, Array)
+#1 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(11): file_get_contents('https://seopult...')
+#2 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(29): app\models\service\SUpdate->getSeopultStatus('2015-03-29')
+#3 D:\Documents\Workspace\Projects\xd42\console\controllers\UpdateController.php(13): app\models\service\SUpdate->checkUpdate()
+#4 [internal function]: app\console\controllers\UpdateController->actionRun()
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('run', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('run', Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('update/run', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('update/run', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#13 {main}
+2015-03-29 22:05:49 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Sergey\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WINTERMUTE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Sergey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Sergey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php;C:\\Program Files (x86)\\Nmap'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'D:\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'WINTERMUTE'
+    'USERDOMAIN_ROAMINGPROFILE' => 'WINTERMUTE'
+    'USERNAME' => 'Sergey'
+    'USERPROFILE' => 'C:\\Users\\Sergey'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1427659549.6343
+    'REQUEST_TIME' => 1427659549
+    'argv' => [
+        0 => 'yii'
+        1 => 'update/run'
+    ]
+    'argc' => 2
+]
+2015-03-30 21:25:24 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(208): yii\db\Connection->getSlavePdo()
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(813): yii\db\Command->prepare(true)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#7 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(36): yii\db\Command->queryOne()
+#8 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(21): app\models\service\SUpdate->getLastUpdateDate()
+#9 D:\Documents\Workspace\Projects\xd42\console\controllers\UpdateController.php(13): app\models\service\SUpdate->checkUpdate()
+#10 [internal function]: app\console\controllers\UpdateController->actionRun()
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#12 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#13 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('run', Array)
+#14 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('run', Array)
+#15 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('update/run', Array)
+#16 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('update/run', Array)
+#17 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#18 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#19 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+' in D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(208): yii\db\Connection->getSlavePdo()
+#3 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(813): yii\db\Command->prepare(true)
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#5 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(36): yii\db\Command->queryOne()
+#6 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(21): app\models\service\SUpdate->getLastUpdateDate()
+#7 D:\Documents\Workspace\Projects\xd42\console\controllers\UpdateController.php(13): app\models\service\SUpdate->checkUpdate()
+#8 [internal function]: app\console\controllers\UpdateController->actionRun()
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('run', Array)
+#12 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('run', Array)
+#13 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('update/run', Array)
+#14 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('update/run', Array)
+#15 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#17 {main}
+Additional Information:
+
+2015-03-30 21:25:21 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Sergey\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WINTERMUTE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Sergey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Sergey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php;C:\\Program Files (x86)\\Nmap'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'D:\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'WINTERMUTE'
+    'USERDOMAIN_ROAMINGPROFILE' => 'WINTERMUTE'
+    'USERNAME' => 'Sergey'
+    'USERPROFILE' => 'C:\\Users\\Sergey'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1427743521.6768
+    'REQUEST_TIME' => 1427743521
+    'argv' => [
+        0 => 'yii'
+        1 => 'update/run'
+    ]
+    'argc' => 2
+]
+2015-03-30 21:26:44 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'app\models\service\SUpdate::seoBudgetUpdate(): Cannot add element updates number 1 when only 0 such elements exist' in D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php:14
+Stack trace:
+#0 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(14): yii\base\ErrorHandler->handleError(2, 'app\\models\\serv...', 'D:\\Documents\\Wo...', 14, Array)
+#1 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(23): app\models\service\SUpdate->seoBudgetUpdate('2015-03-30')
+#2 D:\Documents\Workspace\Projects\xd42\console\controllers\UpdateController.php(13): app\models\service\SUpdate->checkUpdate()
+#3 [internal function]: app\console\controllers\UpdateController->actionRun()
+#4 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('run', Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('run', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('update/run', Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('update/run', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#12 {main}
+2015-03-30 21:26:42 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Sergey\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WINTERMUTE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Sergey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Sergey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php;C:\\Program Files (x86)\\Nmap'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'D:\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'WINTERMUTE'
+    'USERDOMAIN_ROAMINGPROFILE' => 'WINTERMUTE'
+    'USERNAME' => 'Sergey'
+    'USERPROFILE' => 'C:\\Users\\Sergey'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1427743602.3512
+    'REQUEST_TIME' => 1427743602
+    'argv' => [
+        0 => 'yii'
+        1 => 'update/run'
+    ]
+    'argc' => 2
+]
+2015-03-30 21:27:12 [-][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '=>' (T_DOUBLE_ARROW)' in D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php:14
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-30 21:27:12 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Sergey\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WINTERMUTE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Sergey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Sergey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php;C:\\Program Files (x86)\\Nmap'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'D:\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'WINTERMUTE'
+    'USERDOMAIN_ROAMINGPROFILE' => 'WINTERMUTE'
+    'USERNAME' => 'Sergey'
+    'USERPROFILE' => 'C:\\Users\\Sergey'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1427743632.7304
+    'REQUEST_TIME' => 1427743632
+    'argv' => [
+        0 => 'yii'
+        1 => 'update/run'
+    ]
+    'argc' => 2
+]
+2015-03-30 21:28:41 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'date() expects parameter 2 to be long, object given' in D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php:14
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'date() expects ...', 'D:\\Documents\\Wo...', 14, Array)
+#1 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(14): date('Y-m-d', Object(SimpleXMLElement))
+#2 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(23): app\models\service\SUpdate->seoBudgetUpdate('2015-03-30')
+#3 D:\Documents\Workspace\Projects\xd42\console\controllers\UpdateController.php(13): app\models\service\SUpdate->checkUpdate()
+#4 [internal function]: app\console\controllers\UpdateController->actionRun()
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('run', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('run', Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('update/run', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('update/run', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#13 {main}
+2015-03-30 21:28:39 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Sergey\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WINTERMUTE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Sergey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Sergey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php;C:\\Program Files (x86)\\Nmap'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'D:\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'WINTERMUTE'
+    'USERDOMAIN_ROAMINGPROFILE' => 'WINTERMUTE'
+    'USERNAME' => 'Sergey'
+    'USERPROFILE' => 'C:\\Users\\Sergey'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1427743719.42
+    'REQUEST_TIME' => 1427743719
+    'argv' => [
+        0 => 'yii'
+        1 => 'update/run'
+    ]
+    'argc' => 2
+]
+2015-03-30 21:29:03 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'date() expects parameter 2 to be long, object given' in D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php:15
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'date() expects ...', 'D:\\Documents\\Wo...', 15, Array)
+#1 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(15): date('Y-m-d', Object(SimpleXMLElement))
+#2 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(24): app\models\service\SUpdate->seoBudgetUpdate('2015-03-30')
+#3 D:\Documents\Workspace\Projects\xd42\console\controllers\UpdateController.php(13): app\models\service\SUpdate->checkUpdate()
+#4 [internal function]: app\console\controllers\UpdateController->actionRun()
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('run', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('run', Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('update/run', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('update/run', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#13 {main}
+2015-03-30 21:29:02 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Sergey\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WINTERMUTE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Sergey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Sergey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php;C:\\Program Files (x86)\\Nmap'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'D:\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'WINTERMUTE'
+    'USERDOMAIN_ROAMINGPROFILE' => 'WINTERMUTE'
+    'USERNAME' => 'Sergey'
+    'USERPROFILE' => 'C:\\Users\\Sergey'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1427743742.2309
+    'REQUEST_TIME' => 1427743742
+    'argv' => [
+        0 => 'yii'
+        1 => 'update/run'
+    ]
+    'argc' => 2
+]
+2015-03-30 21:29:32 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'date() expects parameter 2 to be long, object given' in D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php:15
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'date() expects ...', 'D:\\Documents\\Wo...', 15, Array)
+#1 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(15): date('Y-m-d', Object(SimpleXMLElement))
+#2 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(24): app\models\service\SUpdate->seoBudgetUpdate('2015-03-30')
+#3 D:\Documents\Workspace\Projects\xd42\console\controllers\UpdateController.php(13): app\models\service\SUpdate->checkUpdate()
+#4 [internal function]: app\console\controllers\UpdateController->actionRun()
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('run', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('run', Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('update/run', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('update/run', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#13 {main}
+2015-03-30 21:29:30 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Sergey\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WINTERMUTE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Sergey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Sergey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php;C:\\Program Files (x86)\\Nmap'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'D:\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'WINTERMUTE'
+    'USERDOMAIN_ROAMINGPROFILE' => 'WINTERMUTE'
+    'USERNAME' => 'Sergey'
+    'USERPROFILE' => 'C:\\Users\\Sergey'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1427743770.7248
+    'REQUEST_TIME' => 1427743770
+    'argv' => [
+        0 => 'yii'
+        1 => 'update/run'
+    ]
+    'argc' => 2
+]
+2015-03-30 21:29:41 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'date() expects parameter 2 to be long, object given' in D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php:15
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'date() expects ...', 'D:\\Documents\\Wo...', 15, Array)
+#1 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(15): date('Y-m-d', Object(SimpleXMLElement))
+#2 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(24): app\models\service\SUpdate->seoBudgetUpdate('2015-03-30')
+#3 D:\Documents\Workspace\Projects\xd42\console\controllers\UpdateController.php(13): app\models\service\SUpdate->checkUpdate()
+#4 [internal function]: app\console\controllers\UpdateController->actionRun()
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('run', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('run', Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('update/run', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('update/run', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#13 {main}
+2015-03-30 21:29:39 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Sergey\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WINTERMUTE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Sergey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Sergey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php;C:\\Program Files (x86)\\Nmap'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'D:\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'WINTERMUTE'
+    'USERDOMAIN_ROAMINGPROFILE' => 'WINTERMUTE'
+    'USERNAME' => 'Sergey'
+    'USERPROFILE' => 'C:\\Users\\Sergey'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1427743779.9774
+    'REQUEST_TIME' => 1427743779
+    'argv' => [
+        0 => 'yii'
+        1 => 'update/run'
+    ]
+    'argc' => 2
+]
+2015-03-30 21:34:03 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'A non well formed numeric value encountered' in D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php:17
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'A non well form...', 'D:\\Documents\\Wo...', 17, Array)
+#1 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(17): date('Y-m-d', '27.03.2015 04:1...')
+#2 D:\Documents\Workspace\Projects\xd42\models\service\SUpdate.php(26): app\models\service\SUpdate->seoBudgetUpdate('2015-03-30')
+#3 D:\Documents\Workspace\Projects\xd42\console\controllers\UpdateController.php(13): app\models\service\SUpdate->checkUpdate()
+#4 [internal function]: app\console\controllers\UpdateController->actionRun()
+#5 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('run', Array)
+#8 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('run', Array)
+#9 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('update/run', Array)
+#10 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('update/run', Array)
+#11 D:\Documents\Workspace\Projects\xd42\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 D:\Documents\Workspace\Projects\xd42\yii(23): yii\base\Application->run()
+#13 {main}
+2015-03-30 21:34:01 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Sergey\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'WINTERMUTE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Sergey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Sergey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseHg\\;C:\\Programs\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\OpenVPN\\bin;C:\\Programs\\xampp\\php;C:\\Program Files (x86)\\Nmap'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '1001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'D:\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Sergey\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'WINTERMUTE'
+    'USERDOMAIN_ROAMINGPROFILE' => 'WINTERMUTE'
+    'USERNAME' => 'Sergey'
+    'USERPROFILE' => 'C:\\Users\\Sergey'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1427744041.9865
+    'REQUEST_TIME' => 1427744041
+    'argv' => [
+        0 => 'yii'
+        1 => 'update/run'
+    ]
+    'argc' => 2
+]

@@ -235,13 +235,17 @@ $this->title = 'Запросы';
                                   title="Старый URL: {{query.url_old}}">{{ query.url }}</span>
                             <span ng-hide="query.rel_change">{{ query.url }}</span>
 
+                            <span ng-if="!query.url">&ndash;</span>
                         </td>
                         <!--<td>{{ query.frequency }}</td>-->
                         <td ng-repeat="pos in query.position">
-                    <span ng-repeat="(key,value) in pos">
-                        {{value}}
-                    </span>
+                            <span ng-repeat="(key,value) in pos">
+                                <span ng-show="value > 0"> {{value}}</span>
+                                <span ng-hide="value > 0"> &ndash;</span>
+                            </span>
+
                         </td>
+
                         <td>
                     <span ng-hide="query.diff == null">
                         <span class="label label-success" ng-hide="query.diff <= 0"> {{ query.diff }}</span>
