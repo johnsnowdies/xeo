@@ -91,6 +91,7 @@ class ProjectsController  extends Controller{
 
         $cron = new CronServices();
         $updateData = $cron->getCronState();
+        $updateData['today'] = date( 'Y-m-d');
 
 
         return $this->render('index',["projects" => $model->getProjectsList(Yii::$app->user->getId()),"userRole" => $userRole,

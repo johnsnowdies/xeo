@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use app\models\objects\Project;
+use app\models\service\SUpdate;
 use app\models\User;
 use app\models\Xml;
 use Yii;
@@ -116,5 +117,11 @@ class AjaxController extends Controller
     public function actionDeleteProject($pid){
         $model = new Project();
         return $this->render('result', ["result" => $model->deleteProject($pid)]);
+    }
+
+    public function actionRunUpdate(){
+        $update = new SUpdate();
+        $update->manualUpdate();
+        return $this->render('result', ["result" => true]);
     }
 }

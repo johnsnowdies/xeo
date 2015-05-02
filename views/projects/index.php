@@ -5,8 +5,19 @@ $this->title = 'Проекты';
 ?>
     <script type="text/javascript">
 
-        function UpdateStatusController($scope){
+        function UpdateStatusController($scope, $http,$window) {
             $scope.status = <?= json_encode($updateData)?>;
+
+            /*Если сегодня уже был собран апдейт, больше собирать нельзя*/
+            if (($scope.status.last_update_date == $scope.status.today) || $scope.status.update_runing == true) {
+                $scope.lockUpdate = true;
+            } else {
+                $scope.lockUpdate = false;
+            }
+            $scope.runUpdateManual = function () {
+                $http.get('/ajax/run-update');
+                $window.location.reload();
+            }
         }
 
         function ManageUsersController($scope, $http, $window) {
@@ -132,10 +143,14 @@ $this->title = 'Проекты';
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#" data-toggle="modal" data-target="#addProject"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;&nbsp;Добавить проект</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#addProject"><span class="glyphicon glyphicon-plus"
+                                                                                        aria-hidden="true"></span>&nbsp;&nbsp;Добавить
+                            проект</a></li>
                     <li><a href="#" data-toggle="modal" data-target="#manageUsers">
-                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;&nbsp;Управление пользователями</a></li>
-                    <li><a href="#" data-toggle="modal" data-target="#updateStatus"><span class="glyphicon glyphicon-time "></span>&nbsp;&nbsp;Статус апдейта</a></li>
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;&nbsp;Управление
+                            пользователями</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#updateStatus"><span
+                                class="glyphicon glyphicon-time "></span>&nbsp;&nbsp;Статус апдейта</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -246,7 +261,9 @@ $this->title = 'Проекты';
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;&nbsp;Добавить проект</h4>
+                    <h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-plus"
+                                                                    aria-hidden="true"></span>&nbsp;&nbsp;Добавить
+                        проект</h4>
                 </div>
 
                 <div class="modal-body">
@@ -448,11 +465,14 @@ $this->title = 'Проекты';
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-time "></span>&nbsp;&nbsp;Статус апдейта</h4>
+                    <h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-time "></span>&nbsp;&nbsp;Статус
+                        апдейта</h4>
                 </div>
                 <div class="modal-body">
                     <p>Последний апдейт: <strong>{{status.last_update_date}}</strong></p>
+
                     <p>Последняя проверка: <strong>{{status.last_check_date}}</strong></p>
+                    <!--<p>Сегодня: <strong>{{status.today}}</strong></p>-->
 
                     <!--<p>Апдейт по seopult:
                         <span ng-show="{{status.update_seopult}}"><span class="label label-success">Да</span></span>
@@ -464,10 +484,30 @@ $this->title = 'Проекты';
                         <span ng-hide="{{status.update_promosite}}"><span class="label label-danger">Нет</span></span>
                     </p>
 -->
+
                     <p>Сейчас происходит апдейт:
                         <span ng-show="{{status.update_runing}}"><span class="label label-success">Да</span></span>
                         <span ng-hide="{{status.update_runing}}"><span class="label label-danger">Нет</span></span>
                     </p>
+
+                    <div class="progress" ng-show="{{status.update_runing}}">
+                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100"
+                             aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                            <span class="sr-only">100% Complete</span>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-success" ng-hide="{{lockUpdate}}" ng-click="runUpdateManual()">Запустить
+                        апдейт вручную
+                    </button>
+                    <button class="btn btn-success" ng-show="{{lockUpdate}}" disabled>Запустить апдейт вручную</button>
+
+
+                    <p>&nbsp;</p>
+
+                    <div ng-show="{{lockUpdate}}" class="alert alert-danger">
+                        Ручной сбор апдейта недоступен, если сегодня уже был собран апдейт, или если он уже запущен.
+                    </div>
 
                 </div>
             </div>

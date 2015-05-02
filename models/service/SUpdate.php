@@ -8,11 +8,36 @@ use yii\base\Model;
 
 class SUpdate extends Model{
 
+    private function seoPultUpdate($dateNow){
+        $content = @file_get_contents("https://seopult.ru/");
+        preg_match('#<tr class="orange_tds"><td>(.*)</td><td> <span style="cursor: help;" title="Апдейт документов в индексе">#siU', $content, $matches);
+        if (isset($matches[1]))
+            return (date( 'Y-m-d', $matches[1]) == $dateNow)? true: false;
+        else
+            return false;
+    }
+
     private function seoBudgetUpdate($dateNow){
-        $content = file_get_contents("https://seobudget.ru/downloads/updates.xml");
+        $content = @file_get_contents("https://seobudget.ru/downloads/updates.xml");
         $updates = new SimpleXMLElement($content);
         $updateDate =  (string) $updates->update[1]->date[0]['timestamp'];
         return (date( 'Y-m-d', $updateDate) == $dateNow)? true: false;
+    }
+
+    public function manualUpdate(){
+        $dateNow = date( 'Y-m-d');
+        $lastUpdate = $this->getLastUpdateDate();
+        if ($lastUpdate != $dateNow) {
+            $this->setUpdateInfo($dateNow);
+            $this->setUpdateRuning();
+            $parser = new SParser();
+            $parser->run();
+            $this->setUpdateStop();
+        }
+        else{
+            return false;
+        }
+        return true;
     }
 
     public function checkUpdate(){
@@ -22,7 +47,7 @@ class SUpdate extends Model{
 
         // Если сегодня уже был апдейт - не запускаем
         if ($lastUpdate != $dateNow){
-            if($this->seoBudgetUpdate($dateNow)){
+            if($this->seoBudgetUpdate($dateNow) || $this->seoPultUpdate($dateNow)){
                 print "UPDATE DETECTED AND STARTED AT $dateNow\r\n";
                 $this->setUpdateInfo($dateNow);
                 $this->setUpdateRuning();
