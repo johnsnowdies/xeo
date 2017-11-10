@@ -160,7 +160,8 @@ $this->title = 'Проекты';
 <? endif; ?>
 
     <div ng-init ng-controller="ProjectsController">
-        <? if (empty($projects) == 1 && empty($newProjects) == 1): ?>
+        
+        <? if (empty($newProjects) && empty($newProjects)): ?>
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-4">
                     <img src="/img/xd42.png"/><img src="/img/cat_laptop.png">

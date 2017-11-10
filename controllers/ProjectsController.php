@@ -50,7 +50,8 @@ class ProjectsController  extends Controller{
 
     // Проверка пользователя
     public function beforeAction($event){
-        if (\Yii::$app->user->isGuest && \Yii::$app->controller->action->id != 'login') {
+        if (\Yii::$app->user->isGuest && \Yii::$app->controller->action->id != 'login' && \Yii::$app->controller->action->id != 'error') {
+           
             return $this->redirect('/projects/login',302);
         }
         return parent::beforeAction($event);
@@ -60,11 +61,13 @@ class ProjectsController  extends Controller{
     public function actionLogin()
     {
         if (!\Yii::$app->user->isGuest) {
-            return $this->goHome();
+            //return $this->goHome();
         }
-
         $model = new LoginForm();
+
+       
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
+
             return $this->goBack();
         } else {
             return $this->render('login', [
