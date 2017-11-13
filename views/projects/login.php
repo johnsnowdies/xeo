@@ -2,7 +2,7 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
-$this->title = 'XD42';
+$this->title = 'XEO Panel';
 ?>
 
 <div class="row">
