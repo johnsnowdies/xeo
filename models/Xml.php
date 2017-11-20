@@ -9,7 +9,7 @@ use app\models\objects\Project;
 /**
  * ContactForm is the model behind the contact form.
  */
-class Xml extends Model
+class Xml
 {
     public $queries;
     public $siteUrl;
@@ -24,26 +24,6 @@ class Xml extends Model
         return $this->result;
     }
    
-
-    /**
-     * @return array the validation rules.
-     */
-    public function rules()
-    {
-        return [
-        [['queries', 'siteUrl', 'top1000', 'region'], 'required'],
-        ];
-    }
-
-    /**
-     * @return array customized attribute labels
-     */
-    public function attributeLabels()
-    {
-        return [
-        //    'verifyCode' => 'Verification Code',
-        ];
-    }
 
     public function load($model) {
         parent::load($model);
@@ -90,8 +70,8 @@ class Xml extends Model
 
     public function makeYandexQuery($q) {
         $query = "http://xmlsearch.yandex.ru/xmlsearch?".
-        "user=active-seo-steam".
-        "&key=03.281498801:8d74d0c282393baee75dc20d8aa7681e".
+        "user=xeoservice".
+        "&key=03.566628001:9f149d0ece283dfb0b6fb6289321fa0e".
         "&query=" . urlencode($q) .
         "&l10n=ru".
         "&sortby=rlv".
@@ -249,16 +229,16 @@ class Xml extends Model
         //https://yaca.yandex.ru/yca/cy/ch/www.my-page.ru/
         //ресурс не описан в Яндекс.Каталоге => false
 
-        $yaca = file_get_contents("https://yaca.yandex.ru/yca/cy/ch/$url");
-        return !preg_match("#ресурс не описан в Яндекс.Каталоге#siU",$yaca);
+        $yaca = ''; //file_get_contents("https://yaca.yandex.ru/yca/cy/ch/$url");
+        return false; //!preg_match("#ресурс не описан в Яндекс.Каталоге#siU",$yaca);
     }
 
     private function getDMOZ($url){
         //http://www.dmoz.org/search?q=www.my-page.ru
         // DMOZ Sites => true
 
-        $dmoz = file_get_contents("http://www.dmoz.org/search?q=$url");
-        return preg_match("#DMOZ Sites#siU",$dmoz);
+        $dmoz ='';// file_get_contents("http://www.dmoz.org/search?q=$url");
+        return false;// preg_match("#DMOZ Sites#siU",$dmoz);
     }
 
     private function searchXmlUrl($strXml, $url2Find) {
