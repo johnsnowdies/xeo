@@ -164,7 +164,7 @@ $this->title = 'Проекты';
         <? if (empty($newProjects) && empty($projects)): ?>
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-4">
-                    <img src="/img/xd42.png"/><img src="/img/cat_laptop.png">
+                    <img src="/img/xeo.png"/><img src="/img/cat_laptop.png">
 
                     <h3><?= User::getUsername(Yii::$app->user->getId()) ?>, у Вас нет проектов!<br>
                         <small>Обратитесь, пожалуйста к администратору :(</small>

@@ -7,7 +7,7 @@ use yii\helpers\Html;
 /* @var $message string */
 /* @var $exception Exception */
 
-$this->title = "XD42 - Ошибка"
+$this->title = "XEO - Ошибка"
 ?>
 <div class="site-error">
 
@@ -15,7 +15,7 @@ $this->title = "XD42 - Ошибка"
 
     <div class="row">
         <div class="col-sm-6 col-sm-offset-4">
-            <img src="/img/xd42.png"/><img src="/img/cat_hungry.png">
+            <img src="/img/xeo.png"/><img src="/img/cat_hungry.png">
 
             <h3>Произошла ошибка &ndash; возможно такой страницы не существует, или у вас нет к ней доступа.<br>
                 <small>Обратитесь, пожалуйста к администратору :(</small>

@@ -9,14 +9,14 @@ AppAsset::register($this);
 
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
-<html lang="<?= Yii::$app->language ?>" ng-app="xd42">
+<html lang="<?= Yii::$app->language ?>" ng-app="xeo">
 <head>
     <meta charset="<?= Yii::$app->charset ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="apple-touch-startup-image" href="/img/xd42.png">
+    <link rel="apple-touch-startup-image" href="/img/xeo.png">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon" href="/img/xd422.png">
+    <link rel="apple-touch-icon" href="/img/xeo_1.png">
 
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
@@ -40,7 +40,7 @@ AppAsset::register($this);
                             <span class="icon-bar"></span>
                         </button>
 
-                        <a class="navbar-brand" href="/"><img height="24" src="/img/xd422.png"></a>
+                        <a class="navbar-brand" href="/"><img height="24" src="/img/xeo_1.png"></a>
                     </div>
 
                     <div id="w0-collapse" class="collapse navbar-collapse">

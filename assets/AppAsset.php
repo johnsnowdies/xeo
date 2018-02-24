@@ -25,7 +25,7 @@ class AppAsset extends AssetBundle
         'js/jquery.min.js',
         'js/bootstrap.min.js',
         'js/angular.min.js',
-        'js/xd42.js',
+        'js/xeo.js',
         'js/jquery.form.min.js',
         'js/scripts.js',
     ];

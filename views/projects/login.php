@@ -8,7 +8,7 @@ $this->title = 'XEO Panel';
 <div class="row">
     <div class="col-lg-offset-4 col-lg-4">
         <div class="row  text-center">
-            <img src="/img/xd42.png"/>
+            <img src="/img/xeo.png"/>
             <p>&nbsp;</p>
         </div>
         <div class="panel panel-default">

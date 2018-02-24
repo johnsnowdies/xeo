@@ -1,6 +1,6 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = 'XD42 XML Yandex Parser';
+$this->title = 'XEO';
 use yii\helpers\Url;
 ?>
 <div class="site-index">
